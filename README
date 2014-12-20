@@ -1,0 +1,24 @@
+1. Install ROCKEY-ARM libs.
+    cd install && sudo ./inst
+
+2. Compile and run utpmd
+    (1). cd utpmd && make clean && sudo make
+    (2). insert rockey
+    (3). sudo ./utpmd
+    (4). vi /var/log/syslog to check if utpmd runs successfully. 
+         if log prints out "wait for connection", then utpmd is ready.
+         if log prints out "open rockey() failed", then we need to rerun it.
+         a. reinsert the rockey.
+         b. pgrep utpmd | xargs sudo kill -s 9, kill all ./utpmd processes.
+         c. sudo ./utpmd
+
+3. Generate the libutpm.a static library
+    make clean && make
+
+4. Use the libutpm.a 
+    mv libutpm.a test/
+    cd test 
+    gcc test_lib.c -lutpm -L . -I ./include/ -o test
+    ./test
+    
+

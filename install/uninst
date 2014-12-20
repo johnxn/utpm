@@ -1,0 +1,44 @@
+#!/bin/bash
+#
+#Rockey-ARM uninstall script
+#
+#Check whether the current user is root
+if test $(id -ur) != 0; then
+    echo
+    echo "You should logon as root user!"
+	echo
+    exit 1
+fi
+rm -f /usr/local/lib/*RockeyARM.so
+	if [ ! -f /usr/local/include/Dongle_API.h ]; then
+		if [ ! -f /usr/local/include/Dongle_CORE.h ]; then
+			if [ ! -f /usr/local/lib/libRockeyARM.a ]; then
+				if [ ! -f /usr/local/lib/libRockeyARM.so.0.3 ]; then
+						echo
+						echo "The file that this program was about to uninstall !"
+						echo
+						exit 1
+				fi
+			fi
+		fi
+	fi
+
+echo
+echo Uninstalling Rockey-ARM SDK...
+echo
+ 
+#Delete Rockey-ARM libs
+
+rm -rf /usr/local/include/Dongle_API.h
+rm -rf /usr/local/include/Dongle_CORE.h
+rm -rf /usr/local/include/usb.h
+rm -f /usr/local/lib/*RockeyARM*
+#delete java
+rm -rf $JAVA_HOME/lib/ft_rkarm.jar
+rm -rf $JAVA_HOME/jre/lib/ext/ft_rkarm.jar
+rm -rf $JAVA_HOME/jre/lib/i386/libJRockeyARM.so
+
+/sbin/ldconfig 2>/dev/null 
+
+echo Uninstall finished!
+

@@ -1,0 +1,42 @@
+Copyright (C) 2005-2011 Feitian Technologies Co.,Ltd.
+http://www.FTsafe.com
+                                                                                
+Rockey-ARM SDK for Linux x86 x86_64
+-------------------------------
+                                                                                
+                                                                                
+Requirements
+============
+                                                                                
+OS:     kernel 2.6.x 
+                                                                                
+                                                                                
+Installation
+============
+                                                                                
+1. Installation. As 'root' user run:
+                                                                                
+        # ./inst
+                                                                                
+2. Uninstallation.
+        # ./uninst
+                                                                                
+                                                                                
+Getting Started
+===============
+                                                                                
+After successful installation and configuration:
+                                                                                
+1. Insert card and Run test application.
+                                                                                
+       # cd test/Ctest
+       # make
+       # ./test
+                                                                                
+================================================================================
+				NOTICE
+1.
+    Before running 'inst' Please install 'jdk1.6.0' at first.
+2. 
+    If find the error of '/jre/lib/amd64/' or '/jre/lib/i386/' when running 'inst'. Please check whether the JDK installation, and try to completely switch to root user(example: 'su -').
+================================================================================

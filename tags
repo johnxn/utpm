@@ -1,0 +1,2394 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ANY_DATA_OFFSET_AUDITDIGEST	include/tpm_data.h	94;"	d
+ANY_DATA_OFFSET_AUDITSESSION	include/tpm_data.h	95;"	d
+ANY_DATA_OFFSET_CONTEXTCOUNT	include/tpm_data.h	97;"	d
+ANY_DATA_OFFSET_CONTEXTLIST	include/tpm_data.h	98;"	d
+ANY_DATA_OFFSET_CONTEXTNONCESESSION	include/tpm_data.h	93;"	d
+ANY_DATA_OFFSET_CURRENTDAA	include/tpm_data.h	101;"	d
+ANY_DATA_OFFSET_CURRENTTICKS	include/tpm_data.h	96;"	d
+ANY_DATA_OFFSET_SESSIONS	include/tpm_data.h	99;"	d
+ANY_DATA_OFFSET_SESSIONSDAA	include/tpm_data.h	100;"	d
+ANY_DATA_OFFSET_TAG	include/tpm_data.h	92;"	d
+ANY_DATA_OFFSET_TRANSEXCLUSIVE	include/tpm_data.h	102;"	d
+APDUEx	include/Dongle_CORE.h	/^} APDUEx, *pAPDUEx;$/;"	t	typeref:struct:__anon32
+APDU_COMMAND_SIZE	include/Dongle_CORE.h	439;"	d
+APDU_COMMAND_SIZE	include/Dongle_CORE.h	64;"	d
+APDU_INS_CHANGEPIN	include/Dongle_CORE.h	241;"	d
+APDU_INS_CLRCOS	include/Dongle_CORE.h	430;"	d
+APDU_INS_DOWNLOAD_EXE	include/Dongle_CORE.h	389;"	d
+APDU_INS_ECC_GEN_KEY	include/Dongle_CORE.h	323;"	d
+APDU_INS_ECC_RUN_PRI	include/Dongle_CORE.h	328;"	d
+APDU_INS_ECC_RUN_PUB	include/Dongle_CORE.h	333;"	d
+APDU_INS_EXPIRE_TIME	include/Dongle_CORE.h	364;"	d
+APDU_INS_FILE_CREATE	include/Dongle_CORE.h	264;"	d
+APDU_INS_FILE_DELETE	include/Dongle_CORE.h	292;"	d
+APDU_INS_FILE_LIST	include/Dongle_CORE.h	300;"	d
+APDU_INS_FILE_READ	include/Dongle_CORE.h	274;"	d
+APDU_INS_FILE_WRITE	include/Dongle_CORE.h	282;"	d
+APDU_INS_GENSONDATA	include/Dongle_CORE.h	413;"	d
+APDU_INS_GEN_MOTHER	include/Dongle_CORE.h	402;"	d
+APDU_INS_GETMODULE	include/Dongle_CORE.h	257;"	d
+APDU_INS_GET_COMMKEY	include/Dongle_CORE.h	198;"	d
+APDU_INS_INIT_RFS	include/Dongle_CORE.h	225;"	d
+APDU_INS_LED_RANDOM	include/Dongle_CORE.h	208;"	d
+APDU_INS_REQUESTINIT	include/Dongle_CORE.h	407;"	d
+APDU_INS_RESET_STATE	include/Dongle_CORE.h	203;"	d
+APDU_INS_RSA_GEN_KEY	include/Dongle_CORE.h	308;"	d
+APDU_INS_RSA_RUN_PRI	include/Dongle_CORE.h	313;"	d
+APDU_INS_RSA_RUN_PUB	include/Dongle_CORE.h	318;"	d
+APDU_INS_RUN_EXE	include/Dongle_CORE.h	396;"	d
+APDU_INS_RUN_SEED	include/Dongle_CORE.h	384;"	d
+APDU_INS_RUN_SM3	include/Dongle_CORE.h	353;"	d
+APDU_INS_RUN_SM4	include/Dongle_CORE.h	374;"	d
+APDU_INS_RUN_TDES	include/Dongle_CORE.h	379;"	d
+APDU_INS_SETMODULE	include/Dongle_CORE.h	250;"	d
+APDU_INS_SETUPDATEPRIKEY	include/Dongle_CORE.h	418;"	d
+APDU_INS_SET_SEEDCOUNT	include/Dongle_CORE.h	220;"	d
+APDU_INS_SET_USERID	include/Dongle_CORE.h	215;"	d
+APDU_INS_SHARE_MEMORY	include/Dongle_CORE.h	358;"	d
+APDU_INS_SM2_GEN_KEY	include/Dongle_CORE.h	338;"	d
+APDU_INS_SM2_RUN_PRI	include/Dongle_CORE.h	343;"	d
+APDU_INS_SM2_RUN_PUB	include/Dongle_CORE.h	348;"	d
+APDU_INS_UPDATE	include/Dongle_CORE.h	423;"	d
+APDU_INS_VERFY_PIN	include/Dongle_CORE.h	232;"	d
+ARM_ADMINPIN_NOTCHECK	include/Dongle_CORE.h	52;"	d
+ARM_ALREADY_INITED	include/Dongle_CORE.h	51;"	d
+ARM_DIR_EXIST	include/Dongle_CORE.h	35;"	d
+ARM_DIR_NOTFOUND	include/Dongle_CORE.h	36;"	d
+ARM_EXPIRE	include/Dongle_CORE.h	28;"	d
+ARM_FAILED	include/Dongle_CORE.h	27;"	d
+ARM_FILE_CDIR_ERR	include/Dongle_CORE.h	45;"	d
+ARM_FILE_CFILE_ERR	include/Dongle_CORE.h	41;"	d
+ARM_FILE_DDIR_ERR	include/Dongle_CORE.h	46;"	d
+ARM_FILE_DFILE_ERR	include/Dongle_CORE.h	44;"	d
+ARM_FILE_EXIST	include/Dongle_CORE.h	37;"	d
+ARM_FILE_NOTFOUND	include/Dongle_CORE.h	38;"	d
+ARM_FILE_READ_ERR	include/Dongle_CORE.h	42;"	d
+ARM_FILE_TOOLARGE	include/Dongle_CORE.h	47;"	d
+ARM_FILE_WRITE_ERR	include/Dongle_CORE.h	43;"	d
+ARM_INITSON_ERR	include/Dongle_CORE.h	56;"	d
+ARM_INVALID_INS	include/Dongle_CORE.h	22;"	d
+ARM_INVALID_LEN	include/Dongle_CORE.h	25;"	d
+ARM_INVALID_P1	include/Dongle_CORE.h	23;"	d
+ARM_INVALID_P2	include/Dongle_CORE.h	24;"	d
+ARM_INVALID_PARAM	include/Dongle_CORE.h	26;"	d
+ARM_NOTMOTHER_ERR	include/Dongle_CORE.h	57;"	d
+ARM_NOT_INITED	include/Dongle_CORE.h	50;"	d
+ARM_PIN_BLOCKED	include/Dongle_CORE.h	54;"	d
+ARM_READ_ERR	include/Dongle_CORE.h	31;"	d
+ARM_RUN_LIMITED	include/Dongle_CORE.h	55;"	d
+ARM_SUCCESS	include/Dongle_CORE.h	21;"	d
+ARM_USERPIN_NOTCHECK	include/Dongle_CORE.h	53;"	d
+ARM_WRITE_ERR	include/Dongle_CORE.h	32;"	d
+B0	sha1.c	25;"	d	file:
+B0	sha1.c	27;"	d	file:
+B1	sha1.c	33;"	d	file:
+BOOL	include/Dongle_API.h	/^typedef BYTE                BOOL;$/;"	t
+BOOL	include/tpm_structures.h	/^typedef BYTE     BOOL;$/;"	t
+BYTE	include/Dongle_API.h	/^typedef unsigned char       BYTE;$/;"	t
+BYTE	include/tpm_structures.h	/^typedef unsigned char  BYTE;$/;"	t
+CEKPUsed	include/tpm_structures.h	/^  BOOL CEKPUsed;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+CFLAGS	Makefile	/^CFLAGS = -I$(IDIR)$/;"	m
+CFLAGS	utpmd/Makefile	/^CFLAGS = -I ..\/include -I . $/;"	m
+CHANGE_ADMINPIN	include/Dongle_CORE.h	81;"	d
+CHANGE_PIN	include/Dongle_CORE.h	/^}CHANGE_PIN;$/;"	t	typeref:struct:__anon22
+CHANGE_USERPIN	include/Dongle_CORE.h	80;"	d
+CLEAR_DATA_OFFSET_CONTEXTNONCEKEY	include/tpm_data.h	86;"	d
+CLEAR_DATA_OFFSET_COUNTID	include/tpm_data.h	87;"	d
+CLEAR_DATA_OFFSET_DEFERREDPHYPRESENCE	include/tpm_data.h	90;"	d
+CLEAR_DATA_OFFSET_DISABLERESETLOCK	include/tpm_data.h	89;"	d
+CLEAR_DATA_OFFSET_OWNERREFERENCE	include/tpm_data.h	88;"	d
+CLEAR_DATA_OFFSET_TAG	include/tpm_data.h	85;"	d
+CLIBS	utpmd/Makefile	/^CLIBS = -lRockeyARM -lpthread$/;"	m
+COMMAND_DECRYPT_PUB	include/stuff_inoutbuf.h	18;"	d
+COMMAND_ENCRYPT_PUB	include/stuff_inoutbuf.h	17;"	d
+COMMAND_GET_RANDOM	include/stuff_inoutbuf.h	16;"	d
+COMMAND_HANDLER	utpmd/command_handler.h	2;"	d
+COMM_INFO	include/Dongle_CORE.h	/^} COMM_INFO;$/;"	t	typeref:struct:__anon23
+CONST_ADMINPIN	include/Dongle_API.h	46;"	d
+CONST_PID	include/Dongle_API.h	44;"	d
+CONST_USERPIN	include/Dongle_API.h	45;"	d
+COS_Error	include/Dongle_CORE.h	/^} COS_Error;$/;"	t	typeref:struct:__anon36
+COS_MOTHER_DATA	include/Dongle_CORE.h	/^} COS_MOTHER_DATA;$/;"	t	typeref:struct:__anon28
+COS_SON_DATA	include/Dongle_CORE.h	/^} COS_SON_DATA;$/;"	t	typeref:struct:__anon27
+DAA_SIZE_NE	include/tpm_structures.h	1932;"	d
+DAA_SIZE_NT	include/tpm_structures.h	1929;"	d
+DAA_SIZE_issuerModulus	include/tpm_structures.h	1934;"	d
+DAA_SIZE_r0	include/tpm_structures.h	1924;"	d
+DAA_SIZE_r1	include/tpm_structures.h	1925;"	d
+DAA_SIZE_r2	include/tpm_structures.h	1926;"	d
+DAA_SIZE_r3	include/tpm_structures.h	1927;"	d
+DAA_SIZE_r4	include/tpm_structures.h	1928;"	d
+DAA_SIZE_v0	include/tpm_structures.h	1930;"	d
+DAA_SIZE_v1	include/tpm_structures.h	1931;"	d
+DAA_SIZE_w	include/tpm_structures.h	1933;"	d
+DAA_contextSeed	include/tpm_structures.h	/^  TPM_DAA_CONTEXT_SEED DAA_contextSeed;$/;"	m	struct:tdTPM_DAA_CONTEXT
+DAA_count	include/tpm_structures.h	/^  UINT32 DAA_count;$/;"	m	struct:tdTPM_DAA_TPM
+DAA_digest	include/tpm_structures.h	/^  TPM_DIGEST DAA_digest;$/;"	m	struct:tdTPM_DAA_CONTEXT
+DAA_digestContext	include/tpm_structures.h	/^  TPM_DIGEST DAA_digestContext;$/;"	m	struct:tdTPM_DAA_CONTEXT
+DAA_digestIssuer	include/tpm_structures.h	/^  TPM_DIGEST DAA_digestIssuer;$/;"	m	struct:tdTPM_DAA_TPM
+DAA_digest_R0	include/tpm_structures.h	/^  TPM_DIGEST DAA_digest_R0;$/;"	m	struct:tdTPM_DAA_ISSUER
+DAA_digest_R1	include/tpm_structures.h	/^  TPM_DIGEST DAA_digest_R1;$/;"	m	struct:tdTPM_DAA_ISSUER
+DAA_digest_S0	include/tpm_structures.h	/^  TPM_DIGEST DAA_digest_S0;$/;"	m	struct:tdTPM_DAA_ISSUER
+DAA_digest_S1	include/tpm_structures.h	/^  TPM_DIGEST DAA_digest_S1;$/;"	m	struct:tdTPM_DAA_ISSUER
+DAA_digest_gamma	include/tpm_structures.h	/^  TPM_DIGEST DAA_digest_gamma;$/;"	m	struct:tdTPM_DAA_ISSUER
+DAA_digest_n	include/tpm_structures.h	/^  TPM_DIGEST DAA_digest_n;$/;"	m	struct:tdTPM_DAA_ISSUER
+DAA_digest_n0	include/tpm_structures.h	/^  TPM_DIGEST DAA_digest_n0;$/;"	m	struct:tdTPM_DAA_JOINDATA
+DAA_digest_v0	include/tpm_structures.h	/^  TPM_DIGEST DAA_digest_v0;$/;"	m	struct:tdTPM_DAA_TPM
+DAA_digest_v1	include/tpm_structures.h	/^  TPM_DIGEST DAA_digest_v1;$/;"	m	struct:tdTPM_DAA_TPM
+DAA_generic_q	include/tpm_structures.h	/^  BYTE DAA_generic_q[26];$/;"	m	struct:tdTPM_DAA_ISSUER
+DAA_issuerSettings	include/tpm_structures.h	/^  TPM_DAA_ISSUER DAA_issuerSettings;$/;"	m	struct:tdTPM_DAA_SESSION_DATA
+DAA_joinSession	include/tpm_structures.h	/^  TPM_DAA_JOINDATA DAA_joinSession;$/;"	m	struct:tdTPM_DAA_SESSION_DATA
+DAA_join_u0	include/tpm_structures.h	/^  BYTE DAA_join_u0[128];$/;"	m	struct:tdTPM_DAA_JOINDATA
+DAA_join_u1	include/tpm_structures.h	/^  BYTE DAA_join_u1[138];$/;"	m	struct:tdTPM_DAA_JOINDATA
+DAA_power0	include/tpm_structures.h	1936;"	d
+DAA_power1	include/tpm_structures.h	1937;"	d
+DAA_rekey	include/tpm_structures.h	/^  TPM_DIGEST DAA_rekey;$/;"	m	struct:tdTPM_DAA_TPM
+DAA_scratch	include/tpm_structures.h	/^  BYTE DAA_scratch[256];$/;"	m	struct:tdTPM_DAA_CONTEXT
+DAA_session	include/tpm_structures.h	/^  TPM_DAA_CONTEXT DAA_session;$/;"	m	struct:tdTPM_DAA_SESSION_DATA
+DAA_stage	include/tpm_structures.h	/^  BYTE DAA_stage;$/;"	m	struct:tdTPM_DAA_CONTEXT
+DAA_tpmSpecific	include/tpm_structures.h	/^  TPM_DAA_TPM DAA_tpmSpecific;$/;"	m	struct:tdTPM_DAA_SESSION_DATA
+DATA_FILE_ATTR	include/Dongle_API.h	/^} DATA_FILE_ATTR;$/;"	t	typeref:struct:__anon10
+DATA_FILE_LIST	include/Dongle_API.h	/^}DATA_FILE_LIST;$/;"	t	typeref:struct:__anon16
+DATA_LIC	include/Dongle_API.h	/^} DATA_LIC;$/;"	t	typeref:struct:__anon6
+DEVICE_TYPE_CCID	include/Dongle_CORE.h	95;"	d
+DEVICE_TYPE_HID	include/Dongle_CORE.h	94;"	d
+DIRID_0000	include/Dongle_CORE.h	72;"	d
+DIRID_3F00	include/Dongle_CORE.h	71;"	d
+DIRID_FFFF	include/Dongle_CORE.h	73;"	d
+DIRID_MAX	include/Dongle_CORE.h	76;"	d
+DIRID_MIN	include/Dongle_CORE.h	75;"	d
+DONGLE_ACCESS_DENIED	include/Dongle_API.h	983;"	d
+DONGLE_ADMINPIN_NOT_CHECK	include/Dongle_API.h	979;"	d
+DONGLE_ALREADY_INITIALIZED	include/Dongle_API.h	978;"	d
+DONGLE_CLOCK_EXPIRE	include/Dongle_API.h	993;"	d
+DONGLE_COMM_ERROR	include/Dongle_API.h	975;"	d
+DONGLE_ERROR_UNKNOWN	include/Dongle_API.h	994;"	d
+DONGLE_FAILED	include/Dongle_API.h	992;"	d
+DONGLE_FILE_CREATE_ERROR	include/Dongle_API.h	988;"	d
+DONGLE_FILE_DEL_ERROR	include/Dongle_API.h	991;"	d
+DONGLE_FILE_EXIST	include/Dongle_API.h	984;"	d
+DONGLE_FILE_NOT_FOUND	include/Dongle_API.h	985;"	d
+DONGLE_FILE_READ_ERROR	include/Dongle_API.h	989;"	d
+DONGLE_FILE_WRITE_ERROR	include/Dongle_API.h	990;"	d
+DONGLE_HANDLE	include/Dongle_API.h	/^typedef void * DONGLE_HANDLE;$/;"	t
+DONGLE_INCORRECT_PIN	include/Dongle_API.h	981;"	d
+DONGLE_INFO	include/Dongle_API.h	/^} DONGLE_INFO;$/;"	t	typeref:struct:__anon5
+DONGLE_INSUFFICIENT_BUFFER	include/Dongle_API.h	976;"	d
+DONGLE_INVALID_HANDLE	include/Dongle_API.h	973;"	d
+DONGLE_INVALID_PARAMETER	include/Dongle_API.h	974;"	d
+DONGLE_NOT_FOUND	include/Dongle_API.h	972;"	d
+DONGLE_NOT_INITIALIZED	include/Dongle_API.h	977;"	d
+DONGLE_PIN_BLOCKED	include/Dongle_API.h	982;"	d
+DONGLE_READ_ERROR	include/Dongle_API.h	986;"	d
+DONGLE_SUCCESS	include/Dongle_API.h	971;"	d
+DONGLE_USERPIN_NOT_CHECK	include/Dongle_API.h	980;"	d
+DONGLE_WRITE_ERROR	include/Dongle_API.h	987;"	d
+DWORD	include/Dongle_API.h	/^typedef unsigned int        DWORD;$/;"	t
+Device_Descript	include/Dongle_CORE.h	/^} Device_Descript;$/;"	t	typeref:struct:__anon33
+Device_Descript_HID	include/Dongle_CORE.h	/^} Device_Descript_HID;$/;"	t	typeref:struct:__anon34
+ECCKEYPAIR	include/Dongle_CORE.h	/^} ECCKEYPAIR;$/;"	t	typeref:struct:__anon24
+ECCSM2_PRIVATE_KEY	include/Dongle_API.h	/^} ECCSM2_PRIVATE_KEY;$/;"	t	typeref:struct:__anon4
+ECCSM2_PUBLIC_KEY	include/Dongle_API.h	/^} ECCSM2_PUBLIC_KEY;$/;"	t	typeref:struct:__anon3
+ENCRYPTED_BLOB_SIZE	utpmd/rockey_apis.h	9;"	d
+ET_Device_Descript	include/Dongle_CORE.h	/^struct ET_Device_Descript$/;"	s
+EXE_BLOCK	include/Dongle_CORE.h	/^}EXE_BLOCK;$/;"	t	typeref:struct:__anon29
+EXE_FILE_ATTR	include/Dongle_API.h	/^} EXE_FILE_ATTR;$/;"	t	typeref:struct:__anon13
+EXE_FILE_INFO	include/Dongle_API.h	/^}EXE_FILE_INFO;$/;"	t	typeref:struct:__anon18
+EXE_FILE_LIST	include/Dongle_API.h	/^}EXE_FILE_LIST;$/;"	t	typeref:struct:__anon17
+EXE_LIC	include/Dongle_API.h	/^} EXE_LIC;$/;"	t	typeref:struct:__anon9
+Endpoint	include/Dongle_CORE.h	/^struct Endpoint$/;"	s
+F0	sha1.c	35;"	d	file:
+F1	sha1.c	36;"	d	file:
+F2	sha1.c	37;"	d	file:
+FALSE	include/Dongle_CORE.h	16;"	d
+FALSE	include/stuff_inoutbuf.h	12;"	d
+FALSE	include/tpm_structures.h	37;"	d
+FILEID_EK	include/tpm_data.h	28;"	d
+FILEID_EK_PUB	include/tpm_data.h	41;"	d
+FILEID_RSA_OFFSET	include/tpm_data.h	32;"	d
+FILEID_RSA_PUB_OFFSET	include/tpm_data.h	44;"	d
+FILEID_RSA_TEMP	include/tpm_data.h	39;"	d
+FILEID_SRK	include/tpm_data.h	29;"	d
+FILEID_SRK_PUB	include/tpm_data.h	42;"	d
+FILEID_TPM_PERMANENT_DATA_PART1	include/tpm_data.h	20;"	d
+FILEID_TPM_PERMANENT_DATA_PART2	include/tpm_data.h	21;"	d
+FILEID_TPM_PERMANENT_DATA_PART3	include/tpm_data.h	22;"	d
+FILEID_TPM_PERMANENT_FLAGS	include/tpm_data.h	19;"	d
+FILEID_TPM_STANY_DATA	include/tpm_data.h	26;"	d
+FILEID_TPM_STANY_FLAGS	include/tpm_data.h	25;"	d
+FILEID_TPM_STCLEAR_DATA	include/tpm_data.h	24;"	d
+FILEID_TPM_STCLEAR_FLAGS	include/tpm_data.h	23;"	d
+FILE_DATA	include/Dongle_API.h	53;"	d
+FILE_EXE	include/Dongle_API.h	57;"	d
+FILE_KEY	include/Dongle_API.h	56;"	d
+FILE_PRIKEY_ECCSM2	include/Dongle_API.h	55;"	d
+FILE_PRIKEY_RSA	include/Dongle_API.h	54;"	d
+FIPS	include/tpm_structures.h	/^  BOOL FIPS;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+FLAG_ADMINPIN	include/Dongle_API.h	66;"	d
+FLAG_DECODE	include/Dongle_API.h	70;"	d
+FLAG_ECC192	include/Dongle_CORE.h	90;"	d
+FLAG_ECC256	include/Dongle_CORE.h	91;"	d
+FLAG_ENCODE	include/Dongle_API.h	69;"	d
+FLAG_HASH_MD5	include/Dongle_API.h	73;"	d
+FLAG_HASH_SHA1	include/Dongle_API.h	74;"	d
+FLAG_HASH_SM3	include/Dongle_API.h	75;"	d
+FLAG_RSA1024	include/Dongle_CORE.h	88;"	d
+FLAG_RSA2048	include/Dongle_CORE.h	89;"	d
+FLAG_USERPIN	include/Dongle_API.h	65;"	d
+FileAccess	include/Dongle_CORE.h	/^} FileAccess;$/;"	t	typeref:struct:__anon21
+HANDLE	include/Dongle_API.h	/^typedef void * 				HANDLE;$/;"	t
+HANDLE_TO_INDEX	include/tpm_handles.h	41;"	d
+HANDLE_TO_RT	include/tpm_handles.h	46;"	d
+HID_DEVICE_INFO	include/Dongle_CORE.h	/^}HID_DEVICE_INFO;$/;"	t	typeref:struct:__anon31
+HID_INT_BUFFER	include/Dongle_CORE.h	/^}HID_INT_BUFFER;$/;"	t	typeref:struct:__anon30
+HID_INT_BUFF_SIZE	include/Dongle_CORE.h	441;"	d
+HMAC_PAD_LENGTH	include/hmac.h	25;"	d
+HeaderPacket	include/Dongle_CORE.h	/^} HeaderPacket;$/;"	t	typeref:struct:__anon25
+IDIR	Makefile	/^IDIR = .\/include$/;"	m
+IN	include/Dongle_API.h	13;"	d
+INDEX_TO_AUTH_HANDLE	include/tpm_handles.h	33;"	d
+INDEX_TO_COUNTER_HANDLE	include/tpm_handles.h	35;"	d
+INDEX_TO_DAA_HANDLE	include/tpm_handles.h	36;"	d
+INDEX_TO_KEY_HANDLE	include/tpm_handles.h	32;"	d
+INDEX_TO_TRANS_HANDLE	include/tpm_handles.h	34;"	d
+INIT_COS	include/Dongle_CORE.h	/^} INIT_COS;$/;"	t	typeref:struct:__anon37
+INIT_INTERFACE	include/Dongle_CORE.h	86;"	d
+INIT_PID_ADMINPIN	include/Dongle_CORE.h	84;"	d
+INIT_RFS	include/Dongle_CORE.h	85;"	d
+INOUTBUF_LEN	include/tpm_functions.h	6;"	d
+INOUTBUF_LEN	utpmd/rockey_apis.h	7;"	d
+INPUT_BLOB_SIZE	utpmd/rockey_apis.h	8;"	d
+IV	include/tpm_structures.h	/^  BYTE* IV;$/;"	m	struct:tdTPM_SYMMETRIC_KEY_PARMS
+InOutBuf	tpm_functions.c	/^BYTE InOutBuf[INOUTBUF_LEN];$/;"	v
+InOutBuf	utpmd/rockey_apis.c	/^BYTE InOutBuf[INOUTBUF_LEN];$/;"	v
+IsChecked	include/Dongle_CORE.h	/^	char    IsChecked;$/;"	m	struct:ET_Device_Descript
+KEY_FILE_ATTR	include/Dongle_API.h	/^} KEY_FILE_ATTR;$/;"	t	typeref:struct:__anon12
+KEY_FILE_LIST	include/Dongle_API.h	/^}KEY_FILE_LIST;$/;"	t	typeref:struct:__anon15
+KEY_LIC	include/Dongle_API.h	/^} KEY_LIC;$/;"	t	typeref:struct:__anon8
+LED_BLINK	include/Dongle_API.h	62;"	d
+LED_GENRANDOM	include/Dongle_CORE.h	78;"	d
+LED_OFF	include/Dongle_API.h	60;"	d
+LED_ON	include/Dongle_API.h	61;"	d
+LENGTH_CREATE_WRAPPEDKEY	include/request_length.h	8;"	d
+LENGTH_FLUSH	include/request_length.h	66;"	d
+LENGTH_LOAD_KEY	include/request_length.h	34;"	d
+LENGTH_OSAP	include/request_length.h	1;"	d
+LENGTH_OWNERSHIP	include/request_length.h	72;"	d
+LENGTH_SIGN	include/request_length.h	55;"	d
+LENGTH_UNBIND	include/request_length.h	44;"	d
+LIBUSB_HAS_DETACH_KERNEL_DRIVER_NP	include/usb.h	319;"	d
+LIBUSB_HAS_GET_DRIVER_NP	include/usb.h	316;"	d
+LPCTSTR	include/Dongle_API.h	/^typedef const char *		LPCTSTR;$/;"	t
+LPTSTR	include/Dongle_API.h	/^typedef char *				LPTSTR;$/;"	t
+LPVOID	include/Dongle_API.h	/^typedef void *              LPVOID;$/;"	t
+MAX_CLIENT	utpmd/utpmd.c	18;"	d	file:
+MAX_DATA_SIZE	include/Dongle_CORE.h	440;"	d
+MAX_MSA_COMPOSITE_ENTRIES	include/tpm_structures.h	431;"	d
+MAX_PACKET_SIZE	include/Dongle_CORE.h	65;"	d
+MAX_PATH	include/Dongle_CORE.h	458;"	d
+MAX_PINLEN	include/Dongle_CORE.h	68;"	d
+MOTHER_DATA	include/Dongle_API.h	/^} MOTHER_DATA;$/;"	t	typeref:struct:__anon20
+MSAlist	include/tpm_structures.h	/^  UINT32 MSAlist;$/;"	m	struct:tdTPM_MSA_COMPOSITE
+MaxPower	include/usb.h	/^	u_int8_t  MaxPower;$/;"	m	struct:usb_config_descriptor
+OBJ	Makefile	/^OBJ = hmac.o sha1.o stuff_inoutbuf.o tpm_functions.o utils.o tpm_marshalling.o test.o$/;"	m
+OBJ	utpmd/Makefile	/^OBJ = command_handler.o rockey_apis.o utpmd.o$/;"	m
+OUT	include/Dongle_API.h	17;"	d
+PCRInfo	include/tpm_structures.h	/^  TPM_PCR_INFO PCRInfo;$/;"	m	struct:tdTPM_CERTIFY_INFO
+PCRInfo	include/tpm_structures.h	/^  TPM_PCR_INFO PCRInfo;$/;"	m	struct:tdTPM_KEY
+PCRInfoSize	include/tpm_structures.h	/^  UINT32 PCRInfoSize;$/;"	m	struct:tdTPM_CERTIFY_INFO
+PCRInfoSize	include/tpm_structures.h	/^  UINT32 PCRInfoSize;$/;"	m	struct:tdTPM_KEY
+PERM_DATA_OFFSET_AUDITMONCOUNTER	include/tpm_data.h	66;"	d
+PERM_DATA_OFFSET_CMDURATIONS	include/tpm_data.h	83;"	d
+PERM_DATA_OFFSET_CONTEXTKEY	include/tpm_data.h	63;"	d
+PERM_DATA_OFFSET_COUNTERS	include/tpm_data.h	67;"	d
+PERM_DATA_OFFSET_DAAKEY	include/tpm_data.h	65;"	d
+PERM_DATA_OFFSET_DAAPROOF	include/tpm_data.h	59;"	d
+PERM_DATA_OFFSET_DELEGATETABLE	include/tpm_data.h	73;"	d
+PERM_DATA_OFFSET_DELEGATKEY	include/tpm_data.h	64;"	d
+PERM_DATA_OFFSET_EKFILEID	include/tpm_data.h	61;"	d
+PERM_DATA_OFFSET_EKRESET	include/tpm_data.h	55;"	d
+PERM_DATA_OFFSET_FAMILYTABLE	include/tpm_data.h	72;"	d
+PERM_DATA_OFFSET_KEYS	include/tpm_data.h	81;"	d
+PERM_DATA_OFFSET_LASTFAMILYID	include/tpm_data.h	74;"	d
+PERM_DATA_OFFSET_MANUMAINTPUB	include/tpm_data.h	60;"	d
+PERM_DATA_OFFSET_MAXNVBUFSIZE	include/tpm_data.h	76;"	d
+PERM_DATA_OFFSET_NOOWNERNVWRITE	include/tpm_data.h	77;"	d
+PERM_DATA_OFFSET_NVDATA	include/tpm_data.h	79;"	d
+PERM_DATA_OFFSET_NVDATASIZE	include/tpm_data.h	78;"	d
+PERM_DATA_OFFSET_NVSTORAGE	include/tpm_data.h	80;"	d
+PERM_DATA_OFFSET_OPERATORAUTH	include/tpm_data.h	57;"	d
+PERM_DATA_OFFSET_ORDINALAUDITSATUS	include/tpm_data.h	70;"	d
+PERM_DATA_OFFSET_OWNREAUTH	include/tpm_data.h	56;"	d
+PERM_DATA_OFFSET_PCRATTRIB	include/tpm_data.h	68;"	d
+PERM_DATA_OFFSET_PCRVALUE	include/tpm_data.h	69;"	d
+PERM_DATA_OFFSET_RESTRICTDELEGATE	include/tpm_data.h	75;"	d
+PERM_DATA_OFFSET_RNGSTATE	include/tpm_data.h	71;"	d
+PERM_DATA_OFFSET_SRK	include/tpm_data.h	62;"	d
+PERM_DATA_OFFSET_TAG	include/tpm_data.h	52;"	d
+PERM_DATA_OFFSET_TISTIMEOUS	include/tpm_data.h	82;"	d
+PERM_DATA_OFFSET_TPMDAASEED	include/tpm_data.h	58;"	d
+PERM_DATA_OFFSET_TPMPROOF	include/tpm_data.h	54;"	d
+PERM_DATA_OFFSET_VERSION	include/tpm_data.h	53;"	d
+PRIKEY_FILE_ATTR	include/Dongle_API.h	/^} PRIKEY_FILE_ATTR;$/;"	t	typeref:struct:__anon11
+PRIKEY_FILE_LIST	include/Dongle_API.h	/^}PRIKEY_FILE_LIST;$/;"	t	typeref:struct:__anon14
+PRIKEY_LIC	include/Dongle_API.h	/^} PRIKEY_LIC;$/;"	t	typeref:struct:__anon7
+PROTOCOL_CCID	include/Dongle_API.h	50;"	d
+PROTOCOL_HID	include/Dongle_API.h	49;"	d
+Prikey	include/Dongle_CORE.h	/^    ECCSM2_PRIVATE_KEY Prikey;$/;"	m	struct:__anon24
+PrivateKey	include/Dongle_API.h	/^	unsigned int PrivateKey[8];           \/\/ 私钥$/;"	m	struct:__anon4
+Pubkey	include/Dongle_CORE.h	/^	ECCSM2_PUBLIC_KEY  Pubkey;$/;"	m	struct:__anon24
+R0	sha1.c	38;"	d	file:
+R1	sha1.c	39;"	d	file:
+R2	sha1.c	40;"	d	file:
+R3	sha1.c	41;"	d	file:
+R4	sha1.c	42;"	d	file:
+READ	include/tpm_data.h	16;"	d
+RESET_USERPIN	include/Dongle_CORE.h	82;"	d
+RSA_PRIVATE_KEY	include/Dongle_API.h	/^} RSA_PRIVATE_KEY;$/;"	t	typeref:struct:__anon2
+RSA_PUBLIC_KEY	include/Dongle_API.h	/^} RSA_PUBLIC_KEY;$/;"	t	typeref:struct:__anon1
+RY_CONTEXT	include/Dongle_CORE.h	/^} RY_CONTEXT;$/;"	t	typeref:struct:__anon35
+RY_PIN_ERROR	include/Dongle_CORE.h	61;"	d
+SCARD_S_SUCCESS	include/Dongle_API.h	997;"	d
+SHA1_DIGEST_LENGTH	include/sha1.h	24;"	d
+SON_DATA	include/Dongle_API.h	/^} SON_DATA;$/;"	t	typeref:struct:__anon19
+SRK_HANDLE	include/tpm_handles.h	23;"	d
+TCHAR	include/Dongle_API.h	/^typedef char				TCHAR;$/;"	t
+TOSPresent	include/tpm_structures.h	/^  BOOL TOSPresent;$/;"	m	struct:tdTPM_STANY_FLAGS
+TPM_ACTUAL_COUNT	include/tpm_structures.h	/^typedef UINT32 TPM_ACTUAL_COUNT;$/;"	t
+TPM_ALGORITHM_ID	include/tpm_structures.h	/^typedef UINT32 TPM_ALGORITHM_ID;$/;"	t
+TPM_ALG_3DES	include/tpm_structures.h	212;"	d
+TPM_ALG_AES128	include/tpm_structures.h	215;"	d
+TPM_ALG_AES192	include/tpm_structures.h	217;"	d
+TPM_ALG_AES256	include/tpm_structures.h	218;"	d
+TPM_ALG_DES	include/tpm_structures.h	211;"	d
+TPM_ALG_HMAC	include/tpm_structures.h	214;"	d
+TPM_ALG_MGF1	include/tpm_structures.h	216;"	d
+TPM_ALG_RSA	include/tpm_structures.h	210;"	d
+TPM_ALG_SHA	include/tpm_structures.h	213;"	d
+TPM_ALG_XOR	include/tpm_structures.h	219;"	d
+TPM_AREA_LOCKED	include/tpm_structures.h	1357;"	d
+TPM_ASYM_CA_CONTENTS	include/tpm_structures.h	/^} TPM_ASYM_CA_CONTENTS;$/;"	t	typeref:struct:tdTPM_ASYM_CA_CONTENTS
+TPM_AUDITDIGEST	include/tpm_structures.h	/^typedef TPM_DIGEST TPM_AUDITDIGEST;$/;"	t
+TPM_AUDITFAILURE	include/tpm_structures.h	1301;"	d
+TPM_AUDITFAIL_SUCCESSFUL	include/tpm_structures.h	1346;"	d
+TPM_AUDITFAIL_UNSUCCESSFUL	include/tpm_structures.h	1345;"	d
+TPM_AUDIT_EVENT_IN	include/tpm_structures.h	/^} TPM_AUDIT_EVENT_IN;$/;"	t	typeref:struct:tdTPM_AUDIT_EVENT_IN
+TPM_AUDIT_EVENT_OUT	include/tpm_structures.h	/^} TPM_AUDIT_EVENT_OUT;$/;"	t	typeref:struct:tdTPM_AUDIT_EVENT_OUT
+TPM_AUTH	include/tpm_structures.h	/^} TPM_AUTH;$/;"	t	typeref:struct:tdTPM_AUTH
+TPM_AUTH2FAIL	include/tpm_structures.h	1326;"	d
+TPM_AUTHDATA	include/tpm_structures.h	/^typedef BYTE TPM_AUTHDATA[20];$/;"	t
+TPM_AUTHFAIL	include/tpm_structures.h	1298;"	d
+TPM_AUTHHANDLE	include/tpm_structures.h	/^typedef UINT32 TPM_AUTHHANDLE;$/;"	t
+TPM_AUTH_ALWAYS	include/tpm_structures.h	375;"	d
+TPM_AUTH_CONFLICT	include/tpm_structures.h	1356;"	d
+TPM_AUTH_DATA_USAGE	include/tpm_structures.h	/^typedef BYTE   TPM_AUTH_DATA_USAGE;$/;"	t
+TPM_AUTH_NEVER	include/tpm_structures.h	374;"	d
+TPM_AUTH_PRIV_USE_ONLY	include/tpm_structures.h	376;"	d
+TPM_BADCONTEXT	include/tpm_structures.h	1387;"	d
+TPM_BADINDEX	include/tpm_structures.h	1299;"	d
+TPM_BADTAG	include/tpm_structures.h	1327;"	d
+TPM_BAD_ATTRIBUTES	include/tpm_structures.h	1363;"	d
+TPM_BAD_COUNTER	include/tpm_structures.h	1366;"	d
+TPM_BAD_DATASIZE	include/tpm_structures.h	1340;"	d
+TPM_BAD_DELEGATE	include/tpm_structures.h	1386;"	d
+TPM_BAD_HANDLE	include/tpm_structures.h	1385;"	d
+TPM_BAD_KEY_PROPERTY	include/tpm_structures.h	1337;"	d
+TPM_BAD_LOCALITY	include/tpm_structures.h	1358;"	d
+TPM_BAD_MIGRATION	include/tpm_structures.h	1338;"	d
+TPM_BAD_MODE	include/tpm_structures.h	1341;"	d
+TPM_BAD_ORDINAL	include/tpm_structures.h	1307;"	d
+TPM_BAD_PARAMETER	include/tpm_structures.h	1300;"	d
+TPM_BAD_PARAM_SIZE	include/tpm_structures.h	1322;"	d
+TPM_BAD_PRESENCE	include/tpm_structures.h	1342;"	d
+TPM_BAD_SCHEME	include/tpm_structures.h	1339;"	d
+TPM_BAD_SIGNATURE	include/tpm_structures.h	1394;"	d
+TPM_BAD_TYPE	include/tpm_structures.h	1349;"	d
+TPM_BAD_VERSION	include/tpm_structures.h	1343;"	d
+TPM_BASE	include/tpm_structures.h	1295;"	d
+TPM_BOUND_DATA	include/tpm_structures.h	/^} TPM_BOUND_DATA;$/;"	t	typeref:struct:tdTPM_BOUND_DATA
+TPM_CAPABILITY_AREA	include/tpm_structures.h	/^typedef UINT32 TPM_CAPABILITY_AREA;$/;"	t
+TPM_CAP_ALG	include/tpm_structures.h	1772;"	d
+TPM_CAP_AUTH_ENCRYPT	include/tpm_structures.h	1787;"	d
+TPM_CAP_CHECK_LOADED	include/tpm_structures.h	1778;"	d
+TPM_CAP_DA_LOGIC	include/tpm_structures.h	1789;"	d
+TPM_CAP_FLAG	include/tpm_structures.h	1774;"	d
+TPM_CAP_FLAG_PERMANENT	include/tpm_structures.h	1798;"	d
+TPM_CAP_FLAG_VOLATILE	include/tpm_structures.h	1799;"	d
+TPM_CAP_HANDLE	include/tpm_structures.h	1785;"	d
+TPM_CAP_KEY_HANDLE	include/tpm_structures.h	1777;"	d
+TPM_CAP_KEY_STATUS	include/tpm_structures.h	1780;"	d
+TPM_CAP_MFR	include/tpm_structures.h	1782;"	d
+TPM_CAP_NV_INDEX	include/tpm_structures.h	1783;"	d
+TPM_CAP_NV_LIST	include/tpm_structures.h	1781;"	d
+TPM_CAP_ORD	include/tpm_structures.h	1771;"	d
+TPM_CAP_PID	include/tpm_structures.h	1773;"	d
+TPM_CAP_PROPERTY	include/tpm_structures.h	1775;"	d
+TPM_CAP_PROP_ACTIVE_COUNTER	include/tpm_structures.h	1822;"	d
+TPM_CAP_PROP_AUTHSESS	include/tpm_structures.h	1800;"	d
+TPM_CAP_PROP_CMK_RESTRICTION	include/tpm_structures.h	1820;"	d
+TPM_CAP_PROP_CONTEXT	include/tpm_structures.h	1808;"	d
+TPM_CAP_PROP_CONTEXT_DIST	include/tpm_structures.h	1816;"	d
+TPM_CAP_PROP_COUNTERS	include/tpm_structures.h	1802;"	d
+TPM_CAP_PROP_DAASESS	include/tpm_structures.h	1815;"	d
+TPM_CAP_PROP_DAA_INTERRUPT	include/tpm_structures.h	1817;"	d
+TPM_CAP_PROP_DELEGATE_ROW	include/tpm_structures.h	1813;"	d
+TPM_CAP_PROP_DIR	include/tpm_structures.h	1794;"	d
+TPM_CAP_PROP_DURATION	include/tpm_structures.h	1821;"	d
+TPM_CAP_PROP_FAMILYROWS	include/tpm_structures.h	1810;"	d
+TPM_CAP_PROP_INPUT_BUFFER	include/tpm_structures.h	1824;"	d
+TPM_CAP_PROP_KEYS	include/tpm_structures.h	1796;"	d
+TPM_CAP_PROP_MANUFACTURER	include/tpm_structures.h	1795;"	d
+TPM_CAP_PROP_MAX_AUTHSESS	include/tpm_structures.h	1803;"	d
+TPM_CAP_PROP_MAX_CONTEXT	include/tpm_structures.h	1809;"	d
+TPM_CAP_PROP_MAX_COUNTERS	include/tpm_structures.h	1805;"	d
+TPM_CAP_PROP_MAX_DAASESS	include/tpm_structures.h	1814;"	d
+TPM_CAP_PROP_MAX_KEYS	include/tpm_structures.h	1806;"	d
+TPM_CAP_PROP_MAX_NV_AVAILABLE	include/tpm_structures.h	1823;"	d
+TPM_CAP_PROP_MAX_SESSIONS	include/tpm_structures.h	1819;"	d
+TPM_CAP_PROP_MAX_TRANSESS	include/tpm_structures.h	1804;"	d
+TPM_CAP_PROP_MIN_COUNTER	include/tpm_structures.h	1797;"	d
+TPM_CAP_PROP_OWNER	include/tpm_structures.h	1807;"	d
+TPM_CAP_PROP_PCR	include/tpm_structures.h	1793;"	d
+TPM_CAP_PROP_SESSIONS	include/tpm_structures.h	1818;"	d
+TPM_CAP_PROP_STARTUP_EFFECT	include/tpm_structures.h	1812;"	d
+TPM_CAP_PROP_TIS_TIMEOUT	include/tpm_structures.h	1811;"	d
+TPM_CAP_PROP_TRANSESS	include/tpm_structures.h	1801;"	d
+TPM_CAP_SELECT_SIZE	include/tpm_structures.h	1788;"	d
+TPM_CAP_SYM_MODE	include/tpm_structures.h	1779;"	d
+TPM_CAP_TRANS_ALG	include/tpm_structures.h	1784;"	d
+TPM_CAP_TRANS_ES	include/tpm_structures.h	1786;"	d
+TPM_CAP_VERSION	include/tpm_structures.h	1776;"	d
+TPM_CAP_VERSION_INFO	include/tpm_structures.h	/^} TPM_CAP_VERSION_INFO;$/;"	t	typeref:struct:tdTPM_CAP_VERSION_INFO
+TPM_CAP_VERSION_VAL	include/tpm_structures.h	1790;"	d
+TPM_CELL_PHONE	include/tpm_structures.h	531;"	d
+TPM_CERTIFY_INFO	include/tpm_structures.h	/^} TPM_CERTIFY_INFO;$/;"	t	typeref:struct:tdTPM_CERTIFY_INFO
+TPM_CHANGEAUTH_VALIDATE	include/tpm_structures.h	/^} TPM_CHANGEAUTH_VALIDATE;$/;"	t	typeref:struct:tdTPM_CHANGEAUTH_VALIDATE
+TPM_CHOSENID_HASH	include/tpm_structures.h	/^typedef TPM_DIGEST TPM_CHOSENID_HASH;$/;"	t
+TPM_CLEAR_DISABLED	include/tpm_structures.h	1302;"	d
+TPM_CMK_AUTH	include/tpm_structures.h	/^} TPM_CMK_AUTH;$/;"	t	typeref:struct:tdTPM_CMK_AUTH
+TPM_CMK_DELEGATE	include/tpm_structures.h	/^typedef UINT32 TPM_CMK_DELEGATE;$/;"	t
+TPM_CMK_DELEGATE_BIND	include/tpm_structures.h	461;"	d
+TPM_CMK_DELEGATE_LEGACY	include/tpm_structures.h	462;"	d
+TPM_CMK_DELEGATE_MIGRATE	include/tpm_structures.h	463;"	d
+TPM_CMK_DELEGATE_SIGNING	include/tpm_structures.h	459;"	d
+TPM_CMK_DELEGATE_STORAGE	include/tpm_structures.h	460;"	d
+TPM_CMK_MA_APPROVAL	include/tpm_structures.h	/^} TPM_CMK_MA_APPROVAL;$/;"	t	typeref:struct:tdTPM_CMK_MA_APPROVAL
+TPM_CMK_MIGAUTH	include/tpm_structures.h	/^} TPM_CMK_MIGAUTH;$/;"	t	typeref:struct:tdTPM_CMK_MIGAUTH
+TPM_CMK_SIGTICKET	include/tpm_structures.h	/^} TPM_CMK_SIGTICKET;$/;"	t	typeref:struct:tdTPM_CMK_SIGTICKET
+TPM_COMMAND_CODE	include/tpm_structures.h	/^typedef UINT32 TPM_COMMAND_CODE;$/;"	t
+TPM_COMPOSITE_HASH	include/tpm_structures.h	/^typedef TPM_DIGEST TPM_COMPOSITE_HASH;$/;"	t
+TPM_CONNECTION_COMMAND	include/tpm_structures.h	525;"	d
+TPM_CONNECTION_ORDINAL	include/tpm_structures.h	536;"	d
+TPM_CONTEXT_BLOB	include/tpm_structures.h	/^} TPM_CONTEXT_BLOB;$/;"	t	typeref:struct:tdTPM_CONTEXT_BLOB
+TPM_CONTEXT_GAP	include/tpm_structures.h	1368;"	d
+TPM_CONTEXT_SENSITIVE	include/tpm_structures.h	/^} TPM_CONTEXT_SENSITIVE;$/;"	t	typeref:struct:tdTPM_CONTEXT_SENSITIVE
+TPM_COUNTER_VALUE	include/tpm_structures.h	/^} TPM_COUNTER_VALUE;$/;"	t	typeref:struct:tdTPM_COUNTER_VALUE
+TPM_COUNT_ID	include/tpm_structures.h	/^typedef UINT32 TPM_COUNT_ID;$/;"	t
+TPM_CURRENT_TICKS	include/tpm_structures.h	/^} TPM_CURRENT_TICKS;$/;"	t	typeref:struct:tdTPM_CURRENT_TICKS
+TPM_DAAHANDLE	include/tpm_structures.h	/^typedef UINT32 TPM_DAAHANDLE;$/;"	t
+TPM_DAA_BLOB	include/tpm_structures.h	/^} TPM_DAA_BLOB;$/;"	t	typeref:struct:tdTPM_DAA_BLOB
+TPM_DAA_CONTEXT	include/tpm_structures.h	/^} TPM_DAA_CONTEXT;$/;"	t	typeref:struct:tdTPM_DAA_CONTEXT
+TPM_DAA_CONTEXT_SEED	include/tpm_structures.h	/^typedef TPM_NONCE TPM_DAA_CONTEXT_SEED;$/;"	t
+TPM_DAA_INPUT_DATA0	include/tpm_structures.h	1378;"	d
+TPM_DAA_INPUT_DATA1	include/tpm_structures.h	1379;"	d
+TPM_DAA_ISSUER	include/tpm_structures.h	/^} TPM_DAA_ISSUER;$/;"	t	typeref:struct:tdTPM_DAA_ISSUER
+TPM_DAA_ISSUER_SETTINGS	include/tpm_structures.h	1380;"	d
+TPM_DAA_ISSUER_VALIDITY	include/tpm_structures.h	1383;"	d
+TPM_DAA_JOINDATA	include/tpm_structures.h	/^} TPM_DAA_JOINDATA;$/;"	t	typeref:struct:tdTPM_DAA_JOINDATA
+TPM_DAA_RESOURCES	include/tpm_structures.h	1377;"	d
+TPM_DAA_SENSITIVE	include/tpm_structures.h	/^} TPM_DAA_SENSITIVE;$/;"	t	typeref:struct:tdTPM_DAA_SENSITIVE
+TPM_DAA_SESSION_DATA	include/tpm_structures.h	/^} TPM_DAA_SESSION_DATA;$/;"	t	typeref:struct:tdTPM_DAA_SESSION_DATA
+TPM_DAA_STAGE	include/tpm_structures.h	1382;"	d
+TPM_DAA_TPM	include/tpm_structures.h	/^} TPM_DAA_TPM;$/;"	t	typeref:struct:tdTPM_DAA_TPM
+TPM_DAA_TPM_SEED	include/tpm_structures.h	/^typedef TPM_NONCE TPM_DAA_TPM_SEED;$/;"	t
+TPM_DAA_TPM_SETTINGS	include/tpm_structures.h	1381;"	d
+TPM_DAA_WRONG_W	include/tpm_structures.h	1384;"	d
+TPM_DATA	include/tpm_structures.h	/^} TPM_DATA;$/;"	t	typeref:struct:tdTPM_DATA
+TPM_DA_ACTION_DEACTIVATE	include/tpm_structures.h	1867;"	d
+TPM_DA_ACTION_DISABLE	include/tpm_structures.h	1868;"	d
+TPM_DA_ACTION_FAILURE_MODE	include/tpm_structures.h	1866;"	d
+TPM_DA_ACTION_TIMEOUT	include/tpm_structures.h	1869;"	d
+TPM_DA_ACTION_TYPE	include/tpm_structures.h	/^} TPM_DA_ACTION_TYPE;$/;"	t	typeref:struct:tdTPM_DA_ACTION_TYPE
+TPM_DA_INFO	include/tpm_structures.h	/^} TPM_DA_INFO;$/;"	t	typeref:struct:tdTPM_DA_INFO
+TPM_DA_INFO_LIMITED	include/tpm_structures.h	/^} TPM_DA_INFO_LIMITED;$/;"	t	typeref:struct:tdTPM_DA_INFO_LIMITED
+TPM_DA_STATE	include/tpm_structures.h	/^typedef BYTE   TPM_DA_STATE;$/;"	t
+TPM_DA_STATE_ACTIVE	include/tpm_structures.h	1914;"	d
+TPM_DA_STATE_INACTIVE	include/tpm_structures.h	1913;"	d
+TPM_DEACTIVATED	include/tpm_structures.h	1303;"	d
+TPM_DECRYPT_ERROR	include/tpm_structures.h	1330;"	d
+TPM_DEFEND_LOCK_RUNNING	include/tpm_structures.h	1399;"	d
+TPM_DELEGATE_ADMIN	include/tpm_structures.h	1374;"	d
+TPM_DELEGATE_ADMIN_LOCK	include/tpm_structures.h	1609;"	d
+TPM_DELEGATE_ActivateIdentity	include/tpm_structures.h	1550;"	d
+TPM_DELEGATE_AuthorizeMigrationKey	include/tpm_structures.h	1538;"	d
+TPM_DELEGATE_CMK_ApproveMA	include/tpm_structures.h	1532;"	d
+TPM_DELEGATE_CMK_CreateTicket	include/tpm_structures.h	1534;"	d
+TPM_DELEGATE_CreateCounter	include/tpm_structures.h	1556;"	d
+TPM_DELEGATE_CreateMaintenanceArchive	include/tpm_structures.h	1539;"	d
+TPM_DELEGATE_DAA_Join	include/tpm_structures.h	1537;"	d
+TPM_DELEGATE_DAA_Sign	include/tpm_structures.h	1560;"	d
+TPM_DELEGATE_Delegate_CreateOwnerDelegation	include/tpm_structures.h	1559;"	d
+TPM_DELEGATE_Delegate_LoadOwnerDelegation	include/tpm_structures.h	1536;"	d
+TPM_DELEGATE_Delegate_Manage	include/tpm_structures.h	1558;"	d
+TPM_DELEGATE_Delegate_UpdateVerification	include/tpm_structures.h	1555;"	d
+TPM_DELEGATE_DirWriteAuth	include/tpm_structures.h	1531;"	d
+TPM_DELEGATE_DisableOwnerClear	include/tpm_structures.h	1545;"	d
+TPM_DELEGATE_DisablePubekRead	include/tpm_structures.h	1552;"	d
+TPM_DELEGATE_FAMILY	include/tpm_structures.h	1373;"	d
+TPM_DELEGATE_FieldUpgrade	include/tpm_structures.h	1554;"	d
+TPM_DELEGATE_INDEX	include/tpm_structures.h	/^typedef UINT32 TPM_DELEGATE_INDEX;$/;"	t
+TPM_DELEGATE_KEY	include/tpm_structures.h	2159;"	d
+TPM_DELEGATE_KEY_BLOB	include/tpm_structures.h	/^} TPM_DELEGATE_KEY_BLOB;$/;"	t	typeref:struct:tdTPM_DELEGATE_KEY_BLOB
+TPM_DELEGATE_KillMaintenanceFeature	include/tpm_structures.h	1541;"	d
+TPM_DELEGATE_LABEL	include/tpm_structures.h	/^} TPM_DELEGATE_LABEL;$/;"	t	typeref:struct:tdTPM_DELEGATE_LABEL
+TPM_DELEGATE_LOCK	include/tpm_structures.h	1372;"	d
+TPM_DELEGATE_LoadMaintenanceArchive	include/tpm_structures.h	1540;"	d
+TPM_DELEGATE_MakeIdentity	include/tpm_structures.h	1549;"	d
+TPM_DELEGATE_NV_DefineSpace	include/tpm_structures.h	1546;"	d
+TPM_DELEGATE_NV_ReadValue	include/tpm_structures.h	1535;"	d
+TPM_DELEGATE_NV_WriteValue	include/tpm_structures.h	1533;"	d
+TPM_DELEGATE_OWNER_BLOB	include/tpm_structures.h	/^} TPM_DELEGATE_OWNER_BLOB;$/;"	t	typeref:struct:tdTPM_DELEGATE_OWNER_BLOB
+TPM_DELEGATE_OwnerClear	include/tpm_structures.h	1544;"	d
+TPM_DELEGATE_OwnerReadInternalPub	include/tpm_structures.h	1542;"	d
+TPM_DELEGATE_OwnerReadPubek	include/tpm_structures.h	1551;"	d
+TPM_DELEGATE_OwnerSetDisable	include/tpm_structures.h	1547;"	d
+TPM_DELEGATE_PUBLIC	include/tpm_structures.h	/^} TPM_DELEGATE_PUBLIC;$/;"	t	typeref:struct:tdTPM_DELEGATE_PUBLIC
+TPM_DELEGATE_ReleaseCounterOwner	include/tpm_structures.h	1557;"	d
+TPM_DELEGATE_ResetLockValue	include/tpm_structures.h	1543;"	d
+TPM_DELEGATE_SENSITIVE	include/tpm_structures.h	/^} TPM_DELEGATE_SENSITIVE;$/;"	t	typeref:struct:tdTPM_DELEGATE_SENSITIVE
+TPM_DELEGATE_SetCapability	include/tpm_structures.h	1548;"	d
+TPM_DELEGATE_SetOrdinalAuditStatus	include/tpm_structures.h	1530;"	d
+TPM_DELEGATE_SetRedirection	include/tpm_structures.h	1553;"	d
+TPM_DELEGATE_TABLE	include/tpm_structures.h	/^} TPM_DELEGATE_TABLE;$/;"	t	typeref:struct:tdTPM_DELEGATE_TABLE
+TPM_DELEGATE_TABLE_ROW	include/tpm_structures.h	/^} TPM_DELEGATE_TABLE_ROW;$/;"	t	typeref:struct:tdTPM_DELEGATE_TABLE_ROW
+TPM_DELEGATIONS	include/tpm_structures.h	/^} TPM_DELEGATIONS;$/;"	t	typeref:struct:tdTPM_DELEGATIONS
+TPM_DEL_KEY_BITS	include/tpm_structures.h	1513;"	d
+TPM_DEL_OWNER_BITS	include/tpm_structures.h	1512;"	d
+TPM_DIGEST	include/tpm_structures.h	/^} TPM_DIGEST;$/;"	t	typeref:struct:tdTPM_DIGEST
+TPM_DIRINDEX	include/tpm_structures.h	/^typedef UINT32 TPM_DIRINDEX;$/;"	t
+TPM_DIRVALUE	include/tpm_structures.h	/^typedef TPM_DIGEST TPM_DIRVALUE;$/;"	t
+TPM_DISABLED	include/tpm_structures.h	1304;"	d
+TPM_DISABLED_CMD	include/tpm_structures.h	1305;"	d
+TPM_DOING_SELFTEST	include/tpm_structures.h	1398;"	d
+TPM_EK_BLOB	include/tpm_structures.h	/^} TPM_EK_BLOB;$/;"	t	typeref:struct:tdTPM_EK_BLOB
+TPM_EK_BLOB_ACTIVATE	include/tpm_structures.h	/^} TPM_EK_BLOB_ACTIVATE;$/;"	t	typeref:struct:tdTPM_EK_BLOB_ACTIVATE
+TPM_EK_BLOB_AUTH	include/tpm_structures.h	/^} TPM_EK_BLOB_AUTH;$/;"	t	typeref:struct:tdTPM_EK_BLOB_AUTH
+TPM_EK_TYPE	include/tpm_structures.h	/^typedef UINT16 TPM_EK_TYPE;$/;"	t
+TPM_EK_TYPE_ACTIVATE	include/tpm_structures.h	249;"	d
+TPM_EK_TYPE_AUTH	include/tpm_structures.h	250;"	d
+TPM_ENCAUTH	include/tpm_structures.h	/^typedef TPM_AUTHDATA TPM_ENCAUTH;$/;"	t
+TPM_ENCRYPT_ERROR	include/tpm_structures.h	1329;"	d
+TPM_ENC_SCHEME	include/tpm_structures.h	/^typedef UINT16 TPM_ENC_SCHEME;$/;"	t
+TPM_ENTITY_TYPE	include/tpm_structures.h	/^typedef UINT16 TPM_ENTITY_TYPE;$/;"	t
+TPM_ES_NONE	include/tpm_structures.h	356;"	d
+TPM_ES_RSAESOAEP_SHA1_MGF1	include/tpm_structures.h	358;"	d
+TPM_ES_RSAESPKCSv15	include/tpm_structures.h	357;"	d
+TPM_ES_SYM_CTR	include/tpm_structures.h	359;"	d
+TPM_ES_SYM_OFB	include/tpm_structures.h	360;"	d
+TPM_ET_AES128_CTR	include/tpm_structures.h	156;"	d
+TPM_ET_COUNTER	include/tpm_structures.h	149;"	d
+TPM_ET_DATA	include/tpm_structures.h	142;"	d
+TPM_ET_DEL_KEY_BLOB	include/tpm_structures.h	148;"	d
+TPM_ET_DEL_OWNER_BLOB	include/tpm_structures.h	146;"	d
+TPM_ET_DEL_ROW	include/tpm_structures.h	147;"	d
+TPM_ET_KEY	include/tpm_structures.h	144;"	d
+TPM_ET_KEYHANDLE	include/tpm_structures.h	140;"	d
+TPM_ET_NV	include/tpm_structures.h	150;"	d
+TPM_ET_OPERATOR	include/tpm_structures.h	151;"	d
+TPM_ET_OWNER	include/tpm_structures.h	141;"	d
+TPM_ET_RESERVED_HANDLE	include/tpm_structures.h	153;"	d
+TPM_ET_REVOKE	include/tpm_structures.h	145;"	d
+TPM_ET_SRK	include/tpm_structures.h	143;"	d
+TPM_ET_VERIFICATION_AUTH	include/tpm_structures.h	152;"	d
+TPM_ET_XOR	include/tpm_structures.h	155;"	d
+TPM_FAIL	include/tpm_structures.h	1306;"	d
+TPM_FAILEDSELFTEST	include/tpm_structures.h	1325;"	d
+TPM_FAMFLAG_ENABLED	include/tpm_structures.h	1610;"	d
+TPM_FAMILYCOUNT	include/tpm_structures.h	1361;"	d
+TPM_FAMILY_ADMIN	include/tpm_structures.h	1765;"	d
+TPM_FAMILY_CREATE	include/tpm_structures.h	1763;"	d
+TPM_FAMILY_ENABLE	include/tpm_structures.h	1764;"	d
+TPM_FAMILY_FLAGS	include/tpm_structures.h	/^typedef UINT32 TPM_FAMILY_FLAGS;$/;"	t
+TPM_FAMILY_ID	include/tpm_structures.h	/^typedef UINT32 TPM_FAMILY_ID;$/;"	t
+TPM_FAMILY_INVALIDATE	include/tpm_structures.h	1766;"	d
+TPM_FAMILY_LABEL	include/tpm_structures.h	/^} TPM_FAMILY_LABEL;$/;"	t	typeref:struct:tdTPM_FAMILY_LABEL
+TPM_FAMILY_OPERATION	include/tpm_structures.h	/^typedef UINT32 TPM_FAMILY_OPERATION;$/;"	t
+TPM_FAMILY_TABLE	include/tpm_structures.h	/^} TPM_FAMILY_TABLE;$/;"	t	typeref:struct:tdTPM_FAMILY_TABLE
+TPM_FAMILY_TABLE_ENTRY	include/tpm_structures.h	/^} TPM_FAMILY_TABLE_ENTRY;$/;"	t	typeref:struct:tdTPM_FAMILY_TABLE_ENTRY
+TPM_FAMILY_VERIFICATION	include/tpm_structures.h	/^typedef UINT32 TPM_FAMILY_VERIFICATION;$/;"	t
+TPM_HANDLE	include/tpm_structures.h	/^typedef UINT32 TPM_HANDLE;$/;"	t
+TPM_HMAC	include/tpm_structures.h	/^typedef TPM_DIGEST TPM_HMAC;$/;"	t
+TPM_IDENTITY_CONTENTS	include/tpm_structures.h	/^} TPM_IDENTITY_CONTENTS;$/;"	t	typeref:struct:tdTPM_IDENTITY_CONTENTS
+TPM_INAPPROPRIATE_ENC	include/tpm_structures.h	1311;"	d
+TPM_INAPPROPRIATE_SIG	include/tpm_structures.h	1336;"	d
+TPM_INSTALL_DISABLED	include/tpm_structures.h	1308;"	d
+TPM_INVALID_AUTHHANDLE	include/tpm_structures.h	1331;"	d
+TPM_INVALID_FAMILY	include/tpm_structures.h	1352;"	d
+TPM_INVALID_HANDLE	include/tpm_handles.h	27;"	d
+TPM_INVALID_KEYHANDLE	include/tpm_structures.h	1309;"	d
+TPM_INVALID_KEYUSAGE	include/tpm_structures.h	1333;"	d
+TPM_INVALID_PCR_INFO	include/tpm_structures.h	1313;"	d
+TPM_INVALID_POSTINIT	include/tpm_structures.h	1335;"	d
+TPM_INVALID_RESOURCE	include/tpm_structures.h	1350;"	d
+TPM_INVALID_STRUCTURE	include/tpm_structures.h	1364;"	d
+TPM_IOERROR	include/tpm_structures.h	1328;"	d
+TPM_KEY	include/tpm_structures.h	/^} TPM_KEY;$/;"	t	typeref:struct:tdTPM_KEY
+TPM_KEYNOTFOUND	include/tpm_structures.h	1310;"	d
+TPM_KEY_AUTHCHANGE	include/tpm_structures.h	348;"	d
+TPM_KEY_BIND	include/tpm_structures.h	349;"	d
+TPM_KEY_CONTROL	include/tpm_structures.h	/^typedef UINT32 TPM_KEY_CONTROL;$/;"	t
+TPM_KEY_CONTROL_OWNER_EVICT	include/tpm_structures.h	1006;"	d
+TPM_KEY_DATA	include/tpm_structures.h	/^} TPM_KEY_DATA;$/;"	t	typeref:struct:tdTPM_KEY_DATA
+TPM_KEY_DELEGATE_ActivateIdentity	include/tpm_structures.h	1582;"	d
+TPM_KEY_DELEGATE_CMK_ConvertMigration	include/tpm_structures.h	1570;"	d
+TPM_KEY_DELEGATE_CMK_CreateBlob	include/tpm_structures.h	1588;"	d
+TPM_KEY_DELEGATE_CMK_CreateKey	include/tpm_structures.h	1574;"	d
+TPM_KEY_DELEGATE_CertifyKey	include/tpm_structures.h	1586;"	d
+TPM_KEY_DELEGATE_CertifyKey2	include/tpm_structures.h	1585;"	d
+TPM_KEY_DELEGATE_ChangeAuth	include/tpm_structures.h	1592;"	d
+TPM_KEY_DELEGATE_ChangeAuthAsymFinish	include/tpm_structures.h	1573;"	d
+TPM_KEY_DELEGATE_ChangeAuthAsymStart	include/tpm_structures.h	1572;"	d
+TPM_KEY_DELEGATE_ConvertMigrationBlob	include/tpm_structures.h	1590;"	d
+TPM_KEY_DELEGATE_CreateMigrationBlob	include/tpm_structures.h	1589;"	d
+TPM_KEY_DELEGATE_CreateWrapKey	include/tpm_structures.h	1587;"	d
+TPM_KEY_DELEGATE_Delegate_CreateKeyDelegation	include/tpm_structures.h	1591;"	d
+TPM_KEY_DELEGATE_EstablishTransport	include/tpm_structures.h	1577;"	d
+TPM_KEY_DELEGATE_GetAuditDigestSigned	include/tpm_structures.h	1583;"	d
+TPM_KEY_DELEGATE_GetPubKey	include/tpm_structures.h	1593;"	d
+TPM_KEY_DELEGATE_LoadKey	include/tpm_structures.h	1598;"	d
+TPM_KEY_DELEGATE_LoadKey2	include/tpm_structures.h	1576;"	d
+TPM_KEY_DELEGATE_MakeIdentity	include/tpm_structures.h	1581;"	d
+TPM_KEY_DELEGATE_MigrateKey	include/tpm_structures.h	1575;"	d
+TPM_KEY_DELEGATE_Quote	include/tpm_structures.h	1595;"	d
+TPM_KEY_DELEGATE_Quote2	include/tpm_structures.h	1579;"	d
+TPM_KEY_DELEGATE_ReleaseTransportSigned	include/tpm_structures.h	1578;"	d
+TPM_KEY_DELEGATE_Seal	include/tpm_structures.h	1597;"	d
+TPM_KEY_DELEGATE_Sealx	include/tpm_structures.h	1580;"	d
+TPM_KEY_DELEGATE_Sign	include/tpm_structures.h	1584;"	d
+TPM_KEY_DELEGATE_TickStampBlob	include/tpm_structures.h	1571;"	d
+TPM_KEY_DELEGATE_Unbind	include/tpm_structures.h	1594;"	d
+TPM_KEY_DELEGATE_Unseal	include/tpm_structures.h	1596;"	d
+TPM_KEY_FLAGS	include/tpm_structures.h	/^typedef UINT32 TPM_KEY_FLAGS;$/;"	t
+TPM_KEY_FLAG_AUTHORITY	include/tpm_structures.h	386;"	d
+TPM_KEY_FLAG_HAS_PCR	include/tpm_structures.h	388;"	d
+TPM_KEY_FLAG_MASK	include/tpm_structures.h	389;"	d
+TPM_KEY_FLAG_MIGRATABLE	include/tpm_structures.h	383;"	d
+TPM_KEY_FLAG_PCR_IGNORE	include/tpm_structures.h	385;"	d
+TPM_KEY_FLAG_REDIRECT	include/tpm_structures.h	382;"	d
+TPM_KEY_FLAG_VOLATILE	include/tpm_structures.h	384;"	d
+TPM_KEY_HANDLE	include/tpm_structures.h	/^typedef UINT32 TPM_KEY_HANDLE;$/;"	t
+TPM_KEY_HANDLE_LIST	include/tpm_structures.h	/^} TPM_KEY_HANDLE_LIST;$/;"	t	typeref:struct:tdTPM_KEY_HANDLE_LIST
+TPM_KEY_IDENTITY	include/tpm_structures.h	347;"	d
+TPM_KEY_LEGACY	include/tpm_structures.h	350;"	d
+TPM_KEY_MIGRATE	include/tpm_structures.h	351;"	d
+TPM_KEY_NOTSUPPORTED	include/tpm_structures.h	1355;"	d
+TPM_KEY_OWNER_CONTROL	include/tpm_structures.h	1365;"	d
+TPM_KEY_PARMS	include/tpm_structures.h	/^} TPM_KEY_PARMS;$/;"	t	typeref:struct:tdTPM_KEY_PARMS
+TPM_KEY_SIGNING	include/tpm_structures.h	345;"	d
+TPM_KEY_STORAGE	include/tpm_structures.h	346;"	d
+TPM_KEY_USAGE	include/tpm_structures.h	/^typedef UINT16 TPM_KEY_USAGE;$/;"	t
+TPM_KH_ADMIN	include/tpm_structures.h	167;"	d
+TPM_KH_EK	include/tpm_structures.h	168;"	d
+TPM_KH_OPERATOR	include/tpm_structures.h	166;"	d
+TPM_KH_OWNER	include/tpm_structures.h	163;"	d
+TPM_KH_REVOKE	include/tpm_structures.h	164;"	d
+TPM_KH_SRK	include/tpm_structures.h	162;"	d
+TPM_KH_TRANSPORT	include/tpm_structures.h	165;"	d
+TPM_LOCALITY_SELECTION	include/tpm_structures.h	/^typedef BYTE TPM_LOCALITY_SELECTION;$/;"	t
+TPM_LOC_FOUR	include/tpm_structures.h	714;"	d
+TPM_LOC_ONE	include/tpm_structures.h	717;"	d
+TPM_LOC_THREE	include/tpm_structures.h	715;"	d
+TPM_LOC_TWO	include/tpm_structures.h	716;"	d
+TPM_LOC_ZERO	include/tpm_structures.h	718;"	d
+TPM_MAIN	include/tpm_structures.h	528;"	d
+TPM_MAXNVWRITES	include/tpm_structures.h	1369;"	d
+TPM_MAX_COUNTERS	include/tpm_structures.h	2158;"	d
+TPM_MAX_KEYS	include/tpm_structures.h	2161;"	d
+TPM_MAX_NVS	include/tpm_structures.h	2164;"	d
+TPM_MAX_NV_BUF_SIZE	include/tpm_structures.h	2163;"	d
+TPM_MAX_NV_SIZE	include/tpm_structures.h	1499;"	d
+TPM_MAX_NV_WRITE_NOOWNER	include/tpm_structures.h	2160;"	d
+TPM_MAX_SESSIONS	include/tpm_structures.h	2275;"	d
+TPM_MAX_SESSIONS_DAA	include/tpm_structures.h	2277;"	d
+TPM_MAX_SESSION_LIST	include/tpm_structures.h	2276;"	d
+TPM_MA_AUTHORITY	include/tpm_structures.h	1392;"	d
+TPM_MA_DESTINATION	include/tpm_structures.h	1390;"	d
+TPM_MA_SOURCE	include/tpm_structures.h	1391;"	d
+TPM_MA_TICKET_SIGNATURE	include/tpm_structures.h	1389;"	d
+TPM_MIGRATEFAIL	include/tpm_structures.h	1312;"	d
+TPM_MIGRATE_ASYMKEY	include/tpm_structures.h	/^} TPM_MIGRATE_ASYMKEY;$/;"	t	typeref:struct:tdTPM_MIGRATE_ASYMKEY
+TPM_MIGRATE_SCHEME	include/tpm_structures.h	/^typedef UINT16 TPM_MIGRATE_SCHEME;$/;"	t
+TPM_MIGRATIONKEYAUTH	include/tpm_structures.h	/^} TPM_MIGRATIONKEYAUTH;$/;"	t	typeref:struct:tdTPM_MIGRATIONKEYAUTH
+TPM_MODIFIER_INDICATOR	include/tpm_structures.h	/^typedef UINT32 TPM_MODIFIER_INDICATOR;$/;"	t
+TPM_MSA_COMPOSITE	include/tpm_structures.h	/^} TPM_MSA_COMPOSITE;$/;"	t	typeref:struct:tdTPM_MSA_COMPOSITE
+TPM_MS_MAINT	include/tpm_structures.h	241;"	d
+TPM_MS_MIGRATE	include/tpm_structures.h	239;"	d
+TPM_MS_RESTRICT_APPROVE	include/tpm_structures.h	243;"	d
+TPM_MS_RESTRICT_MIGRATE	include/tpm_structures.h	242;"	d
+TPM_MS_REWRAP	include/tpm_structures.h	240;"	d
+TPM_NEEDS_SELFTEST	include/tpm_structures.h	1397;"	d
+TPM_NOCONTEXTSPACE	include/tpm_structures.h	1395;"	d
+TPM_NONCE	include/tpm_structures.h	/^} TPM_NONCE;$/;"	t	typeref:struct:tdTPM_NONCE
+TPM_NON_FATAL	include/tpm_structures.h	1294;"	d
+TPM_NOOPERATOR	include/tpm_structures.h	1370;"	d
+TPM_NOSPACE	include/tpm_structures.h	1314;"	d
+TPM_NOSRK	include/tpm_structures.h	1315;"	d
+TPM_NOTFIPS	include/tpm_structures.h	1351;"	d
+TPM_NOTLOCAL	include/tpm_structures.h	1348;"	d
+TPM_NOTRESETABLE	include/tpm_structures.h	1347;"	d
+TPM_NOTSEALED_BLOB	include/tpm_structures.h	1316;"	d
+TPM_NOT_FULLWRITE	include/tpm_structures.h	1367;"	d
+TPM_NO_ENDORSEMENT	include/tpm_structures.h	1332;"	d
+TPM_NO_NV_PERMISSION	include/tpm_structures.h	1353;"	d
+TPM_NO_WRAP_TRANSPORT	include/tpm_structures.h	1344;"	d
+TPM_NUM_CMD_DURATIONS	include/tpm_structures.h	2166;"	d
+TPM_NUM_DELEGATE_TABLE_ENTRY	include/tpm_structures.h	1697;"	d
+TPM_NUM_FAMILY_TABLE_ENTRY	include/tpm_structures.h	1644;"	d
+TPM_NUM_PCR	include/tpm_structures.h	679;"	d
+TPM_NUM_TIS_TIMEOUTS	include/tpm_structures.h	2165;"	d
+TPM_NV_ATTRIBUTES	include/tpm_structures.h	/^} TPM_NV_ATTRIBUTES;$/;"	t	typeref:struct:tdTPM_NV_ATTRIBUTES
+TPM_NV_DATA_PUBLIC	include/tpm_structures.h	/^} TPM_NV_DATA_PUBLIC;$/;"	t	typeref:struct:tdTPM_NV_DATA_PUBLIC
+TPM_NV_DATA_SENSITIVE	include/tpm_structures.h	/^} TPM_NV_DATA_SENSITIVE;$/;"	t	typeref:struct:tdTPM_NV_DATA_SENSITIVE
+TPM_NV_INDEX	include/tpm_structures.h	/^typedef UINT32 TPM_NV_INDEX;$/;"	t
+TPM_NV_INDEX0	include/tpm_structures.h	1412;"	d
+TPM_NV_INDEX_D	include/tpm_structures.h	1418;"	d
+TPM_NV_INDEX_DIR	include/tpm_structures.h	1413;"	d
+TPM_NV_INDEX_EKCert	include/tpm_structures.h	1425;"	d
+TPM_NV_INDEX_LOCK	include/tpm_structures.h	1411;"	d
+TPM_NV_INDEX_P	include/tpm_structures.h	1416;"	d
+TPM_NV_INDEX_PlatformCert	include/tpm_structures.h	1427;"	d
+TPM_NV_INDEX_Platform_CC	include/tpm_structures.h	1428;"	d
+TPM_NV_INDEX_T	include/tpm_structures.h	1415;"	d
+TPM_NV_INDEX_TPM_CC	include/tpm_structures.h	1426;"	d
+TPM_NV_INDEX_TRIAL	include/tpm_structures.h	1429;"	d
+TPM_NV_INDEX_U	include/tpm_structures.h	1417;"	d
+TPM_NV_PER_AUTHREAD	include/tpm_structures.h	1444;"	d
+TPM_NV_PER_AUTHWRITE	include/tpm_structures.h	1452;"	d
+TPM_NV_PER_GLOBALLOCK	include/tpm_structures.h	1447;"	d
+TPM_NV_PER_OWNERREAD	include/tpm_structures.h	1445;"	d
+TPM_NV_PER_OWNERWRITE	include/tpm_structures.h	1453;"	d
+TPM_NV_PER_PPREAD	include/tpm_structures.h	1446;"	d
+TPM_NV_PER_PPWRITE	include/tpm_structures.h	1454;"	d
+TPM_NV_PER_READ_STCLEAR	include/tpm_structures.h	1442;"	d
+TPM_NV_PER_WRITEALL	include/tpm_structures.h	1450;"	d
+TPM_NV_PER_WRITEDEFINE	include/tpm_structures.h	1449;"	d
+TPM_NV_PER_WRITE_STCLEAR	include/tpm_structures.h	1448;"	d
+TPM_ORD_ActivateIdentity	include/tpm_structures.h	608;"	d
+TPM_ORD_AuthorizeMigrationKey	include/tpm_structures.h	571;"	d
+TPM_ORD_CMK_ApproveMA	include/tpm_structures.h	559;"	d
+TPM_ORD_CMK_ConvertMigration	include/tpm_structures.h	566;"	d
+TPM_ORD_CMK_CreateBlob	include/tpm_structures.h	557;"	d
+TPM_ORD_CMK_CreateKey	include/tpm_structures.h	549;"	d
+TPM_ORD_CMK_CreateTicket	include/tpm_structures.h	548;"	d
+TPM_ORD_CMK_SetRestrictions	include/tpm_structures.h	558;"	d
+TPM_ORD_CertifyKey	include/tpm_structures.h	578;"	d
+TPM_ORD_CertifyKey2	include/tpm_structures.h	579;"	d
+TPM_ORD_ChangeAuth	include/tpm_structures.h	542;"	d
+TPM_ORD_ChangeAuthAsymFinish	include/tpm_structures.h	545;"	d
+TPM_ORD_ChangeAuthAsymStart	include/tpm_structures.h	544;"	d
+TPM_ORD_ChangeAuthOwner	include/tpm_structures.h	546;"	d
+TPM_ORD_ContinueSelfTest	include/tpm_structures.h	589;"	d
+TPM_ORD_ConvertMigrationBlob	include/tpm_structures.h	570;"	d
+TPM_ORD_CreateCounter	include/tpm_structures.h	649;"	d
+TPM_ORD_CreateEndorsementKeyPair	include/tpm_structures.h	606;"	d
+TPM_ORD_CreateMaintenanceArchive	include/tpm_structures.h	572;"	d
+TPM_ORD_CreateMigrationBlob	include/tpm_structures.h	568;"	d
+TPM_ORD_CreateRevocableEK	include/tpm_structures.h	612;"	d
+TPM_ORD_CreateWrapKey	include/tpm_structures.h	561;"	d
+TPM_ORD_DAA_Join	include/tpm_structures.h	569;"	d
+TPM_ORD_DAA_Sign	include/tpm_structures.h	577;"	d
+TPM_ORD_DSAP	include/tpm_structures.h	547;"	d
+TPM_ORD_Delegate_CreateKeyDelegation	include/tpm_structures.h	643;"	d
+TPM_ORD_Delegate_CreateOwnerDelegation	include/tpm_structures.h	644;"	d
+TPM_ORD_Delegate_LoadOwnerDelegation	include/tpm_structures.h	646;"	d
+TPM_ORD_Delegate_Manage	include/tpm_structures.h	642;"	d
+TPM_ORD_Delegate_ReadAuth	include/tpm_structures.h	647;"	d
+TPM_ORD_Delegate_ReadTable	include/tpm_structures.h	648;"	d
+TPM_ORD_Delegate_UpdateVerification	include/tpm_structures.h	641;"	d
+TPM_ORD_Delegate_VerifyDelegation	include/tpm_structures.h	645;"	d
+TPM_ORD_DirRead	include/tpm_structures.h	556;"	d
+TPM_ORD_DirWriteAuth	include/tpm_structures.h	555;"	d
+TPM_ORD_DisableForceClear	include/tpm_structures.h	595;"	d
+TPM_ORD_DisableOwnerClear	include/tpm_structures.h	593;"	d
+TPM_ORD_DisablePubekRead	include/tpm_structures.h	611;"	d
+TPM_ORD_EstablishTransport	include/tpm_structures.h	654;"	d
+TPM_ORD_EvictKey	include/tpm_structures.h	564;"	d
+TPM_ORD_ExecuteTransport	include/tpm_structures.h	655;"	d
+TPM_ORD_Extend	include/tpm_structures.h	550;"	d
+TPM_ORD_FieldUpgrade	include/tpm_structures.h	627;"	d
+TPM_ORD_FlushSpecific	include/tpm_structures.h	634;"	d
+TPM_ORD_ForceClear	include/tpm_structures.h	594;"	d
+TPM_ORD_GetAuditDigest	include/tpm_structures.h	615;"	d
+TPM_ORD_GetAuditDigestSigned	include/tpm_structures.h	616;"	d
+TPM_ORD_GetCapability	include/tpm_structures.h	596;"	d
+TPM_ORD_GetCapabilityOwner	include/tpm_structures.h	597;"	d
+TPM_ORD_GetPubKey	include/tpm_structures.h	563;"	d
+TPM_ORD_GetRandom	include/tpm_structures.h	586;"	d
+TPM_ORD_GetTestResult	include/tpm_structures.h	590;"	d
+TPM_ORD_GetTicks	include/tpm_structures.h	657;"	d
+TPM_ORD_INDEX_MASK	include/tpm_structures.h	538;"	d
+TPM_ORD_IncrementCounter	include/tpm_structures.h	650;"	d
+TPM_ORD_Init	include/tpm_structures.h	619;"	d
+TPM_ORD_KeyControlOwner	include/tpm_structures.h	565;"	d
+TPM_ORD_KillMaintenanceFeature	include/tpm_structures.h	574;"	d
+TPM_ORD_LoadAuthContext	include/tpm_structures.h	631;"	d
+TPM_ORD_LoadContext	include/tpm_structures.h	633;"	d
+TPM_ORD_LoadKey	include/tpm_structures.h	562;"	d
+TPM_ORD_LoadKey2	include/tpm_structures.h	585;"	d
+TPM_ORD_LoadKeyContext	include/tpm_structures.h	629;"	d
+TPM_ORD_LoadMaintenanceArchive	include/tpm_structures.h	573;"	d
+TPM_ORD_LoadManuMaintPub	include/tpm_structures.h	575;"	d
+TPM_ORD_MAX	include/tpm_structures.h	659;"	d
+TPM_ORD_MakeIdentity	include/tpm_structures.h	607;"	d
+TPM_ORD_MigrateKey	include/tpm_structures.h	567;"	d
+TPM_ORD_NV_DefineSpace	include/tpm_structures.h	636;"	d
+TPM_ORD_NV_ReadValue	include/tpm_structures.h	639;"	d
+TPM_ORD_NV_ReadValueAuth	include/tpm_structures.h	640;"	d
+TPM_ORD_NV_WriteValue	include/tpm_structures.h	637;"	d
+TPM_ORD_NV_WriteValueAuth	include/tpm_structures.h	638;"	d
+TPM_ORD_OIAP	include/tpm_structures.h	540;"	d
+TPM_ORD_OSAP	include/tpm_structures.h	541;"	d
+TPM_ORD_OwnerClear	include/tpm_structures.h	592;"	d
+TPM_ORD_OwnerReadInternalPub	include/tpm_structures.h	614;"	d
+TPM_ORD_OwnerReadPubek	include/tpm_structures.h	610;"	d
+TPM_ORD_OwnerSetDisable	include/tpm_structures.h	598;"	d
+TPM_ORD_PCRRead	include/tpm_structures.h	551;"	d
+TPM_ORD_PCR_Reset	include/tpm_structures.h	635;"	d
+TPM_ORD_PhysicalDisable	include/tpm_structures.h	600;"	d
+TPM_ORD_PhysicalEnable	include/tpm_structures.h	599;"	d
+TPM_ORD_PhysicalSetDeactivated	include/tpm_structures.h	602;"	d
+TPM_ORD_Quote	include/tpm_structures.h	552;"	d
+TPM_ORD_Quote2	include/tpm_structures.h	582;"	d
+TPM_ORD_ReadCounter	include/tpm_structures.h	651;"	d
+TPM_ORD_ReadManuMaintPub	include/tpm_structures.h	576;"	d
+TPM_ORD_ReadPubek	include/tpm_structures.h	609;"	d
+TPM_ORD_ReleaseCounter	include/tpm_structures.h	652;"	d
+TPM_ORD_ReleaseCounterOwner	include/tpm_structures.h	653;"	d
+TPM_ORD_ReleaseTransportSigned	include/tpm_structures.h	656;"	d
+TPM_ORD_Reset	include/tpm_structures.h	591;"	d
+TPM_ORD_ResetLockValue	include/tpm_structures.h	584;"	d
+TPM_ORD_RevokeTrust	include/tpm_structures.h	613;"	d
+TPM_ORD_SHA1Complete	include/tpm_structures.h	625;"	d
+TPM_ORD_SHA1CompleteExtend	include/tpm_structures.h	626;"	d
+TPM_ORD_SHA1Start	include/tpm_structures.h	623;"	d
+TPM_ORD_SHA1Update	include/tpm_structures.h	624;"	d
+TPM_ORD_SaveAuthContext	include/tpm_structures.h	630;"	d
+TPM_ORD_SaveContext	include/tpm_structures.h	632;"	d
+TPM_ORD_SaveKeyContext	include/tpm_structures.h	628;"	d
+TPM_ORD_SaveState	include/tpm_structures.h	620;"	d
+TPM_ORD_Seal	include/tpm_structures.h	553;"	d
+TPM_ORD_Sealx	include/tpm_structures.h	581;"	d
+TPM_ORD_SelfTestFull	include/tpm_structures.h	588;"	d
+TPM_ORD_SetCapability	include/tpm_structures.h	583;"	d
+TPM_ORD_SetOperatorAuth	include/tpm_structures.h	604;"	d
+TPM_ORD_SetOrdinalAuditStatus	include/tpm_structures.h	617;"	d
+TPM_ORD_SetOwnerInstall	include/tpm_structures.h	601;"	d
+TPM_ORD_SetOwnerPointer	include/tpm_structures.h	605;"	d
+TPM_ORD_SetRedirection	include/tpm_structures.h	622;"	d
+TPM_ORD_SetTempDeactivated	include/tpm_structures.h	603;"	d
+TPM_ORD_Sign	include/tpm_structures.h	580;"	d
+TPM_ORD_Startup	include/tpm_structures.h	621;"	d
+TPM_ORD_StirRandom	include/tpm_structures.h	587;"	d
+TPM_ORD_TakeOwnership	include/tpm_structures.h	543;"	d
+TPM_ORD_Terminate_Handle	include/tpm_structures.h	618;"	d
+TPM_ORD_TickStampBlob	include/tpm_structures.h	658;"	d
+TPM_ORD_UnBind	include/tpm_structures.h	560;"	d
+TPM_ORD_Unseal	include/tpm_structures.h	554;"	d
+TPM_OWNER_CONTROL	include/tpm_structures.h	1376;"	d
+TPM_OWNER_SET	include/tpm_structures.h	1317;"	d
+TPM_PAYLOAD_TYPE	include/tpm_structures.h	/^typedef BYTE   TPM_PAYLOAD_TYPE;$/;"	t
+TPM_PC	include/tpm_structures.h	529;"	d
+TPM_PCRINDEX	include/tpm_structures.h	/^typedef UINT32 TPM_PCRINDEX;$/;"	t
+TPM_PCRVALUE	include/tpm_structures.h	/^typedef TPM_DIGEST TPM_PCRVALUE;$/;"	t
+TPM_PCR_ATTRIBUTES	include/tpm_structures.h	/^} TPM_PCR_ATTRIBUTES;$/;"	t	typeref:struct:tdTPM_PCR_ATTRIBUTES
+TPM_PCR_COMPOSITE	include/tpm_structures.h	/^} TPM_PCR_COMPOSITE;$/;"	t	typeref:struct:tdTPM_PCR_COMPOSITE
+TPM_PCR_INFO	include/tpm_structures.h	/^} TPM_PCR_INFO;$/;"	t	typeref:struct:tdTPM_PCR_INFO
+TPM_PCR_INFO_SHORT	include/tpm_structures.h	/^} TPM_PCR_INFO_SHORT;$/;"	t	typeref:struct:tdTPM_PCR_INFO_SHORT
+TPM_PCR_SELECTION	include/tpm_structures.h	/^} TPM_PCR_SELECTION;$/;"	t	typeref:struct:tdTPM_PCR_SELECTION
+TPM_PDA	include/tpm_structures.h	530;"	d
+TPM_PERMANENTEK	include/tpm_structures.h	1393;"	d
+TPM_PERMANENT_DATA	include/tpm_structures.h	/^} TPM_PERMANENT_DATA;$/;"	t	typeref:struct:tdTPM_PERMANENT_DATA
+TPM_PERMANENT_FLAGS	include/tpm_structures.h	/^} TPM_PERMANENT_FLAGS;$/;"	t	typeref:struct:tdTPM_PERMANENT_FLAGS
+TPM_PER_NOWRITE	include/tpm_structures.h	1360;"	d
+TPM_PHYSICAL_PRESENCE	include/tpm_structures.h	/^typedef UINT16 TPM_PHYSICAL_PRESENCE;$/;"	t
+TPM_PHYSICAL_PRESENCE_CMD_DISABLE	include/tpm_structures.h	226;"	d
+TPM_PHYSICAL_PRESENCE_CMD_ENABLE	include/tpm_structures.h	229;"	d
+TPM_PHYSICAL_PRESENCE_HW_DISABLE	include/tpm_structures.h	225;"	d
+TPM_PHYSICAL_PRESENCE_HW_ENABLE	include/tpm_structures.h	228;"	d
+TPM_PHYSICAL_PRESENCE_LIFETIME_LOCK	include/tpm_structures.h	227;"	d
+TPM_PHYSICAL_PRESENCE_LOCK	include/tpm_structures.h	232;"	d
+TPM_PHYSICAL_PRESENCE_NOTPRESENT	include/tpm_structures.h	230;"	d
+TPM_PHYSICAL_PRESENCE_PRESENT	include/tpm_structures.h	231;"	d
+TPM_PID_ADCP	include/tpm_structures.h	201;"	d
+TPM_PID_ADIP	include/tpm_structures.h	200;"	d
+TPM_PID_DSAP	include/tpm_structures.h	203;"	d
+TPM_PID_OIAP	include/tpm_structures.h	198;"	d
+TPM_PID_OSAP	include/tpm_structures.h	199;"	d
+TPM_PID_OWNER	include/tpm_structures.h	202;"	d
+TPM_PID_TRANSPORT	include/tpm_structures.h	204;"	d
+TPM_PLATFORM_SPECIFIC	include/tpm_structures.h	/^typedef UINT16 TPM_PLATFORM_SPECIFIC;$/;"	t
+TPM_PROTECTED_COMMAND	include/tpm_structures.h	523;"	d
+TPM_PROTECTED_ORDINAL	include/tpm_structures.h	534;"	d
+TPM_PROTOCOL_ID	include/tpm_structures.h	/^typedef UINT16 TPM_PROTOCOL_ID;$/;"	t
+TPM_PS_Mobile_12	include/tpm_structures.h	260;"	d
+TPM_PS_PC_11	include/tpm_structures.h	256;"	d
+TPM_PS_PC_12	include/tpm_structures.h	257;"	d
+TPM_PS_PDA_12	include/tpm_structures.h	258;"	d
+TPM_PS_Server_12	include/tpm_structures.h	259;"	d
+TPM_PT_ASYM	include/tpm_structures.h	117;"	d
+TPM_PT_BIND	include/tpm_structures.h	118;"	d
+TPM_PT_CMK_MIGRATE	include/tpm_structures.h	124;"	d
+TPM_PT_MAINT	include/tpm_structures.h	120;"	d
+TPM_PT_MIGRATE	include/tpm_structures.h	119;"	d
+TPM_PT_MIGRATE_EXTERNAL	include/tpm_structures.h	123;"	d
+TPM_PT_MIGRATE_RESTRICTED	include/tpm_structures.h	122;"	d
+TPM_PT_NONE	include/tpm_structures.h	127;"	d
+TPM_PT_SEAL	include/tpm_structures.h	121;"	d
+TPM_PUBKEY	include/tpm_structures.h	/^} TPM_PUBKEY;$/;"	t	typeref:struct:tdTPM_PUBKEY
+TPM_PUBKEY_DATA	include/tpm_structures.h	/^} TPM_PUBKEY_DATA;$/;"	t	typeref:struct:tdTPM_PUBKEY_DATA
+TPM_QUOTE_INFO	include/tpm_structures.h	/^} TPM_QUOTE_INFO;$/;"	t	typeref:struct:tdTPM_QUOTE_INFO
+TPM_QUOTE_INFO2	include/tpm_structures.h	/^} TPM_QUOTE_INFO2;$/;"	t	typeref:struct:tdTPM_QUOTE_INFO2
+TPM_READ_ONLY	include/tpm_structures.h	1359;"	d
+TPM_REDIR_COMMAND	include/tpm_structures.h	/^typedef UINT32 TPM_REDIR_COMMAND;$/;"	t
+TPM_REDIT_COMMAND	include/tpm_structures.h	/^typedef UINT32 TPM_REDIT_COMMAND;$/;"	t
+TPM_REQUEST	include/tpm_structures.h	/^} TPM_REQUEST;$/;"	t	typeref:struct:tdTPM_REQUEST
+TPM_REQUIRES_SIGN	include/tpm_structures.h	1354;"	d
+TPM_RESOURCEMISSING	include/tpm_structures.h	1371;"	d
+TPM_RESOURCES	include/tpm_structures.h	1318;"	d
+TPM_RESOURCE_TYPE	include/tpm_structures.h	/^typedef UINT32 TPM_RESOURCE_TYPE;$/;"	t
+TPM_RESPONSE	include/tpm_structures.h	/^} TPM_RESPONSE;$/;"	t	typeref:struct:tdTPM_RESPONSE
+TPM_RESULT	include/tpm_structures.h	/^typedef UINT32 TPM_RESULT;$/;"	t
+TPM_RETRY	include/tpm_structures.h	1396;"	d
+TPM_RSA_KEY_PARMS	include/tpm_structures.h	/^} TPM_RSA_KEY_PARMS;$/;"	t	typeref:struct:tdTPM_RSA_KEY_PARMS
+TPM_RT_AUTH	include/tpm_structures.h	103;"	d
+TPM_RT_CONTEXT	include/tpm_structures.h	106;"	d
+TPM_RT_COUNTER	include/tpm_structures.h	107;"	d
+TPM_RT_DAA_TPM	include/tpm_structures.h	109;"	d
+TPM_RT_DAA_V0	include/tpm_structures.h	110;"	d
+TPM_RT_DAA_V1	include/tpm_structures.h	111;"	d
+TPM_RT_DELEGATE	include/tpm_structures.h	108;"	d
+TPM_RT_HASH	include/tpm_structures.h	104;"	d
+TPM_RT_KEY	include/tpm_structures.h	102;"	d
+TPM_RT_TRANS	include/tpm_structures.h	105;"	d
+TPM_SEALED_DATA	include/tpm_structures.h	/^} TPM_SEALED_DATA;$/;"	t	typeref:struct:tdTPM_SEALED_DATA
+TPM_SECRET	include/tpm_structures.h	/^typedef TPM_AUTHDATA TPM_SECRET;$/;"	t
+TPM_SELECT_SIZE	include/tpm_structures.h	/^} TPM_SELECT_SIZE;$/;"	t	typeref:struct:tdTPM_SELECT_SIZE
+TPM_SERVER	include/tpm_structures.h	532;"	d
+TPM_SESSION_DATA	include/tpm_structures.h	/^} TPM_SESSION_DATA;$/;"	t	typeref:struct:tdTPM_SESSION_DATA
+TPM_SET_PERM_DATA	include/tpm_structures.h	1830;"	d
+TPM_SET_PERM_FLAGS	include/tpm_structures.h	1829;"	d
+TPM_SET_STANY_DATA	include/tpm_structures.h	1834;"	d
+TPM_SET_STANY_FLAGS	include/tpm_structures.h	1833;"	d
+TPM_SET_STCLEAR_DATA	include/tpm_structures.h	1832;"	d
+TPM_SET_STCLEAR_FLAGS	include/tpm_structures.h	1831;"	d
+TPM_SET_VENDOR	include/tpm_structures.h	1835;"	d
+TPM_SHA_ERROR	include/tpm_structures.h	1324;"	d
+TPM_SHA_THREAD	include/tpm_structures.h	1323;"	d
+TPM_SHORTRANDOM	include/tpm_structures.h	1319;"	d
+TPM_SIGN_INFO	include/tpm_structures.h	/^} TPM_SIGN_INFO;$/;"	t	typeref:struct:tdTPM_SIGN_INFO
+TPM_SIG_SCHEME	include/tpm_structures.h	/^typedef UINT16 TPM_SIG_SCHEME;$/;"	t
+TPM_SIZE	include/tpm_structures.h	1320;"	d
+TPM_SS_NONE	include/tpm_structures.h	365;"	d
+TPM_SS_RSASSAPKCS1v15_DER	include/tpm_structures.h	367;"	d
+TPM_SS_RSASSAPKCS1v15_INFO	include/tpm_structures.h	368;"	d
+TPM_SS_RSASSAPKCS1v15_SHA1	include/tpm_structures.h	366;"	d
+TPM_STANY_DATA	include/tpm_structures.h	/^} TPM_STANY_DATA;$/;"	t	typeref:struct:tdTPM_STANY_DATA
+TPM_STANY_FLAGS	include/tpm_structures.h	/^} TPM_STANY_FLAGS;$/;"	t	typeref:struct:tdTPM_STANY_FLAGS
+TPM_STARTUP_AUDIT_DIGEST_IGNORE	include/tpm_structures.h	185;"	d
+TPM_STARTUP_AUDIT_DIGEST_ST_ANY	include/tpm_structures.h	187;"	d
+TPM_STARTUP_AUDIT_DIGEST_ST_CLEAR	include/tpm_structures.h	186;"	d
+TPM_STARTUP_EFFECTS	include/tpm_structures.h	/^typedef UINT32 TPM_STARTUP_EFFECTS;$/;"	t
+TPM_STARTUP_RT_AUTH_ST_STATE	include/tpm_structures.h	189;"	d
+TPM_STARTUP_RT_CONTEXT_ST_STATE	include/tpm_structures.h	192;"	d
+TPM_STARTUP_RT_DAA_TPM_ST_STATE	include/tpm_structures.h	184;"	d
+TPM_STARTUP_RT_HASH_ST_STATE	include/tpm_structures.h	190;"	d
+TPM_STARTUP_RT_KEY_ST_ANY	include/tpm_structures.h	188;"	d
+TPM_STARTUP_RT_TRANS_ST_STATE	include/tpm_structures.h	191;"	d
+TPM_STARTUP_TYPE	include/tpm_structures.h	/^typedef UINT16 TPM_STARTUP_TYPE;$/;"	t
+TPM_STCLEAR_DATA	include/tpm_structures.h	/^} TPM_STCLEAR_DATA;$/;"	t	typeref:struct:tdTPM_STCLEAR_DATA
+TPM_STCLEAR_FLAGS	include/tpm_structures.h	/^} TPM_STCLEAR_FLAGS;$/;"	t	typeref:struct:tdTPM_STCLEAR_FLAGS
+TPM_STORED_DATA	include/tpm_structures.h	/^} TPM_STORED_DATA;$/;"	t	typeref:struct:tdTPM_STORED_DATA
+TPM_STORE_ASYMKEY	include/tpm_structures.h	/^} TPM_STORE_ASYMKEY;$/;"	t	typeref:struct:tdTPM_STORE_ASYMKEY
+TPM_STORE_PRIVKEY	include/tpm_structures.h	/^} TPM_STORE_PRIVKEY;$/;"	t	typeref:struct:tdTPM_STORE_PRIVKEY
+TPM_STORE_PUBKEY	include/tpm_structures.h	/^} TPM_STORE_PUBKEY;$/;"	t	typeref:struct:tdTPM_STORE_PUBKEY
+TPM_STRUCTURE_TAG	include/tpm_structures.h	/^typedef UINT16 TPM_STRUCTURE_TAG;$/;"	t
+TPM_STRUCT_VER	include/tpm_structures.h	/^} TPM_STRUCT_VER;$/;"	t	typeref:struct:tdTPM_STRUCT_VER
+TPM_ST_CLEAR	include/tpm_structures.h	174;"	d
+TPM_ST_DAA	include/tpm_structures.h	2230;"	d
+TPM_ST_DEACTIVATED	include/tpm_structures.h	176;"	d
+TPM_ST_DSAP	include/tpm_structures.h	2231;"	d
+TPM_ST_INVALID	include/tpm_structures.h	2226;"	d
+TPM_ST_OIAP	include/tpm_structures.h	2227;"	d
+TPM_ST_OSAP	include/tpm_structures.h	2228;"	d
+TPM_ST_STATE	include/tpm_structures.h	175;"	d
+TPM_ST_TRANSPORT	include/tpm_structures.h	2229;"	d
+TPM_SUCCESS	include/tpm_structures.h	1297;"	d
+TPM_SYMMETRIC_KEY	include/tpm_structures.h	/^} TPM_SYMMETRIC_KEY;$/;"	t	typeref:struct:tdTPM_SYMMETRIC_KEY
+TPM_SYMMETRIC_KEY_PARMS	include/tpm_structures.h	/^} TPM_SYMMETRIC_KEY_PARMS;$/;"	t	typeref:struct:tdTPM_SYMMETRIC_KEY_PARMS
+TPM_SYM_KEY_SIZE	include/tpm_structures.h	2162;"	d
+TPM_SYM_MODE	include/tpm_structures.h	/^typedef UINT32 TPM_SYM_MODE;$/;"	t
+TPM_TAG	include/tpm_structures.h	/^typedef UINT16 TPM_TAG;$/;"	t
+TPM_TAG_AUDIT_EVENT_IN	include/tpm_structures.h	1268;"	d
+TPM_TAG_AUDIT_EVENT_OUT	include/tpm_structures.h	1282;"	d
+TPM_TAG_CAP_VERSION_INFO	include/tpm_structures.h	1842;"	d
+TPM_TAG_CERTIFY_INFO2	include/tpm_structures.h	1034;"	d
+TPM_TAG_CMK_MA_APPROVAL	include/tpm_structures.h	502;"	d
+TPM_TAG_CMK_MIGAUTH	include/tpm_structures.h	480;"	d
+TPM_TAG_CMK_SIGTICKET	include/tpm_structures.h	491;"	d
+TPM_TAG_CONTEXTBLOB	include/tpm_structures.h	2333;"	d
+TPM_TAG_CONTEXT_SENSITIVE	include/tpm_structures.h	2358;"	d
+TPM_TAG_COUNTER_VALUE	include/tpm_structures.h	406;"	d
+TPM_TAG_CURRENT_TICKS	include/tpm_structures.h	1174;"	d
+TPM_TAG_DAA_BLOB	include/tpm_structures.h	2004;"	d
+TPM_TAG_DAA_CONTEXT	include/tpm_structures.h	1977;"	d
+TPM_TAG_DAA_ISSUER	include/tpm_structures.h	1944;"	d
+TPM_TAG_DAA_SENSITIVE	include/tpm_structures.h	2023;"	d
+TPM_TAG_DAA_TPM	include/tpm_structures.h	1962;"	d
+TPM_TAG_DA_ACTION_TYPE	include/tpm_structures.h	1860;"	d
+TPM_TAG_DA_INFO	include/tpm_structures.h	1876;"	d
+TPM_TAG_DA_INFO_LIMITED	include/tpm_structures.h	1896;"	d
+TPM_TAG_DELEGATE_KEY_BLOB	include/tpm_structures.h	1741;"	d
+TPM_TAG_DELEGATE_OWNER_BLOB	include/tpm_structures.h	1719;"	d
+TPM_TAG_DELEGATE_PUBLIC	include/tpm_structures.h	1664;"	d
+TPM_TAG_DELEGATE_SENSITIVE	include/tpm_structures.h	1707;"	d
+TPM_TAG_DELEGATE_TABLE_ROW	include/tpm_structures.h	1681;"	d
+TPM_TAG_DELEGATIONS	include/tpm_structures.h	1515;"	d
+TPM_TAG_EK_BLOB	include/tpm_structures.h	1094;"	d
+TPM_TAG_EK_BLOB_ACTIVATE	include/tpm_structures.h	1107;"	d
+TPM_TAG_EK_BLOB_AUTH	include/tpm_structures.h	1120;"	d
+TPM_TAG_FAMILY_TABLE_ENTRY	include/tpm_structures.h	1626;"	d
+TPM_TAG_KEY12	include/tpm_structures.h	910;"	d
+TPM_TAG_NV_ATTRIBUTES	include/tpm_structures.h	1436;"	d
+TPM_TAG_NV_DATA_PUBLIC	include/tpm_structures.h	1460;"	d
+TPM_TAG_NV_DATA_SENSITIVE	include/tpm_structures.h	1481;"	d
+TPM_TAG_PCR_INFO_LONG	include/tpm_structures.h	729;"	d
+TPM_TAG_PERMANENT_DATA	include/tpm_structures.h	2157;"	d
+TPM_TAG_PERMANENT_FLAGS	include/tpm_structures.h	2051;"	d
+TPM_TAG_QUOTE_INFO2	include/tpm_structures.h	1075;"	d
+TPM_TAG_RQU_AUTH1_COMMAND	include/tpm_structures.h	513;"	d
+TPM_TAG_RQU_AUTH2_COMMAND	include/tpm_structures.h	514;"	d
+TPM_TAG_RQU_COMMAND	include/tpm_structures.h	512;"	d
+TPM_TAG_RSP_AUTH1_COMMAND	include/tpm_structures.h	516;"	d
+TPM_TAG_RSP_AUTH2_COMMAND	include/tpm_structures.h	517;"	d
+TPM_TAG_RSP_COMMAND	include/tpm_structures.h	515;"	d
+TPM_TAG_SIGNINFO	include/tpm_structures.h	422;"	d
+TPM_TAG_STANY_DATA	include/tpm_structures.h	2274;"	d
+TPM_TAG_STANY_FLAGS	include/tpm_structures.h	2101;"	d
+TPM_TAG_STCLEAR_DATA	include/tpm_structures.h	2211;"	d
+TPM_TAG_STCLEAR_FLAGS	include/tpm_structures.h	2086;"	d
+TPM_TAG_STORED_DATA12	include/tpm_structures.h	777;"	d
+TPM_TAG_TRANSPORT_AUTH	include/tpm_structures.h	1252;"	d
+TPM_TAG_TRANSPORT_INTERNAL	include/tpm_structures.h	1209;"	d
+TPM_TAG_TRANSPORT_LOG_IN	include/tpm_structures.h	1225;"	d
+TPM_TAG_TRANSPORT_LOG_OUT	include/tpm_structures.h	1238;"	d
+TPM_TAG_TRANSPORT_PUBLIC	include/tpm_structures.h	1191;"	d
+TPM_TOOMANYCONTEXTS	include/tpm_structures.h	1388;"	d
+TPM_TRANSHANDLE	include/tpm_structures.h	/^typedef UINT32 TPM_TRANSHANDLE;$/;"	t
+TPM_TRANSPORT_ATTRIBUTES	include/tpm_structures.h	/^typedef UINT32 TPM_TRANSPORT_ATTRIBUTES;$/;"	t
+TPM_TRANSPORT_AUTH	include/tpm_structures.h	/^} TPM_TRANSPORT_AUTH;$/;"	t	typeref:struct:tdTPM_TRANSPORT_AUTH
+TPM_TRANSPORT_ENCRYPT	include/tpm_structures.h	1201;"	d
+TPM_TRANSPORT_EXCLUSIVE	include/tpm_structures.h	1203;"	d
+TPM_TRANSPORT_INTERNAL	include/tpm_structures.h	/^} TPM_TRANSPORT_INTERNAL;$/;"	t	typeref:struct:tdTPM_TRANSPORT_INTERNAL
+TPM_TRANSPORT_LOG	include/tpm_structures.h	1202;"	d
+TPM_TRANSPORT_LOG_IN	include/tpm_structures.h	/^} TPM_TRANSPORT_LOG_IN;$/;"	t	typeref:struct:tdTPM_TRANSPORT_LOG_IN
+TPM_TRANSPORT_LOG_OUT	include/tpm_structures.h	/^} TPM_TRANSPORT_LOG_OUT;$/;"	t	typeref:struct:tdTPM_TRANSPORT_LOG_OUT
+TPM_TRANSPORT_NOTEXCLUSIVE	include/tpm_structures.h	1375;"	d
+TPM_TRANSPORT_PUBLIC	include/tpm_structures.h	/^} TPM_TRANSPORT_PUBLIC;$/;"	t	typeref:struct:tdTPM_TRANSPORT_PUBLIC
+TPM_UNPROTECTED_COMMAND	include/tpm_structures.h	524;"	d
+TPM_UNPROTECTED_ORDINAL	include/tpm_structures.h	535;"	d
+TPM_VENDOR_COMMAND	include/tpm_structures.h	526;"	d
+TPM_VERSION	include/tpm_structures.h	/^} TPM_VERSION;$/;"	t	typeref:struct:tdTPM_VERSION
+TPM_VERSION_BYTE	include/tpm_structures.h	/^typedef BYTE   TPM_VERSION_BYTE;$/;"	t
+TPM_Vendor_Specific32	include/tpm_structures.h	90;"	d
+TPM_Vendor_Specific8	include/tpm_structures.h	91;"	d
+TPM_WRITE_LOCKED	include/tpm_structures.h	1362;"	d
+TPM_WRONGPCRVAL	include/tpm_structures.h	1321;"	d
+TPM_WRONG_ENTITYTYPE	include/tpm_structures.h	1334;"	d
+TPMpost	include/tpm_structures.h	/^  BOOL TPMpost;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+TPMpostLock	include/tpm_structures.h	/^  BOOL TPMpostLock;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+TRUE	include/Dongle_CORE.h	15;"	d
+TRUE	include/stuff_inoutbuf.h	11;"	d
+TRUE	include/tpm_structures.h	36;"	d
+TSC_ORD_PhysicalPresence	include/tpm_structures.h	669;"	d
+TSC_ORD_ResetEstablishmentBit	include/tpm_structures.h	670;"	d
+UINT16	include/tpm_structures.h	/^typedef unsigned short UINT16;$/;"	t
+UINT32	include/tpm_structures.h	/^typedef unsigned int UINT32;$/;"	t
+UPDATE_FUNC_CreateFile	include/Dongle_API.h	78;"	d
+UPDATE_FUNC_Deadline	include/Dongle_API.h	85;"	d
+UPDATE_FUNC_DeleteFile	include/Dongle_API.h	80;"	d
+UPDATE_FUNC_DownloadExe	include/Dongle_API.h	83;"	d
+UPDATE_FUNC_FileLic	include/Dongle_API.h	81;"	d
+UPDATE_FUNC_SeedCount	include/Dongle_API.h	82;"	d
+UPDATE_FUNC_UnlockUserPin	include/Dongle_API.h	84;"	d
+UPDATE_FUNC_WriteFile	include/Dongle_API.h	79;"	d
+USB_CLASS_AUDIO	include/usb.h	31;"	d
+USB_CLASS_COMM	include/usb.h	32;"	d
+USB_CLASS_DATA	include/usb.h	38;"	d
+USB_CLASS_HID	include/usb.h	33;"	d
+USB_CLASS_HUB	include/usb.h	37;"	d
+USB_CLASS_MASS_STORAGE	include/usb.h	36;"	d
+USB_CLASS_PER_INTERFACE	include/usb.h	30;"	d
+USB_CLASS_PRINTER	include/usb.h	34;"	d
+USB_CLASS_PTP	include/usb.h	35;"	d
+USB_CLASS_VENDOR_SPEC	include/usb.h	39;"	d
+USB_DT_CONFIG	include/usb.h	45;"	d
+USB_DT_CONFIG_SIZE	include/usb.h	59;"	d
+USB_DT_DEVICE	include/usb.h	44;"	d
+USB_DT_DEVICE_SIZE	include/usb.h	58;"	d
+USB_DT_ENDPOINT	include/usb.h	48;"	d
+USB_DT_ENDPOINT_AUDIO_SIZE	include/usb.h	62;"	d
+USB_DT_ENDPOINT_SIZE	include/usb.h	61;"	d
+USB_DT_HID	include/usb.h	50;"	d
+USB_DT_HUB	include/usb.h	53;"	d
+USB_DT_HUB_NONVAR_SIZE	include/usb.h	63;"	d
+USB_DT_INTERFACE	include/usb.h	47;"	d
+USB_DT_INTERFACE_SIZE	include/usb.h	60;"	d
+USB_DT_PHYSICAL	include/usb.h	52;"	d
+USB_DT_REPORT	include/usb.h	51;"	d
+USB_DT_STRING	include/usb.h	46;"	d
+USB_ENDPOINT_ADDRESS_MASK	include/usb.h	106;"	d
+USB_ENDPOINT_DIR_MASK	include/usb.h	107;"	d
+USB_ENDPOINT_IN	include/usb.h	216;"	d
+USB_ENDPOINT_OUT	include/usb.h	217;"	d
+USB_ENDPOINT_TYPE_BULK	include/usb.h	112;"	d
+USB_ENDPOINT_TYPE_CONTROL	include/usb.h	110;"	d
+USB_ENDPOINT_TYPE_INTERRUPT	include/usb.h	113;"	d
+USB_ENDPOINT_TYPE_ISOCHRONOUS	include/usb.h	111;"	d
+USB_ENDPOINT_TYPE_MASK	include/usb.h	109;"	d
+USB_ERROR_BEGIN	include/usb.h	220;"	d
+USB_LE16_TO_CPU	include/usb.h	229;"	d
+USB_MAXALTSETTING	include/usb.h	134;"	d
+USB_MAXCONFIG	include/usb.h	142;"	d
+USB_MAXENDPOINTS	include/usb.h	91;"	d
+USB_MAXINTERFACES	include/usb.h	116;"	d
+USB_RECIP_DEVICE	include/usb.h	207;"	d
+USB_RECIP_ENDPOINT	include/usb.h	209;"	d
+USB_RECIP_INTERFACE	include/usb.h	208;"	d
+USB_RECIP_OTHER	include/usb.h	210;"	d
+USB_REQ_CLEAR_FEATURE	include/usb.h	189;"	d
+USB_REQ_GET_CONFIGURATION	include/usb.h	196;"	d
+USB_REQ_GET_DESCRIPTOR	include/usb.h	194;"	d
+USB_REQ_GET_INTERFACE	include/usb.h	198;"	d
+USB_REQ_GET_STATUS	include/usb.h	188;"	d
+USB_REQ_SET_ADDRESS	include/usb.h	193;"	d
+USB_REQ_SET_CONFIGURATION	include/usb.h	197;"	d
+USB_REQ_SET_DESCRIPTOR	include/usb.h	195;"	d
+USB_REQ_SET_FEATURE	include/usb.h	191;"	d
+USB_REQ_SET_INTERFACE	include/usb.h	199;"	d
+USB_REQ_SYNCH_FRAME	include/usb.h	200;"	d
+USB_TYPE_CLASS	include/usb.h	203;"	d
+USB_TYPE_RESERVED	include/usb.h	205;"	d
+USB_TYPE_STANDARD	include/usb.h	202;"	d
+USB_TYPE_VENDOR	include/usb.h	204;"	d
+UTPMD_COMMAND_TIMEOUT	utpmd/utpmd.c	19;"	d	file:
+UTPMD_NAME	utpmd/utpmd.c	16;"	d	file:
+UTPMD_SOCKET	utpmd/utpmd.c	17;"	d	file:
+UTPM_REQUEST_LENGHT	utpmd/utpmd.c	20;"	d	file:
+UpdatePacket	include/Dongle_CORE.h	/^}UpdatePacket;$/;"	t	typeref:struct:__anon26
+WELL_KNOWN_SECRET	include/tpm_functions.h	7;"	d
+WORD	include/Dongle_API.h	/^typedef unsigned short      WORD;$/;"	t
+WRITE	include/tpm_data.h	17;"	d
+XCoordinate	include/Dongle_API.h	/^	unsigned int XCoordinate[8];          \/\/ 曲线上点的X坐标$/;"	m	struct:__anon3
+YCoordinate	include/Dongle_API.h	/^	unsigned int YCoordinate[8];          \/\/ 曲线上点的Y坐标$/;"	m	struct:__anon3
+_HMAC_H_	include/hmac.h	18;"	d
+_ROCKEY_APIS_H	utpmd/rockey_apis.h	2;"	d
+_SHA1_H_	include/sha1.h	18;"	d
+_STUFF_INOUTBUF_H	include/stuff_inoutbuf.h	2;"	d
+_TPM_DATA_H_	include/tpm_data.h	2;"	d
+_TPM_FUNTIONS_H	include/tpm_functions.h	2;"	d
+_TPM_HANDLES_	include/tpm_handles.h	18;"	d
+_TPM_MARSHALLING_H_	include/tpm_marshalling.h	18;"	d
+_TPM_STRUCTURES_H_	include/tpm_structures.h	19;"	d
+_UTILS_H	include/utils.h	2;"	d
+__DONGLE_CORE_HEADER_H	include/Dongle_CORE.h	6;"	d
+__DONGLE_HEADER_H	include/Dongle_API.h	6;"	d
+__USB_H__	include/usb.h	12;"	d
+actionAtThreshold	include/tpm_structures.h	/^  TPM_DA_ACTION_TYPE actionAtThreshold;$/;"	m	struct:tdTPM_DA_INFO
+actionAtThreshold	include/tpm_structures.h	/^  TPM_DA_ACTION_TYPE actionAtThreshold;$/;"	m	struct:tdTPM_DA_INFO_LIMITED
+actionDependValue	include/tpm_structures.h	/^  UINT32 actionDependValue;$/;"	m	struct:tdTPM_DA_INFO
+actions	include/tpm_structures.h	/^  UINT32 actions;$/;"	m	struct:tdTPM_DA_ACTION_TYPE
+additionalArea	include/tpm_structures.h	/^  BYTE* additionalArea;$/;"	m	struct:tdTPM_DELEGATE_KEY_BLOB
+additionalArea	include/tpm_structures.h	/^  BYTE* additionalArea;$/;"	m	struct:tdTPM_DELEGATE_OWNER_BLOB
+additionalData	include/tpm_structures.h	/^  BYTE* additionalData;$/;"	m	struct:tdTPM_CONTEXT_BLOB
+additionalData	include/tpm_structures.h	/^  BYTE* additionalData;$/;"	m	struct:tdTPM_DAA_BLOB
+additionalSize	include/tpm_structures.h	/^  UINT32 additionalSize;$/;"	m	struct:tdTPM_CONTEXT_BLOB
+additionalSize	include/tpm_structures.h	/^  UINT32 additionalSize;$/;"	m	struct:tdTPM_DAA_BLOB
+additionalSize	include/tpm_structures.h	/^  UINT32 additionalSize;$/;"	m	struct:tdTPM_DELEGATE_KEY_BLOB
+additionalSize	include/tpm_structures.h	/^  UINT32 additionalSize;$/;"	m	struct:tdTPM_DELEGATE_OWNER_BLOB
+algID	include/tpm_structures.h	/^  TPM_ALGORITHM_ID algID;$/;"	m	struct:tdTPM_TRANSPORT_PUBLIC
+algId	include/tpm_structures.h	/^  TPM_ALGORITHM_ID algId;$/;"	m	struct:tdTPM_SYMMETRIC_KEY
+algorithmID	include/tpm_structures.h	/^  TPM_ALGORITHM_ID algorithmID;$/;"	m	struct:tdTPM_KEY_PARMS
+algorithmParms	include/tpm_structures.h	/^  TPM_KEY_PARMS algorithmParms;$/;"	m	struct:tdTPM_CERTIFY_INFO
+algorithmParms	include/tpm_structures.h	/^  TPM_KEY_PARMS algorithmParms;$/;"	m	struct:tdTPM_KEY
+algorithmParms	include/tpm_structures.h	/^  TPM_KEY_PARMS algorithmParms;$/;"	m	struct:tdTPM_PUBKEY
+allowMaintenance	include/tpm_structures.h	/^  BOOL allowMaintenance;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+altsetting	include/usb.h	/^	struct usb_interface_descriptor *altsetting;$/;"	m	struct:usb_interface	typeref:struct:usb_interface::usb_interface_descriptor
+attributes	include/tpm_structures.h	/^  UINT32 attributes;$/;"	m	struct:tdTPM_NV_ATTRIBUTES
+auditCount	include/tpm_structures.h	/^  TPM_COUNTER_VALUE auditCount;$/;"	m	struct:tdTPM_AUDIT_EVENT_IN
+auditCount	include/tpm_structures.h	/^  TPM_COUNTER_VALUE auditCount;$/;"	m	struct:tdTPM_AUDIT_EVENT_OUT
+auditDigest	include/tpm_structures.h	/^  TPM_DIGEST auditDigest;$/;"	m	struct:tdTPM_STANY_DATA
+auditMonotonicCounter	include/tpm_structures.h	/^  TPM_ACTUAL_COUNT auditMonotonicCounter;$/;"	m	struct:tdTPM_PERMANENT_DATA
+auditSession	include/tpm_structures.h	/^  BOOL auditSession;$/;"	m	struct:tdTPM_STANY_DATA
+auth	include/tpm_structures.h	/^  TPM_AUTHDATA auth;$/;"	m	struct:tdTPM_AUTH
+auth1	include/tpm_structures.h	/^  TPM_AUTH *auth1;$/;"	m	struct:tdTPM_RESPONSE
+auth1	include/tpm_structures.h	/^  TPM_AUTH auth1;$/;"	m	struct:tdTPM_REQUEST
+auth2	include/tpm_structures.h	/^  TPM_AUTH *auth2;$/;"	m	struct:tdTPM_RESPONSE
+auth2	include/tpm_structures.h	/^  TPM_AUTH auth2;$/;"	m	struct:tdTPM_REQUEST
+authData	include/tpm_structures.h	/^  TPM_AUTHDATA authData;$/;"	m	struct:tdTPM_TRANSPORT_AUTH
+authData	include/tpm_structures.h	/^  TPM_AUTHDATA authData;$/;"	m	struct:tdTPM_TRANSPORT_INTERNAL
+authData	include/tpm_structures.h	/^  TPM_SECRET authData;$/;"	m	struct:tdTPM_SEALED_DATA
+authDataUsage	include/tpm_structures.h	/^  TPM_AUTH_DATA_USAGE authDataUsage;$/;"	m	struct:tdTPM_CERTIFY_INFO
+authDataUsage	include/tpm_structures.h	/^  TPM_AUTH_DATA_USAGE authDataUsage;$/;"	m	struct:tdTPM_KEY
+authDataUsage	include/tpm_structures.h	/^  TPM_AUTH_DATA_USAGE authDataUsage;$/;"	m	struct:tdTPM_KEY_DATA
+authHandle	include/tpm_structures.h	/^  TPM_AUTHHANDLE authHandle;$/;"	m	struct:tdTPM_AUTH
+authValue	include/tpm_structures.h	/^  TPM_AUTHDATA authValue;$/;"	m	struct:tdTPM_NV_DATA_SENSITIVE
+authValue	include/tpm_structures.h	/^  TPM_SECRET authValue;$/;"	m	struct:tdTPM_DELEGATE_SENSITIVE
+authValue	include/tpm_structures.h	/^  TPM_SECRET authValue;$/;"	m	struct:tdTPM_DELEGATE_TABLE_ROW
+authValue	include/tpm_structures.h	/^  TPM_SECRET authValue;$/;"	m	struct:tdTPM_EK_BLOB_AUTH
+bAlternateSetting	include/usb.h	/^	u_int8_t  bAlternateSetting;$/;"	m	struct:usb_interface_descriptor
+bConfigurationValue	include/usb.h	/^	u_int8_t  bConfigurationValue;$/;"	m	struct:usb_config_descriptor
+bCountryCode	include/usb.h	/^	u_int8_t  bCountryCode;$/;"	m	struct:usb_hid_descriptor
+bDescriptorType	include/usb.h	/^	u_int8_t  bDescriptorType;$/;"	m	struct:usb_config_descriptor
+bDescriptorType	include/usb.h	/^	u_int8_t  bDescriptorType;$/;"	m	struct:usb_descriptor_header
+bDescriptorType	include/usb.h	/^	u_int8_t  bDescriptorType;$/;"	m	struct:usb_device_descriptor
+bDescriptorType	include/usb.h	/^	u_int8_t  bDescriptorType;$/;"	m	struct:usb_endpoint_descriptor
+bDescriptorType	include/usb.h	/^	u_int8_t  bDescriptorType;$/;"	m	struct:usb_hid_descriptor
+bDescriptorType	include/usb.h	/^	u_int8_t  bDescriptorType;$/;"	m	struct:usb_interface_descriptor
+bDescriptorType	include/usb.h	/^	u_int8_t  bDescriptorType;$/;"	m	struct:usb_string_descriptor
+bDeviceClass	include/usb.h	/^	u_int8_t  bDeviceClass;$/;"	m	struct:usb_device_descriptor
+bDeviceProtocol	include/usb.h	/^	u_int8_t  bDeviceProtocol;$/;"	m	struct:usb_device_descriptor
+bDeviceSubClass	include/usb.h	/^	u_int8_t  bDeviceSubClass;$/;"	m	struct:usb_device_descriptor
+bEndpointAddress	include/usb.h	/^	u_int8_t  bEndpointAddress;$/;"	m	struct:usb_endpoint_descriptor
+bGlobalLock	include/tpm_structures.h	/^  BOOL bGlobalLock;$/;"	m	struct:tdTPM_STCLEAR_FLAGS
+bInterfaceClass	include/usb.h	/^	u_int8_t  bInterfaceClass;$/;"	m	struct:usb_interface_descriptor
+bInterfaceNumber	include/usb.h	/^	u_int8_t  bInterfaceNumber;$/;"	m	struct:usb_interface_descriptor
+bInterfaceProtocol	include/usb.h	/^	u_int8_t  bInterfaceProtocol;$/;"	m	struct:usb_interface_descriptor
+bInterfaceSubClass	include/usb.h	/^	u_int8_t  bInterfaceSubClass;$/;"	m	struct:usb_interface_descriptor
+bInterval	include/usb.h	/^	u_int8_t  bInterval;$/;"	m	struct:usb_endpoint_descriptor
+bLength	include/usb.h	/^	u_int8_t  bLength;$/;"	m	struct:usb_config_descriptor
+bLength	include/usb.h	/^	u_int8_t  bLength;$/;"	m	struct:usb_descriptor_header
+bLength	include/usb.h	/^	u_int8_t  bLength;$/;"	m	struct:usb_device_descriptor
+bLength	include/usb.h	/^	u_int8_t  bLength;$/;"	m	struct:usb_endpoint_descriptor
+bLength	include/usb.h	/^	u_int8_t  bLength;$/;"	m	struct:usb_hid_descriptor
+bLength	include/usb.h	/^	u_int8_t  bLength;$/;"	m	struct:usb_interface_descriptor
+bLength	include/usb.h	/^	u_int8_t  bLength;$/;"	m	struct:usb_string_descriptor
+bMaxPacketSize0	include/usb.h	/^	u_int8_t  bMaxPacketSize0;$/;"	m	struct:usb_device_descriptor
+bNumConfigurations	include/usb.h	/^	u_int8_t  bNumConfigurations;$/;"	m	struct:usb_device_descriptor
+bNumDescriptors	include/usb.h	/^	u_int8_t  bNumDescriptors;$/;"	m	struct:usb_hid_descriptor
+bNumEndpoints	include/usb.h	/^	u_int8_t  bNumEndpoints;$/;"	m	struct:usb_interface_descriptor
+bNumInterfaces	include/usb.h	/^	u_int8_t  bNumInterfaces;$/;"	m	struct:usb_config_descriptor
+bReadSTClear	include/tpm_structures.h	/^  BOOL bReadSTClear;$/;"	m	struct:tdTPM_NV_DATA_PUBLIC
+bRefresh	include/usb.h	/^	u_int8_t  bRefresh;$/;"	m	struct:usb_endpoint_descriptor
+bRequest	include/usb.h	/^	u_int8_t  bRequest;$/;"	m	struct:usb_ctrl_setup
+bRequestType	include/usb.h	/^	u_int8_t  bRequestType;$/;"	m	struct:usb_ctrl_setup
+bSynchAddress	include/usb.h	/^	u_int8_t  bSynchAddress;$/;"	m	struct:usb_endpoint_descriptor
+bWriteDefine	include/tpm_structures.h	/^  BOOL bWriteDefine;$/;"	m	struct:tdTPM_NV_DATA_PUBLIC
+bWriteSTClear	include/tpm_structures.h	/^  BOOL bWriteSTClear;$/;"	m	struct:tdTPM_NV_DATA_PUBLIC
+bcdDevice	include/usb.h	/^	u_int16_t bcdDevice;$/;"	m	struct:usb_device_descriptor
+bcdHID	include/usb.h	/^	u_int16_t bcdHID;$/;"	m	struct:usb_hid_descriptor
+bcdUSB	include/usb.h	/^	u_int16_t bcdUSB;$/;"	m	struct:usb_device_descriptor
+bits	include/Dongle_API.h	/^	unsigned int  bits;                   \/\/ length in bits of modulus$/;"	m	struct:__anon1
+bits	include/Dongle_API.h	/^	unsigned int  bits;                   \/\/ length in bits of modulus$/;"	m	struct:__anon2
+bits	include/Dongle_API.h	/^	unsigned int bits;                    \/\/ length in bits of modulus$/;"	m	struct:__anon3
+bits	include/Dongle_API.h	/^	unsigned int bits;                    \/\/ length in bits of modulus$/;"	m	struct:__anon4
+blob	include/tpm_structures.h	/^  BYTE* blob;$/;"	m	struct:tdTPM_EK_BLOB
+blobIntegrity	include/tpm_structures.h	/^  TPM_DIGEST blobIntegrity;$/;"	m	struct:tdTPM_DAA_BLOB
+blobSize	include/tpm_structures.h	/^  UINT32 blobSize;$/;"	m	struct:tdTPM_EK_BLOB
+blockSize	include/tpm_structures.h	/^  UINT32 blockSize;$/;"	m	struct:tdTPM_SYMMETRIC_KEY_PARMS
+bmAttributes	include/usb.h	/^	u_int8_t  bmAttributes;$/;"	m	struct:usb_config_descriptor
+bmAttributes	include/usb.h	/^	u_int8_t  bmAttributes;$/;"	m	struct:usb_endpoint_descriptor
+buf	include/sha1.h	/^  uint8_t buf[64];$/;"	m	struct:__anon39
+buffer	include/Dongle_CORE.h	/^	BYTE		buffer[MAX_PACKET_SIZE - APDU_COMMAND_SIZE];$/;"	m	struct:__anon32
+bus	include/usb.h	/^  struct usb_bus *bus;$/;"	m	struct:usb_device	typeref:struct:usb_device::usb_bus
+change_admin_pin	utpmd/rockey_apis.c	/^DWORD change_admin_pin(BYTE *oldPin, BYTE *newPin) {$/;"	f
+children	include/usb.h	/^  struct usb_device **children;$/;"	m	struct:usb_device	typeref:struct:usb_device::usb_device
+cla	include/Dongle_CORE.h	/^	BYTE		cla;$/;"	m	struct:__anon32
+client_socket_prefix	tpm_functions.c	/^const char *client_socket_prefix = "\/var\/tmp\/";$/;"	v
+cmd_durations	include/tpm_structures.h	/^  UINT32 cmd_durations[TPM_NUM_CMD_DURATIONS];$/;"	m	struct:tdTPM_PERMANENT_DATA
+compute_auth_data	utils.c	/^void compute_auth_data(TPM_AUTH *auth) {$/;"	f
+compute_in_parm_digest	utils.c	/^void compute_in_parm_digest(BYTE *digest, TPM_COMMAND_CODE ordinal, BYTE *ptr, UINT32 length) {$/;"	f
+compute_shared_secret	utils.c	/^void compute_shared_secret(TPM_SECRET secret, TPM_NONCE *nonceEvenOSAP, TPM_NONCE *nonceOddOSAP, TPM_SECRET sharedSecret) {$/;"	f
+config	include/usb.h	/^  struct usb_config_descriptor *config;$/;"	m	struct:usb_device	typeref:struct:usb_device::usb_config_descriptor
+connect_utpmd	tpm_functions.c	/^int connect_utpmd() {$/;"	f
+contextCount	include/tpm_structures.h	/^  UINT32 contextCount;$/;"	m	struct:tdTPM_CONTEXT_BLOB
+contextCount	include/tpm_structures.h	/^  UINT32 contextCount;$/;"	m	struct:tdTPM_STANY_DATA
+contextKey	include/tpm_structures.h	/^  BYTE contextKey[TPM_SYM_KEY_SIZE];$/;"	m	struct:tdTPM_PERMANENT_DATA
+contextList	include/tpm_structures.h	/^  UINT32 contextList[TPM_MAX_SESSION_LIST];$/;"	m	struct:tdTPM_STANY_DATA
+contextNonce	include/tpm_structures.h	/^  TPM_NONCE contextNonce;$/;"	m	struct:tdTPM_CONTEXT_SENSITIVE
+contextNonceKey	include/tpm_structures.h	/^  TPM_NONCE contextNonceKey;$/;"	m	struct:tdTPM_STCLEAR_DATA
+contextNonceSession	include/tpm_structures.h	/^  TPM_NONCE contextNonceSession;$/;"	m	struct:tdTPM_STANY_DATA
+continueAuthSession	include/tpm_structures.h	/^  BOOL continueAuthSession;$/;"	m	struct:tdTPM_AUTH
+countID	include/tpm_structures.h	/^  TPM_COUNT_ID countID;$/;"	m	struct:tdTPM_STCLEAR_DATA
+count_hi	include/sha1.h	/^  uint32_t count_lo, count_hi;$/;"	m	struct:__anon39
+count_lo	include/sha1.h	/^  uint32_t count_lo, count_hi;$/;"	m	struct:__anon39
+counter	include/tpm_structures.h	/^  TPM_ACTUAL_COUNT counter;$/;"	m	struct:tdTPM_COUNTER_VALUE
+counters	include/tpm_structures.h	/^  TPM_COUNTER_VALUE counters[TPM_MAX_COUNTERS];$/;"	m	struct:tdTPM_PERMANENT_DATA
+create_tpm_context	tpm_functions.c	/^TPM_RESULT create_tpm_context() {$/;"	f
+creationPCRSelection	include/tpm_structures.h	/^  TPM_PCR_SELECTION creationPCRSelection;$/;"	m	struct:tdTPM_PCR_INFO
+ctx	include/hmac.h	/^  tpm_sha1_ctx_t ctx;$/;"	m	struct:__anon38
+currentCount	include/tpm_structures.h	/^  UINT16 currentCount;$/;"	m	struct:tdTPM_DA_INFO
+currentDAA	include/tpm_structures.h	/^  TPM_DAAHANDLE currentDAA;$/;"	m	struct:tdTPM_STANY_DATA
+currentTicks	include/tpm_structures.h	/^  TPM_CURRENT_TICKS currentTicks;$/;"	m	struct:tdTPM_STANY_DATA
+currentTicks	include/tpm_structures.h	/^  TPM_CURRENT_TICKS currentTicks;$/;"	m	struct:tdTPM_TRANSPORT_LOG_OUT
+currentTicks	include/tpm_structures.h	/^  UINT32 currentTicks;$/;"	m	struct:tdTPM_CURRENT_TICKS
+custom	include/Dongle_CORE.h	/^	unsigned char      custom[4];$/;"	m	struct:ET_Device_Descript
+daaKey	include/tpm_structures.h	/^  BYTE daaKey[TPM_SYM_KEY_SIZE];$/;"	m	struct:tdTPM_PERMANENT_DATA
+daaProof	include/tpm_structures.h	/^  TPM_NONCE daaProof;$/;"	m	struct:tdTPM_PERMANENT_DATA
+daemonize	utpmd/utpmd.c	/^static void daemonize(void) {$/;"	f	file:
+data	include/tpm_structures.h	/^    TPM_PERMANENT_DATA data;$/;"	m	struct:tdTPM_DATA::__anon41
+data	include/tpm_structures.h	/^    TPM_STANY_DATA data;$/;"	m	struct:tdTPM_DATA::__anon43
+data	include/tpm_structures.h	/^    TPM_STCLEAR_DATA data;$/;"	m	struct:tdTPM_DATA::__anon42
+data	include/tpm_structures.h	/^  BYTE* data;$/;"	m	struct:tdTPM_SEALED_DATA
+data	include/tpm_structures.h	/^  BYTE* data;$/;"	m	struct:tdTPM_SIGN_INFO
+data	include/tpm_structures.h	/^  BYTE* data;$/;"	m	struct:tdTPM_SYMMETRIC_KEY
+data	include/tpm_structures.h	/^  TPM_NONCE data;$/;"	m	struct:tdTPM_CERTIFY_INFO
+dataIndex	include/tpm_structures.h	/^  UINT32 dataIndex;$/;"	m	struct:tdTPM_NV_DATA_SENSITIVE
+dataLen	include/tpm_structures.h	/^  UINT32 dataLen;$/;"	m	struct:tdTPM_SIGN_INFO
+dataSaved	include/tpm_structures.h	/^  BOOL dataSaved;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+dataSize	include/tpm_structures.h	/^  UINT32 dataSize;$/;"	m	struct:tdTPM_NV_DATA_PUBLIC
+dataSize	include/tpm_structures.h	/^  UINT32 dataSize;$/;"	m	struct:tdTPM_SEALED_DATA
+deactivated	include/tpm_structures.h	/^  BOOL deactivated;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+deactivated	include/tpm_structures.h	/^  BOOL deactivated;$/;"	m	struct:tdTPM_STCLEAR_FLAGS
+decrypt_with_pubkey	utpmd/rockey_apis.c	/^DWORD decrypt_with_pubkey(RSA_PUBLIC_KEY *pubkey, BYTE *input, DWORD inputSize, BYTE *output, DWORD *outputSize) {$/;"	f
+deferredPhysicalPresence	include/tpm_structures.h	/^  UINT32 deferredPhysicalPresence;$/;"	m	struct:tdTPM_STCLEAR_DATA
+delRow	include/tpm_structures.h	/^  TPM_DELEGATE_TABLE_ROW delRow[TPM_NUM_DELEGATE_TABLE_ENTRY];$/;"	m	struct:tdTPM_DELEGATE_TABLE
+delegateKey	include/tpm_structures.h	/^  BYTE delegateKey[TPM_SYM_KEY_SIZE];$/;"	m	struct:tdTPM_PERMANENT_DATA
+delegateTable	include/tpm_structures.h	/^  TPM_DELEGATE_TABLE delegateTable;$/;"	m	struct:tdTPM_PERMANENT_DATA
+delegateType	include/tpm_structures.h	/^  UINT32 delegateType;$/;"	m	struct:tdTPM_DELEGATIONS
+descriptor	include/usb.h	/^  struct usb_device_descriptor descriptor;$/;"	m	struct:usb_device	typeref:struct:usb_device::usb_device_descriptor
+destinationKeyDigest	include/tpm_structures.h	/^  TPM_DIGEST destinationKeyDigest;$/;"	m	struct:tdTPM_CMK_AUTH
+dev	include/Dongle_CORE.h	/^	struct usb_device*  dev;$/;"	m	struct:ET_Device_Descript	typeref:struct:ET_Device_Descript::usb_device
+dev	include/Dongle_CORE.h	/^	struct usb_device*  dev;$/;"	m	struct:__anon35	typeref:struct:__anon35::usb_device
+dev	include/usb.h	/^  void *dev;		\/* Darwin support *\/$/;"	m	struct:usb_device
+device_handle	include/Dongle_CORE.h	/^	usb_dev_handle*	device_handle;$/;"	m	struct:ET_Device_Descript
+device_path	include/Dongle_CORE.h	/^	char	  device_path[256];$/;"	m	struct:ET_Device_Descript
+devices	include/usb.h	/^  struct usb_device *devices;$/;"	m	struct:usb_bus	typeref:struct:usb_bus::usb_device
+devnum	include/usb.h	/^  u_int8_t devnum;$/;"	m	struct:usb_device
+digest	include/tpm_structures.h	/^  BYTE digest[20];$/;"	m	struct:tdTPM_AUTH
+digest	include/tpm_structures.h	/^  BYTE digest[20];$/;"	m	struct:tdTPM_DIGEST
+digest	include/tpm_structures.h	/^  TPM_DIGEST digest;$/;"	m	struct:tdTPM_MIGRATIONKEYAUTH
+digestAtCreation	include/tpm_structures.h	/^  TPM_COMPOSITE_HASH digestAtCreation;$/;"	m	struct:tdTPM_PCR_INFO
+digestAtRelease	include/tpm_structures.h	/^  TPM_COMPOSITE_HASH digestAtRelease;$/;"	m	struct:tdTPM_PCR_INFO
+digestAtRelease	include/tpm_structures.h	/^  TPM_COMPOSITE_HASH digestAtRelease;$/;"	m	struct:tdTPM_PCR_INFO_SHORT
+digestValue	include/tpm_structures.h	/^  TPM_COMPOSITE_HASH digestValue;$/;"	m	struct:tdTPM_QUOTE_INFO
+dirname	include/usb.h	/^  char dirname[PATH_MAX + 1];$/;"	m	struct:usb_bus
+disable	include/tpm_structures.h	/^  BOOL disable;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+disableForceClear	include/tpm_structures.h	/^  BOOL disableForceClear;$/;"	m	struct:tdTPM_STCLEAR_FLAGS
+disableFullDALogicInfo	include/tpm_structures.h	/^  BOOL disableFullDALogicInfo;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+disableOwnerClear	include/tpm_structures.h	/^  BOOL disableOwnerClear;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+disableResetLock	include/tpm_structures.h	/^  BOOL disableResetLock;$/;"	m	struct:tdTPM_STCLEAR_DATA
+disconnect_utpmd	tpm_functions.c	/^int disconnect_utpmd() {$/;"	f
+download_bin_file	utpmd/rockey_apis.c	/^DWORD download_bin_file(char *path) {$/;"	f
+ekFileid	include/tpm_structures.h	/^  UINT16 ekFileid;$/;"	m	struct:tdTPM_PERMANENT_DATA
+ekReset	include/tpm_structures.h	/^  TPM_NONCE ekReset;$/;"	m	struct:tdTPM_PERMANENT_DATA
+ekType	include/tpm_structures.h	/^  TPM_EK_TYPE ekType;$/;"	m	struct:tdTPM_EK_BLOB
+enableRevokeEK	include/tpm_structures.h	/^  BOOL enableRevokeEK;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+encData	include/tpm_structures.h	/^  BYTE* encData;$/;"	m	struct:tdTPM_KEY
+encData	include/tpm_structures.h	/^  BYTE* encData;$/;"	m	struct:tdTPM_STORED_DATA
+encDataSize	include/tpm_structures.h	/^  UINT32 encDataSize;$/;"	m	struct:tdTPM_KEY
+encDataSize	include/tpm_structures.h	/^  UINT32 encDataSize;$/;"	m	struct:tdTPM_STORED_DATA
+encScheme	include/tpm_structures.h	/^  TPM_ENC_SCHEME encScheme;$/;"	m	struct:tdTPM_KEY_DATA
+encScheme	include/tpm_structures.h	/^  TPM_ENC_SCHEME encScheme;$/;"	m	struct:tdTPM_KEY_PARMS
+encScheme	include/tpm_structures.h	/^  TPM_ENC_SCHEME encScheme;$/;"	m	struct:tdTPM_PUBKEY_DATA
+encScheme	include/tpm_structures.h	/^  TPM_ENC_SCHEME encScheme;$/;"	m	struct:tdTPM_SYMMETRIC_KEY
+encScheme	include/tpm_structures.h	/^  TPM_ENC_SCHEME encScheme;$/;"	m	struct:tdTPM_TRANSPORT_PUBLIC
+encrypt_with_pubkey	utpmd/rockey_apis.c	/^DWORD encrypt_with_pubkey(RSA_PUBLIC_KEY *pubkey, BYTE *input, DWORD inputSize, BYTE *output, DWORD *outputSize) {$/;"	f
+endpoint	include/usb.h	/^	struct usb_endpoint_descriptor *endpoint;$/;"	m	struct:usb_interface_descriptor	typeref:struct:usb_interface_descriptor::usb_endpoint_descriptor
+entityType	include/tpm_structures.h	/^  TPM_ENTITY_TYPE entityType;$/;"	m	struct:tdTPM_SESSION_DATA
+errataRev	include/tpm_structures.h	/^  BYTE errataRev;$/;"	m	struct:tdTPM_CAP_VERSION_INFO
+error_code	include/Dongle_CORE.h	/^	unsigned int error_code;$/;"	m	struct:__anon36
+et	include/tpm_structures.h	/^  TPM_ENTITY_TYPE et;$/;"	m	struct:tdTPM_STORED_DATA
+exponent	include/Dongle_API.h	/^	unsigned char exponent[256];          \/\/ private exponent$/;"	m	struct:__anon2
+exponent	include/Dongle_API.h	/^	unsigned char exponent[256];          \/\/ public exponent$/;"	m	struct:__anon1
+exponent	include/tpm_structures.h	/^  BYTE* exponent;$/;"	m	struct:tdTPM_RSA_KEY_PARMS
+exponentSize	include/tpm_structures.h	/^  UINT32 exponentSize;$/;"	m	struct:tdTPM_RSA_KEY_PARMS
+externalData	include/tpm_structures.h	/^  TPM_NONCE externalData;$/;"	m	struct:tdTPM_QUOTE_INFO
+externalData	include/tpm_structures.h	/^  TPM_NONCE externalData;$/;"	m	struct:tdTPM_QUOTE_INFO2
+extra	include/usb.h	/^	unsigned char *extra;	\/* Extra descriptors *\/$/;"	m	struct:usb_config_descriptor
+extra	include/usb.h	/^	unsigned char *extra;	\/* Extra descriptors *\/$/;"	m	struct:usb_endpoint_descriptor
+extra	include/usb.h	/^	unsigned char *extra;	\/* Extra descriptors *\/$/;"	m	struct:usb_interface_descriptor
+extralen	include/usb.h	/^	int extralen;$/;"	m	struct:usb_config_descriptor
+extralen	include/usb.h	/^	int extralen;$/;"	m	struct:usb_endpoint_descriptor
+extralen	include/usb.h	/^	int extralen;$/;"	m	struct:usb_interface_descriptor
+famRow	include/tpm_structures.h	/^  TPM_FAMILY_TABLE_ENTRY famRow[TPM_NUM_FAMILY_TABLE_ENTRY];$/;"	m	struct:tdTPM_FAMILY_TABLE
+familyID	include/tpm_structures.h	/^  TPM_FAMILY_ID familyID;$/;"	m	struct:tdTPM_DELEGATE_PUBLIC
+familyID	include/tpm_structures.h	/^  TPM_FAMILY_ID familyID;$/;"	m	struct:tdTPM_FAMILY_TABLE_ENTRY
+familyID	include/tpm_structures.h	/^  TPM_FAMILY_ID familyID;$/;"	m	struct:tdTPM_SESSION_DATA
+familyLabel	include/tpm_structures.h	/^  TPM_FAMILY_LABEL familyLabel;$/;"	m	struct:tdTPM_FAMILY_TABLE_ENTRY
+familyTable	include/tpm_structures.h	/^  TPM_FAMILY_TABLE familyTable;$/;"	m	struct:tdTPM_PERMANENT_DATA
+filename	include/usb.h	/^  char filename[PATH_MAX + 1];$/;"	m	struct:usb_device
+fill	include/tpm_structures.h	/^  BYTE fill;$/;"	m	struct:tdTPM_CERTIFY_INFO
+fill	include/tpm_structures.h	/^  UINT16 fill;$/;"	m	struct:tdTPM_KEY
+fixed	include/tpm_structures.h	/^  BYTE fixed[4];$/;"	m	struct:tdTPM_QUOTE_INFO
+fixed	include/tpm_structures.h	/^  BYTE fixed[4];$/;"	m	struct:tdTPM_QUOTE_INFO2
+fixed	include/tpm_structures.h	/^  BYTE fixed[4];$/;"	m	struct:tdTPM_SIGN_INFO
+flags	include/tpm_structures.h	/^    TPM_PERMANENT_FLAGS flags;$/;"	m	struct:tdTPM_DATA::__anon41
+flags	include/tpm_structures.h	/^    TPM_STANY_FLAGS flags;$/;"	m	struct:tdTPM_DATA::__anon43
+flags	include/tpm_structures.h	/^    TPM_STCLEAR_FLAGS flags;$/;"	m	struct:tdTPM_DATA::__anon42
+flags	include/tpm_structures.h	/^  TPM_FAMILY_FLAGS flags;$/;"	m	struct:tdTPM_FAMILY_TABLE_ENTRY
+free_TPM_CERTIFY_INFO	include/tpm_structures.h	1055;"	d
+free_TPM_KEY	include/tpm_structures.h	928;"	d
+free_TPM_KEY_PARMS	include/tpm_structures.h	882;"	d
+free_TPM_PUBKEY	include/tpm_structures.h	941;"	d
+free_TPM_RSA_KEY_PARMS	include/tpm_structures.h	849;"	d
+free_TPM_STORE_PUBKEY	include/tpm_structures.h	900;"	d
+free_TPM_SYMMETRIC_KEY	include/tpm_structures.h	818;"	d
+free_TPM_SYMMETRIC_KEY_PARMS	include/tpm_structures.h	863;"	d
+get_flush_info	stuff_inoutbuf.c	/^int get_flush_info(TPM_RESULT *res) {$/;"	f
+get_in_param_offset	utils.c	/^UINT32 get_in_param_offset(TPM_COMMAND_CODE ordinal)$/;"	f
+get_loadkey_info	stuff_inoutbuf.c	/^int get_loadkey_info($/;"	f
+get_oiap_info	stuff_inoutbuf.c	/^int get_oiap_info($/;"	f
+get_osap_info	stuff_inoutbuf.c	/^int get_osap_info($/;"	f
+get_ownership_info	stuff_inoutbuf.c	/^int get_ownership_info(TPM_RESULT *res) {$/;"	f
+get_random	utpmd/rockey_apis.c	/^DWORD get_random(BYTE *buf, DWORD size) {$/;"	f
+get_sign_info	stuff_inoutbuf.c	/^int get_sign_info($/;"	f
+get_unbind_info	stuff_inoutbuf.c	/^int get_unbind_info($/;"	f
+get_uniquekey	utpmd/rockey_apis.c	/^DWORD get_uniquekey(BYTE *adminPIN) {$/;"	f
+get_wrappedkey_info	stuff_inoutbuf.c	/^int get_wrappedkey_info(TPM_RESULT *res, TPM_KEY *wrappedKey) {$/;"	f
+h	include/sha1.h	/^  uint32_t h[5];$/;"	m	struct:__anon39
+handle	include/Dongle_CORE.h	/^	HANDLE				    handle;			 \/\/打开后的设备真正的hid的句柄$/;"	m	struct:__anon34
+handle	include/Dongle_CORE.h	/^	HANDLE			handle;		    \/\/打开后的设备真正的ccid的句柄$/;"	m	struct:__anon33
+handle	include/tpm_structures.h	/^  TPM_HANDLE handle;$/;"	m	struct:tdTPM_CONTEXT_BLOB
+handle	include/tpm_structures.h	/^  TPM_HANDLE handle;$/;"	m	struct:tdTPM_DAA_SESSION_DATA
+handle	include/tpm_structures.h	/^  TPM_HANDLE handle;$/;"	m	struct:tdTPM_SESSION_DATA
+handle	include/tpm_structures.h	/^  TPM_KEY_HANDLE *handle;$/;"	m	struct:tdTPM_KEY_HANDLE_LIST
+handle_command	utpmd/command_handler.c	/^int handle_command(unsigned char *in, int in_size, unsigned char *out, int *out_size) {$/;"	f
+iConfiguration	include/usb.h	/^	u_int8_t  iConfiguration;$/;"	m	struct:usb_config_descriptor
+iInterface	include/usb.h	/^	u_int8_t  iInterface;$/;"	m	struct:usb_interface_descriptor
+iManufacturer	include/usb.h	/^	u_int8_t  iManufacturer;$/;"	m	struct:usb_device_descriptor
+iProduct	include/usb.h	/^	u_int8_t  iProduct;$/;"	m	struct:usb_device_descriptor
+iSerialNumber	include/usb.h	/^	u_int8_t  iSerialNumber;$/;"	m	struct:usb_device_descriptor
+id	include/Dongle_CORE.h	/^	BYTE id;$/;"	m	struct:__anon30
+idDigest	include/tpm_structures.h	/^  TPM_DIGEST idDigest;$/;"	m	struct:tdTPM_ASYM_CA_CONTENTS
+idDigest	include/tpm_structures.h	/^  TPM_DIGEST idDigest;$/;"	m	struct:tdTPM_EK_BLOB_ACTIVATE
+idProduct	include/usb.h	/^	u_int16_t idProduct;$/;"	m	struct:usb_device_descriptor
+idVendor	include/usb.h	/^	u_int16_t idVendor;$/;"	m	struct:usb_device_descriptor
+identityPubKey	include/tpm_structures.h	/^  TPM_PUBKEY identityPubKey;$/;"	m	struct:tdTPM_IDENTITY_CONTENTS
+in	include/Dongle_CORE.h	/^	unsigned int in;$/;"	m	struct:Endpoint
+infoShort	include/tpm_structures.h	/^  TPM_PCR_INFO_SHORT infoShort;$/;"	m	struct:tdTPM_QUOTE_INFO2
+init_rockey	management/management.c	/^int init_rockey(char *admin_pin, char *bin_path, char *owner_secret, char *srk_secret) {$/;"	f
+init_signal_handler	utpmd/utpmd.c	/^static void init_signal_handler(void) {$/;"	f	file:
+init_socket	utpmd/utpmd.c	/^static int init_socket(const char *name) {$/;"	f	file:
+inputParms	include/tpm_structures.h	/^  TPM_DIGEST inputParms;$/;"	m	struct:tdTPM_AUDIT_EVENT_IN
+ins	include/Dongle_CORE.h	/^	BYTE		ins;$/;"	m	struct:__anon32
+integrityDigest	include/tpm_structures.h	/^  TPM_DIGEST integrityDigest;$/;"	m	struct:tdTPM_CONTEXT_BLOB
+integrityDigest	include/tpm_structures.h	/^  TPM_DIGEST integrityDigest;$/;"	m	struct:tdTPM_DELEGATE_KEY_BLOB
+integrityDigest	include/tpm_structures.h	/^  TPM_DIGEST integrityDigest;$/;"	m	struct:tdTPM_DELEGATE_OWNER_BLOB
+interface	include/usb.h	/^	struct usb_interface *interface;$/;"	m	struct:usb_config_descriptor	typeref:struct:usb_config_descriptor::usb_interface
+internalData	include/tpm_structures.h	/^  BYTE* internalData;$/;"	m	struct:tdTPM_DAA_SENSITIVE
+internalData	include/tpm_structures.h	/^  } internalData;$/;"	m	struct:tdTPM_CONTEXT_SENSITIVE	typeref:union:tdTPM_CONTEXT_SENSITIVE::__anon44
+internalSize	include/tpm_structures.h	/^  UINT32 internalSize;$/;"	m	struct:tdTPM_CONTEXT_SENSITIVE
+internalSize	include/tpm_structures.h	/^  UINT32 internalSize;$/;"	m	struct:tdTPM_DAA_SENSITIVE
+ivSize	include/tpm_structures.h	/^  UINT32 ivSize;$/;"	m	struct:tdTPM_SYMMETRIC_KEY_PARMS
+k_opad	include/hmac.h	/^  uint8_t k_opad[HMAC_PAD_LENGTH];$/;"	m	struct:__anon38
+key	include/Dongle_CORE.h	/^	BYTE					key[16];		 \/\/通讯密钥	$/;"	m	struct:__anon34
+key	include/Dongle_CORE.h	/^	BYTE					key[16];		\/\/通讯密钥$/;"	m	struct:__anon33
+key	include/Dongle_CORE.h	/^	unsigned char      key[8];$/;"	m	struct:ET_Device_Descript
+key	include/tpm_structures.h	/^    TPM_KEY_DATA key;$/;"	m	union:tdTPM_CONTEXT_SENSITIVE::__anon44
+key	include/tpm_structures.h	/^  BYTE* key;$/;"	m	struct:tdTPM_STORE_PRIVKEY
+key	include/tpm_structures.h	/^  BYTE* key;$/;"	m	struct:tdTPM_STORE_PUBKEY
+keyControl	include/tpm_structures.h	/^  TPM_KEY_CONTROL keyControl;$/;"	m	struct:tdTPM_KEY_DATA
+keyFileid	include/tpm_structures.h	/^  UINT16 keyFileid;$/;"	m	struct:tdTPM_KEY_DATA
+keyFlags	include/tpm_structures.h	/^  TPM_KEY_FLAGS keyFlags;$/;"	m	struct:tdTPM_CERTIFY_INFO
+keyFlags	include/tpm_structures.h	/^  TPM_KEY_FLAGS keyFlags;$/;"	m	struct:tdTPM_KEY
+keyFlags	include/tpm_structures.h	/^  TPM_KEY_FLAGS keyFlags;$/;"	m	struct:tdTPM_KEY_DATA
+keyLength	include/tpm_structures.h	/^  UINT32 keyLength;$/;"	m	struct:tdTPM_RSA_KEY_PARMS
+keyLength	include/tpm_structures.h	/^  UINT32 keyLength;$/;"	m	struct:tdTPM_STORE_PRIVKEY
+keyLength	include/tpm_structures.h	/^  UINT32 keyLength;$/;"	m	struct:tdTPM_STORE_PUBKEY
+keyLength	include/tpm_structures.h	/^  UINT32 keyLength;$/;"	m	struct:tdTPM_SYMMETRIC_KEY_PARMS
+keyUsage	include/tpm_structures.h	/^  TPM_KEY_USAGE keyUsage;$/;"	m	struct:tdTPM_CERTIFY_INFO
+keyUsage	include/tpm_structures.h	/^  TPM_KEY_USAGE keyUsage;$/;"	m	struct:tdTPM_KEY
+keyUsage	include/tpm_structures.h	/^  TPM_KEY_USAGE keyUsage;$/;"	m	struct:tdTPM_KEY_DATA
+key_fileid	include/tpm_structures.h	/^  UINT16 key_fileid;$/;"	m	struct:tdTPM_PUBKEY_DATA
+keys	include/tpm_structures.h	/^  TPM_KEY_DATA keys[TPM_MAX_KEYS];$/;"	m	struct:tdTPM_PERMANENT_DATA
+label	include/tpm_structures.h	/^  BYTE label;$/;"	m	struct:tdTPM_DELEGATE_LABEL
+label	include/tpm_structures.h	/^  BYTE label;$/;"	m	struct:tdTPM_FAMILY_LABEL
+label	include/tpm_structures.h	/^  BYTE label[16];$/;"	m	struct:tdTPM_CONTEXT_BLOB
+label	include/tpm_structures.h	/^  BYTE label[16];$/;"	m	struct:tdTPM_DAA_BLOB
+label	include/tpm_structures.h	/^  BYTE label[4];$/;"	m	struct:tdTPM_COUNTER_VALUE
+labelPrivCADigest	include/tpm_structures.h	/^  TPM_CHOSENID_HASH labelPrivCADigest;$/;"	m	struct:tdTPM_IDENTITY_CONTENTS
+lastFamilyID	include/tpm_structures.h	/^  UINT32 lastFamilyID;$/;"	m	struct:tdTPM_PERMANENT_DATA
+lastNonceEven	include/tpm_structures.h	/^  TPM_NONCE lastNonceEven;$/;"	m	struct:tdTPM_SESSION_DATA
+len	include/Dongle_CORE.h	/^	WORD		len;$/;"	m	struct:__anon32
+loaded	include/tpm_structures.h	/^  UINT16 loaded;$/;"	m	struct:tdTPM_KEY_HANDLE_LIST
+locality	include/tpm_structures.h	/^  TPM_MODIFIER_INDICATOR locality;$/;"	m	struct:tdTPM_TRANSPORT_LOG_OUT
+localityAtCreation	include/tpm_structures.h	/^  TPM_LOCALITY_SELECTION localityAtCreation;$/;"	m	struct:tdTPM_PCR_INFO
+localityAtRelease	include/tpm_structures.h	/^  TPM_LOCALITY_SELECTION localityAtRelease;$/;"	m	struct:tdTPM_PCR_INFO
+localityAtRelease	include/tpm_structures.h	/^  TPM_LOCALITY_SELECTION localityAtRelease;$/;"	m	struct:tdTPM_PCR_INFO_SHORT
+localityModifier	include/tpm_structures.h	/^  TPM_MODIFIER_INDICATOR localityModifier;$/;"	m	struct:tdTPM_STANY_FLAGS
+location	include/usb.h	/^  u_int32_t location;$/;"	m	struct:usb_bus
+m_AdminTryCount	include/Dongle_API.h	/^	BYTE   m_AdminTryCount;           \/\/开发商密码允许的最大错误重试次数$/;"	m	struct:__anon19
+m_AdminTryCount	include/Dongle_CORE.h	/^	BYTE   m_AdminTryCount;           \/\/管理员密码允许的最大错误重试次数$/;"	m	struct:__anon27
+m_Agent	include/Dongle_API.h	/^	unsigned int    m_Agent;             \/\/代理商编号,比如:默认的0xFFFFFFFF$/;"	m	struct:__anon5
+m_AgentID	include/Dongle_CORE.h	/^	unsigned int   m_AgentID;       \/\/ 代理商ID$/;"	m	struct:__anon37
+m_BirthDay	include/Dongle_API.h	/^	unsigned char   m_BirthDay[8];       \/\/出厂日期 $/;"	m	struct:__anon5
+m_BirthDay	include/Dongle_CORE.h	/^	unsigned char   m_BirthDay[8];   \/\/ 出厂日期$/;"	m	struct:__anon37
+m_CRC32	include/Dongle_CORE.h	/^	unsigned int   m_CRC32;      \/\/扩展数据区的明文数据CRC$/;"	m	struct:__anon25
+m_CommKey	include/Dongle_CORE.h	/^	unsigned char   m_CommKey[8];        \/\/通讯密钥$/;"	m	struct:__anon23
+m_CosPswd	include/Dongle_CORE.h	/^    unsigned char   m_CosPswd[8];    \/\/ 清COS密码$/;"	m	struct:__anon37
+m_Count	include/Dongle_API.h	/^	int           m_Count;        \/\/可调次数: 0xFFFFFFFF表示不限制, 递减到0表示已不可调用$/;"	m	struct:__anon7
+m_Count	include/Dongle_API.h	/^	unsigned int      m_Count;                \/\/可产生子锁初始化数据的次数 (-1表示不限制次数, 递减到0时会受限)$/;"	m	struct:__anon20
+m_Count	include/Dongle_CORE.h	/^	int      m_Count;                 \/\/可产生子锁初始化数据的次数 (-1表示不限制次数, 递减到0时会受限)$/;"	m	struct:__anon28
+m_Data	include/Dongle_CORE.h	/^	unsigned char   m_Data[896];  \/\/扩展数据区 (仅用于UPDATE_FUNC_WriteFile功能)$/;"	m	struct:__anon26
+m_DevPath	include/Dongle_CORE.h	/^	char              m_DevPath[MAX_PATH];   \/\/设备路径$/;"	m	struct:__anon35
+m_DevType	include/Dongle_API.h	/^    unsigned int    m_DevType;           \/\/设备类型(PROTOCOL_HID或者PROTOCOL_CCID)$/;"	m	struct:__anon5
+m_FILEID	include/Dongle_API.h	/^	unsigned short    m_FILEID;  \/\/文件ID$/;"	m	struct:__anon14
+m_FILEID	include/Dongle_API.h	/^	unsigned short    m_FILEID;  \/\/文件ID$/;"	m	struct:__anon15
+m_FILEID	include/Dongle_API.h	/^	unsigned short  m_FILEID;    \/\/文件ID$/;"	m	struct:__anon17
+m_FILEID	include/Dongle_API.h	/^    unsigned short    m_FILEID;  \/\/文件ID$/;"	m	struct:__anon16
+m_FILEID	include/Dongle_CORE.h	/^	unsigned short  m_FILEID;    \/\/文件ID$/;"	m	struct:__anon29
+m_Flag	include/Dongle_CORE.h	/^	unsigned int   m_Flag;              \/\/全0标志$/;"	m	struct:__anon23
+m_HID	include/Dongle_API.h	/^	unsigned char   m_HID[8];            \/\/8字节的硬件ID$/;"	m	struct:__anon5
+m_HID	include/Dongle_CORE.h	/^	unsigned char   m_HID[8];     \/\/此升级包对应的硬件ID, FFFFFFFFFFFFFFFF表示不限制硬件ID$/;"	m	struct:__anon25
+m_Handle	include/Dongle_CORE.h	/^	usb_dev_handle*   m_Handle;              \/\/打开后的CCID句柄$/;"	m	struct:__anon35
+m_HardwareType	include/Dongle_CORE.h	/^	unsigned int   m_HardwareType;	 \/\/ 0xFF表示标准版, 0x00为时钟锁,0x01为带时钟的U盘锁,0x02为标准U盘锁$/;"	m	struct:__anon37
+m_Header	include/Dongle_CORE.h	/^    HeaderPacket    m_Header;     \/\/头部 128字节$/;"	m	struct:__anon26
+m_HidHandle	include/Dongle_CORE.h	/^	usb_dev_handle*	  m_HidHandle;			\/\/打开后的HID句柄$/;"	m	struct:__anon35
+m_HwSerial	include/Dongle_CORE.h	/^	unsigned char   m_HwSerial[8];   \/\/ 硬件ID$/;"	m	struct:__anon37
+m_IsDecOnRAM	include/Dongle_API.h	/^	unsigned char  m_IsDecOnRAM;   \/\/是否是在内存中递减: 1为在内存中递减，0为在FLASH中递减$/;"	m	struct:__anon7
+m_IsMother	include/Dongle_API.h	/^	unsigned int    m_IsMother;          \/\/母锁标志: 0x01表示是母锁, 0x00表示不是母锁$/;"	m	struct:__anon5
+m_IsReset	include/Dongle_API.h	/^	unsigned char  m_IsReset;      \/\/用户态调用后是否自动回到匿名态: TRUE为调后回到匿名态 (开发商态不受此限制)$/;"	m	struct:__anon7
+m_KI	include/Dongle_CORE.h	/^	DONGLE_INFO     m_KI;                \/\/加密锁信息$/;"	m	struct:__anon23
+m_KeyInfo	include/Dongle_CORE.h	/^	DONGLE_INFO       m_KeyInfo;             \/\/KEY的信息$/;"	m	struct:__anon35
+m_Len	include/Dongle_API.h	/^	unsigned short  m_Len;        \/\/文件长度$/;"	m	struct:__anon13
+m_Len	include/Dongle_CORE.h	/^	unsigned short  m_Len;       \/\/文件长度$/;"	m	struct:__anon29
+m_Lic	include/Dongle_API.h	/^	DATA_LIC         m_Lic;       \/\/授权$/;"	m	struct:__anon10
+m_Lic	include/Dongle_API.h	/^	EXE_LIC         m_Lic;        \/\/授权	$/;"	m	struct:__anon13
+m_Lic	include/Dongle_API.h	/^	KEY_LIC        m_Lic;        \/\/授权$/;"	m	struct:__anon12
+m_Lic	include/Dongle_API.h	/^	PRIKEY_LIC      m_Lic;        \/\/授权$/;"	m	struct:__anon11
+m_ManufactName	include/Dongle_CORE.h	/^	char   m_ManufactName[128];$/;"	m	struct:__anon31
+m_NewPin	include/Dongle_CORE.h	/^	unsigned char	m_NewPin[MAX_PINLEN+4]; \/\/加4是为了可直接0终止字串进行比较,无需再拷出来$/;"	m	struct:__anon22
+m_NewPinLen	include/Dongle_CORE.h	/^	unsigned char	m_NewPinLen;            \/\/新密码长度$/;"	m	struct:__anon22
+m_Offset	include/Dongle_CORE.h	/^	unsigned short  m_Offset;    \/\/偏移地址$/;"	m	struct:__anon29
+m_OldPin	include/Dongle_CORE.h	/^	unsigned char	m_OldPin[MAX_PINLEN+4]; \/\/加4是为了可直接0终止字串进行比较,无需再拷出来$/;"	m	struct:__anon22
+m_OldPinLen	include/Dongle_CORE.h	/^	unsigned char	m_OldPinLen;            \/\/旧密码长度$/;"	m	struct:__anon22
+m_PATH	include/Dongle_CORE.h	/^	char   m_PATH[MAX_PATH];$/;"	m	struct:__anon31
+m_PID	include/Dongle_API.h	/^	unsigned int    m_PID;               \/\/产品ID$/;"	m	struct:__anon5
+m_PID	include/Dongle_CORE.h	/^	WORD   m_PID;$/;"	m	struct:__anon31
+m_PID_CCID	include/Dongle_CORE.h	/^	unsigned short  m_PID_CCID;		 \/\/ USB CCID设备的PID (刚下完的COS中默认值为0x020A)$/;"	m	struct:__anon37
+m_PID_HID	include/Dongle_CORE.h	/^	unsigned short  m_PID_HID;		 \/\/ USB  HID设备的PID (刚下完的COS中默认值为0x0209)$/;"	m	struct:__anon37
+m_Pri_dd	include/Dongle_CORE.h	/^	unsigned char   m_Pri_dd[128];   \/\/ 通讯私钥d$/;"	m	struct:__anon37
+m_Pri_nn	include/Dongle_CORE.h	/^	unsigned char   m_Pri_nn[128];   \/\/ 通讯公钥n$/;"	m	struct:__anon37
+m_Priv	include/Dongle_API.h	/^	unsigned char   m_Priv;             \/\/调用权限: 0为最小匿名权限，1为最小用户权限，2为最小开发商权限$/;"	m	struct:__anon18
+m_Priv	include/Dongle_API.h	/^	unsigned char  m_Priv;         \/\/调用权限: 0为最小匿名权限，1为最小用户权限，2为最小开发商权限$/;"	m	struct:__anon7
+m_Priv	include/Dongle_CORE.h	/^	unsigned short  m_Priv;      \/\/调用权限: 0为最小匿名权限  1为最小用户权限  2为最小管理员权限$/;"	m	struct:__anon29
+m_Priv_Enc	include/Dongle_API.h	/^	unsigned int  m_Priv_Enc;   \/\/加密时的调用权限: 0为最小匿名权限，1为最小用户权限，2为最小开发商权限$/;"	m	struct:__anon8
+m_Priv_Exe	include/Dongle_API.h	/^	unsigned short  m_Priv_Exe;   \/\/运行的权限: 0为最小匿名权限，1为最小用户权限，2为最小开发商权限$/;"	m	struct:__anon9
+m_ProductName	include/Dongle_CORE.h	/^	char   m_ProductName[128];$/;"	m	struct:__anon31
+m_Random	include/Dongle_CORE.h	/^	unsigned char   m_Random[64];        \/\/随机数$/;"	m	struct:__anon23
+m_Read_Priv	include/Dongle_API.h	/^	unsigned short  m_Read_Priv;     \/\/读权限: 0为最小匿名权限，1为最小用户权限，2为最小开发商权限$/;"	m	struct:__anon6
+m_RealTime	include/Dongle_CORE.h	/^	unsigned int   m_RealTime;      \/\/ 当前实时钟,用于设置锁内实时钟$/;"	m	struct:__anon37
+m_Reserve	include/Dongle_API.h	/^	unsigned char  m_Reserve;      \/\/保留,用于4字节对齐$/;"	m	struct:__anon7
+m_Reserve	include/Dongle_API.h	/^	unsigned short    m_Reserve; \/\/保留,用于4字节对齐$/;"	m	struct:__anon14
+m_Reserve	include/Dongle_API.h	/^	unsigned short    m_Reserve; \/\/保留,用于4字节对齐$/;"	m	struct:__anon15
+m_Reserve	include/Dongle_API.h	/^	unsigned short    m_Reserve; \/\/保留,用于4字节对齐$/;"	m	struct:__anon16
+m_Reserve	include/Dongle_API.h	/^	unsigned short  m_Reserve;  \/\/保留,用于4字节对齐$/;"	m	struct:__anon17
+m_Reserve	include/Dongle_CORE.h	/^	BYTE      m_Reserve[12];           \/\/保留,用于16字节对齐$/;"	m	struct:__anon28
+m_SeedForPID	include/Dongle_API.h	/^	BYTE   m_SeedForPID[256];         \/\/产生产品ID和开发商密码的种子码 (最长250个字节)$/;"	m	struct:__anon19
+m_SeedForPID	include/Dongle_CORE.h	/^	BYTE   m_SeedForPID[256];         \/\/产生产品ID和管理员密码的种子码 (最长250个字节)$/;"	m	struct:__anon27
+m_SeedLen	include/Dongle_API.h	/^	int    m_SeedLen;                 \/\/种子码长度$/;"	m	struct:__anon19
+m_SeedLen	include/Dongle_CORE.h	/^	unsigned int  m_SeedLen;                 \/\/种子码长度$/;"	m	struct:__anon27
+m_SerialNumber	include/Dongle_CORE.h	/^	char   m_SerialNumber[128];$/;"	m	struct:__anon31
+m_Size	include/Dongle_API.h	/^	unsigned int    m_Size;      \/\/数据文件长度，该值最大为4096$/;"	m	struct:__anon10
+m_Size	include/Dongle_API.h	/^	unsigned int  m_Size;       \/\/密钥数据长度=16$/;"	m	struct:__anon12
+m_Size	include/Dongle_API.h	/^	unsigned short  m_Size;       \/\/数据长度:RSA该值为1024或2048, ECC该值为192或256, SM2该值为0x8100$/;"	m	struct:__anon11
+m_Son	include/Dongle_API.h	/^	SON_DATA  m_Son;                  \/\/子锁初始化数据$/;"	m	struct:__anon20
+m_Son	include/Dongle_CORE.h	/^	COS_SON_DATA  m_Son;               \/\/子锁初始化数据$/;"	m	struct:__anon28
+m_TryCount	include/Dongle_CORE.h	/^	unsigned short  m_TryCount;             \/\/允许的重试次数 (取值范围为1-255, 其中255表示无限制)$/;"	m	struct:__anon22
+m_Type	include/Dongle_API.h	/^	unsigned short  m_Type;              \/\/产品类型: 0xFF表示标准版, 0x00为标准时钟锁,0x02为标准U盘锁  $/;"	m	struct:__anon5
+m_Type	include/Dongle_API.h	/^	unsigned short  m_Type;       \/\/数据类型:ECCSM2私钥 或 RSA私钥$/;"	m	struct:__anon11
+m_Type	include/Dongle_CORE.h	/^	WORD              m_Type;                \/\/设备协议类型$/;"	m	struct:__anon35
+m_UTC	include/Dongle_CORE.h	/^	unsigned int   m_UTC;        \/\/此升级包的时间戳$/;"	m	struct:__anon25
+m_UpdatePriKey	include/Dongle_API.h	/^	RSA_PRIVATE_KEY m_UpdatePriKey;   \/\/远程升级私钥$/;"	m	struct:__anon19
+m_UpdatePriKey	include/Dongle_CORE.h	/^	BYTE   m_UpdatePriKey[4+128+128]; \/\/远程升级私钥 (pke(4字节)+私钥dd（128字节)+公钥nn(128字节))$/;"	m	struct:__anon27
+m_UserID	include/Dongle_API.h	/^	unsigned int    m_UserID;            \/\/用户ID$/;"	m	struct:__anon5
+m_UserID	include/Dongle_CORE.h	/^	unsigned int  m_UserID;                  \/\/用户ID$/;"	m	struct:__anon27
+m_UserID_Start	include/Dongle_API.h	/^	unsigned int  m_UserID_Start;            \/\/起始用户ID$/;"	m	struct:__anon19
+m_UserPIN	include/Dongle_API.h	/^	char   m_UserPIN[18];             \/\/用户密码(16个字符的0终止字符串)$/;"	m	struct:__anon19
+m_UserPIN	include/Dongle_CORE.h	/^	char   m_UserPIN[18];             \/\/用户密码(16个字符的0终止字符串)$/;"	m	struct:__anon27
+m_UserTryCount	include/Dongle_API.h	/^	BYTE   m_UserTryCount;            \/\/用户密码允许的最大错误重试次数$/;"	m	struct:__anon19
+m_UserTryCount	include/Dongle_CORE.h	/^	BYTE   m_UserTryCount;            \/\/用户密码允许的最大错误重试次数$/;"	m	struct:__anon27
+m_VER	include/Dongle_CORE.h	/^	WORD   m_VER;$/;"	m	struct:__anon31
+m_VID	include/Dongle_CORE.h	/^	WORD   m_VID;$/;"	m	struct:__anon31
+m_Ver	include/Dongle_API.h	/^	unsigned short  m_Ver;               \/\/COS版本,比如:0x0201,表示2.01版 $/;"	m	struct:__anon5
+m_Write_Priv	include/Dongle_API.h	/^	unsigned short  m_Write_Priv;    \/\/写权限: 0为最小匿名权限，1为最小用户权限，2为最小开发商权限$/;"	m	struct:__anon6
+m_attr	include/Dongle_API.h	/^	DATA_FILE_ATTR    m_attr;    \/\/文件属性$/;"	m	struct:__anon16
+m_attr	include/Dongle_API.h	/^	EXE_FILE_ATTR   m_attr;$/;"	m	struct:__anon17
+m_attr	include/Dongle_API.h	/^    KEY_FILE_ATTR     m_attr;    \/\/文件属性$/;"	m	struct:__anon15
+m_attr	include/Dongle_API.h	/^    PRIKEY_FILE_ATTR  m_attr;    \/\/文件属性$/;"	m	struct:__anon14
+m_data	include/Dongle_CORE.h	/^	unsigned char   m_data[80];   \/\/头部自带数据块$/;"	m	struct:__anon25
+m_dirid	include/Dongle_CORE.h	/^	 unsigned short  m_dirid;                                        \/\/文件夹ID$/;"	m	struct:__anon21
+m_dwSize	include/Dongle_API.h	/^	unsigned short  m_dwSize;           \/\/可执行文件大小$/;"	m	struct:__anon18
+m_fchild	include/Dongle_CORE.h	/^	unsigned short  m_fchild;     \/\/子功能号:  0擦除  1数据  2地址表$/;"	m	struct:__anon25
+m_fileid	include/Dongle_CORE.h	/^	unsigned short  m_fileid;     \/\/文件ID$/;"	m	struct:__anon25
+m_flag	include/Dongle_CORE.h	/^	unsigned int   m_flag;       \/\/升级包的合法性标志位(RSA解密完后,此标志必须为0,表示此升级包合法)	$/;"	m	struct:__anon25
+m_ftype	include/Dongle_CORE.h	/^	unsigned short  m_ftype;      \/\/文件类型,比如: FILE_PRIKEY$/;"	m	struct:__anon25
+m_func	include/Dongle_CORE.h	/^	unsigned short  m_func;       \/\/此升级包的功能号$/;"	m	struct:__anon25
+m_handle	include/Dongle_CORE.h	/^	HANDLE m_handle;$/;"	m	struct:__anon31
+m_key	include/Dongle_CORE.h	/^	unsigned char   m_key[16];    \/\/解密扩展数据的RC4密钥$/;"	m	struct:__anon25
+m_len	include/Dongle_CORE.h	/^	unsigned short  m_len;        \/\/写文件时的长度 (仅用于UPDATE_FUNC_WriteFile功能)$/;"	m	struct:__anon25
+m_len	include/Dongle_CORE.h	/^     unsigned short  m_len;                                          \/\/访问长度$/;"	m	struct:__anon21
+m_offset	include/Dongle_CORE.h	/^	unsigned short  m_offset;     \/\/写文件时的偏移 (仅用于UPDATE_FUNC_WriteFile功能)$/;"	m	struct:__anon25
+m_offset	include/Dongle_CORE.h	/^     unsigned short  m_offset;                                       \/\/偏移地址$/;"	m	struct:__anon21
+m_pData	include/Dongle_API.h	/^	unsigned char  *m_pData;            \/\/可执行文件数据$/;"	m	struct:__anon18
+m_wFileID	include/Dongle_API.h	/^	unsigned short  m_wFileID;          \/\/可执行文件ID$/;"	m	struct:__anon18
+main	test.c	/^int main() {$/;"	f
+main	utpmd/utpmd.c	/^int main(int argc, char **argv) {$/;"	f
+main_loop	utpmd/utpmd.c	/^static void main_loop(void) {$/;"	f	file:
+maintenanceDone	include/tpm_structures.h	/^  BOOL maintenanceDone;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+major	include/tpm_structures.h	/^  BYTE major;$/;"	m	struct:tdTPM_SELECT_SIZE
+major	include/tpm_structures.h	/^  BYTE major;$/;"	m	struct:tdTPM_STRUCT_VER
+major	include/tpm_structures.h	/^  TPM_VERSION_BYTE major;$/;"	m	struct:tdTPM_VERSION
+manuMaintPub	include/tpm_structures.h	/^  TPM_PUBKEY_DATA manuMaintPub;$/;"	m	struct:tdTPM_PERMANENT_DATA
+maxNVBufSize	include/tpm_structures.h	/^  UINT32 maxNVBufSize;$/;"	m	struct:tdTPM_PERMANENT_DATA
+migAuthDigest	include/tpm_structures.h	/^  TPM_DIGEST migAuthDigest[MAX_MSA_COMPOSITE_ENTRIES];$/;"	m	struct:tdTPM_MSA_COMPOSITE
+migrationAuth	include/tpm_structures.h	/^  TPM_SECRET migrationAuth;$/;"	m	struct:tdTPM_KEY_DATA
+migrationAuth	include/tpm_structures.h	/^  TPM_SECRET migrationAuth;$/;"	m	struct:tdTPM_STORE_ASYMKEY
+migrationAuthority	include/tpm_structures.h	/^  BYTE* migrationAuthority;$/;"	m	struct:tdTPM_CERTIFY_INFO
+migrationAuthorityDigest	include/tpm_structures.h	/^  TPM_DIGEST migrationAuthorityDigest;$/;"	m	struct:tdTPM_CMK_AUTH
+migrationAuthorityDigest	include/tpm_structures.h	/^  TPM_DIGEST migrationAuthorityDigest;$/;"	m	struct:tdTPM_CMK_MA_APPROVAL
+migrationAuthoritySize	include/tpm_structures.h	/^  UINT32 migrationAuthoritySize;$/;"	m	struct:tdTPM_CERTIFY_INFO
+migrationKey	include/tpm_structures.h	/^  TPM_PUBKEY migrationKey;$/;"	m	struct:tdTPM_MIGRATIONKEYAUTH
+migrationScheme	include/tpm_structures.h	/^  TPM_MIGRATE_SCHEME migrationScheme;$/;"	m	struct:tdTPM_MIGRATIONKEYAUTH
+minor	include/tpm_structures.h	/^  BYTE minor;$/;"	m	struct:tdTPM_SELECT_SIZE
+minor	include/tpm_structures.h	/^  BYTE minor;$/;"	m	struct:tdTPM_STRUCT_VER
+minor	include/tpm_structures.h	/^  TPM_VERSION_BYTE minor;$/;"	m	struct:tdTPM_VERSION
+modulus	include/Dongle_API.h	/^	unsigned int  modulus;				  \/\/ modulus$/;"	m	struct:__anon1
+modulus	include/Dongle_API.h	/^	unsigned int  modulus;                \/\/ modulus$/;"	m	struct:__anon2
+msaDigest	include/tpm_structures.h	/^  TPM_DIGEST msaDigest;$/;"	m	struct:tdTPM_CMK_MIGAUTH
+n1	include/tpm_structures.h	/^  TPM_NONCE n1;$/;"	m	struct:tdTPM_CHANGEAUTH_VALIDATE
+newAuthSecret	include/tpm_structures.h	/^  TPM_SECRET newAuthSecret;$/;"	m	struct:tdTPM_CHANGEAUTH_VALIDATE
+next	include/usb.h	/^  struct usb_bus *next, *prev;$/;"	m	struct:usb_bus	typeref:struct:usb_bus::usb_bus
+next	include/usb.h	/^  struct usb_device *next, *prev;$/;"	m	struct:usb_device	typeref:struct:usb_device::usb_device
+noOwnerNVWrite	include/tpm_structures.h	/^  UINT32 noOwnerNVWrite;$/;"	m	struct:tdTPM_PERMANENT_DATA
+nonce	include/tpm_structures.h	/^  BYTE nonce[20];$/;"	m	struct:tdTPM_NONCE
+nonceEven	include/tpm_structures.h	/^  TPM_NONCE nonceEven;$/;"	m	struct:tdTPM_AUTH
+nonceEven	include/tpm_structures.h	/^  TPM_NONCE nonceEven;$/;"	m	struct:tdTPM_SESSION_DATA
+nonceOdd	include/tpm_structures.h	/^  TPM_NONCE nonceOdd;$/;"	m	struct:tdTPM_AUTH
+numPrimes	include/tpm_structures.h	/^  UINT32 numPrimes;$/;"	m	struct:tdTPM_RSA_KEY_PARMS
+num_altsetting	include/usb.h	/^	int num_altsetting;$/;"	m	struct:usb_interface
+num_children	include/usb.h	/^  unsigned char num_children;$/;"	m	struct:usb_device
+nvData	include/tpm_structures.h	/^  BYTE nvData[TPM_MAX_NV_SIZE];$/;"	m	struct:tdTPM_PERMANENT_DATA
+nvDataSize	include/tpm_structures.h	/^  UINT32 nvDataSize;$/;"	m	struct:tdTPM_PERMANENT_DATA
+nvIndex	include/tpm_structures.h	/^  TPM_NV_INDEX nvIndex;$/;"	m	struct:tdTPM_NV_DATA_PUBLIC
+nvLocked	include/tpm_structures.h	/^  BOOL nvLocked;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+nvStorage	include/tpm_structures.h	/^  TPM_NV_DATA_SENSITIVE nvStorage[TPM_MAX_NVS];$/;"	m	struct:tdTPM_PERMANENT_DATA
+open_oiap_session	tpm_functions.c	/^TPM_RESULT open_oiap_session($/;"	f
+open_rockey	utpmd/rockey_apis.c	/^DWORD open_rockey(BYTE isPriv, BYTE *pin) {$/;"	f
+operator	include/tpm_structures.h	/^  BOOL operator;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+operatorAuth	include/tpm_structures.h	/^  TPM_SECRET operatorAuth;$/;"	m	struct:tdTPM_PERMANENT_DATA
+ordinal	include/tpm_structures.h	/^  TPM_COMMAND_CODE ordinal;$/;"	m	struct:tdTPM_AUTH
+ordinal	include/tpm_structures.h	/^  TPM_COMMAND_CODE ordinal;$/;"	m	struct:tdTPM_REQUEST
+ordinal	include/tpm_structures.h	/^  UINT32 ordinal;$/;"	m	struct:tdTPM_IDENTITY_CONTENTS
+ordinalAuditStatus	include/tpm_structures.h	/^  BYTE ordinalAuditStatus[TPM_ORD_MAX \/ 8];$/;"	m	struct:tdTPM_PERMANENT_DATA
+out	include/Dongle_CORE.h	/^	unsigned int out;$/;"	m	struct:Endpoint
+outputParms	include/tpm_structures.h	/^  TPM_DIGEST outputParms;$/;"	m	struct:tdTPM_AUDIT_EVENT_OUT
+owned	include/tpm_structures.h	/^  BOOL owned;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+ownerAuth	include/tpm_structures.h	/^  TPM_SECRET ownerAuth;$/;"	m	struct:tdTPM_PERMANENT_DATA
+ownerReference	include/tpm_structures.h	/^  UINT32 ownerReference;$/;"	m	struct:tdTPM_STCLEAR_DATA
+ownership	include/tpm_structures.h	/^  BOOL ownership;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+p1	include/Dongle_CORE.h	/^	WORD		p1;$/;"	m	struct:__anon32
+p2	include/Dongle_CORE.h	/^	WORD		p2;$/;"	m	struct:__anon32
+pAPDUEx	include/Dongle_CORE.h	/^} APDUEx, *pAPDUEx;$/;"	t	typeref:struct:__anon32
+paddr	include/Dongle_CORE.h	/^	DONGLE_HANDLE*          paddr;           \/\/句柄地址$/;"	m	struct:__anon34
+paddr	include/Dongle_CORE.h	/^	DONGLE_HANDLE*          paddr;          \/\/句柄地址$/;"	m	struct:__anon33
+param	include/tpm_structures.h	/^  BYTE *param;$/;"	m	struct:tdTPM_REQUEST
+param	include/tpm_structures.h	/^  BYTE *param;$/;"	m	struct:tdTPM_RESPONSE
+paramSize	include/tpm_structures.h	/^  UINT32 paramSize;$/;"	m	struct:tdTPM_REQUEST
+paramSize	include/tpm_structures.h	/^  UINT32 paramSize;$/;"	m	struct:tdTPM_RESPONSE
+parameters	include/tpm_structures.h	/^  TPM_DIGEST parameters;$/;"	m	struct:tdTPM_TRANSPORT_LOG_IN
+parameters	include/tpm_structures.h	/^  TPM_DIGEST parameters;$/;"	m	struct:tdTPM_TRANSPORT_LOG_OUT
+parentPCRStatus	include/tpm_structures.h	/^  BOOL parentPCRStatus;$/;"	m	struct:tdTPM_CERTIFY_INFO
+parentPCRStatus	include/tpm_structures.h	/^  BOOL parentPCRStatus;$/;"	m	struct:tdTPM_KEY_DATA
+parmSize	include/tpm_structures.h	/^  UINT32 parmSize;$/;"	m	struct:tdTPM_KEY_PARMS
+parms	include/tpm_structures.h	/^  } parms;$/;"	m	struct:tdTPM_KEY_PARMS	typeref:union:tdTPM_KEY_PARMS::__anon40
+partPrivKey	include/tpm_structures.h	/^  BYTE *partPrivKey;$/;"	m	struct:tdTPM_MIGRATE_ASYMKEY
+partPrivKeyLen	include/tpm_structures.h	/^  UINT32 partPrivKeyLen;$/;"	m	struct:tdTPM_MIGRATE_ASYMKEY
+payload	include/tpm_structures.h	/^  TPM_PAYLOAD_TYPE payload;$/;"	m	struct:tdTPM_BOUND_DATA
+payload	include/tpm_structures.h	/^  TPM_PAYLOAD_TYPE payload;$/;"	m	struct:tdTPM_KEY_DATA
+payload	include/tpm_structures.h	/^  TPM_PAYLOAD_TYPE payload;$/;"	m	struct:tdTPM_MIGRATE_ASYMKEY
+payload	include/tpm_structures.h	/^  TPM_PAYLOAD_TYPE payload;$/;"	m	struct:tdTPM_SEALED_DATA
+payload	include/tpm_structures.h	/^  TPM_PAYLOAD_TYPE payload;$/;"	m	struct:tdTPM_STORE_ASYMKEY
+payloadData	include/tpm_structures.h	/^  BYTE* payloadData;$/;"	m	struct:tdTPM_BOUND_DATA
+payloadType	include/tpm_structures.h	/^  TPM_PAYLOAD_TYPE payloadType;$/;"	m	struct:tdTPM_CERTIFY_INFO
+pcrAttrib	include/tpm_structures.h	/^  TPM_PCR_ATTRIBUTES pcrAttrib[TPM_NUM_PCR];$/;"	m	struct:tdTPM_PERMANENT_DATA
+pcrExtendLocal	include/tpm_structures.h	/^  TPM_LOCALITY_SELECTION pcrExtendLocal;$/;"	m	struct:tdTPM_PCR_ATTRIBUTES
+pcrInfo	include/tpm_structures.h	/^  TPM_PCR_INFO pcrInfo;$/;"	m	struct:tdTPM_KEY_DATA
+pcrInfo	include/tpm_structures.h	/^  TPM_PCR_INFO_SHORT pcrInfo;$/;"	m	struct:tdTPM_DELEGATE_PUBLIC
+pcrInfo	include/tpm_structures.h	/^  TPM_PCR_INFO_SHORT pcrInfo;$/;"	m	struct:tdTPM_EK_BLOB_ACTIVATE
+pcrInfoRead	include/tpm_structures.h	/^  TPM_PCR_INFO_SHORT pcrInfoRead;$/;"	m	struct:tdTPM_NV_DATA_PUBLIC
+pcrInfoWrite	include/tpm_structures.h	/^  TPM_PCR_INFO_SHORT pcrInfoWrite;$/;"	m	struct:tdTPM_NV_DATA_PUBLIC
+pcrReset	include/tpm_structures.h	/^  BOOL pcrReset;$/;"	m	struct:tdTPM_PCR_ATTRIBUTES
+pcrResetLocal	include/tpm_structures.h	/^  TPM_LOCALITY_SELECTION pcrResetLocal;$/;"	m	struct:tdTPM_PCR_ATTRIBUTES
+pcrSelect	include/tpm_structures.h	/^  BYTE pcrSelect[TPM_NUM_PCR\/8];$/;"	m	struct:tdTPM_PCR_SELECTION
+pcrSelection	include/tpm_structures.h	/^  TPM_PCR_SELECTION pcrSelection;$/;"	m	struct:tdTPM_PCR_INFO_SHORT
+pcrValue	include/tpm_structures.h	/^  TPM_PCRVALUE pcrValue[TPM_NUM_PCR];$/;"	m	struct:tdTPM_PCR_COMPOSITE
+pcrValue	include/tpm_structures.h	/^  TPM_PCRVALUE pcrValue[TPM_NUM_PCR];$/;"	m	struct:tdTPM_PERMANENT_DATA
+per1	include/tpm_structures.h	/^  UINT32 per1;$/;"	m	struct:tdTPM_DELEGATIONS
+per2	include/tpm_structures.h	/^  UINT32 per2;$/;"	m	struct:tdTPM_DELEGATIONS
+permanent	include/tpm_structures.h	/^  } permanent;$/;"	m	struct:tdTPM_DATA	typeref:struct:tdTPM_DATA::__anon41
+permission	include/tpm_structures.h	/^  TPM_NV_ATTRIBUTES permission;$/;"	m	struct:tdTPM_NV_DATA_PUBLIC
+permissions	include/tpm_structures.h	/^  TPM_DELEGATIONS permissions;$/;"	m	struct:tdTPM_DELEGATE_PUBLIC
+permissions	include/tpm_structures.h	/^  TPM_DELEGATIONS permissions;$/;"	m	struct:tdTPM_SESSION_DATA
+physicalPresence	include/tpm_structures.h	/^  BOOL physicalPresence;$/;"	m	struct:tdTPM_STCLEAR_FLAGS
+physicalPresenceCMDEnable	include/tpm_structures.h	/^  BOOL physicalPresenceCMDEnable;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+physicalPresenceHWEnable	include/tpm_structures.h	/^  BOOL physicalPresenceHWEnable;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+physicalPresenceLifetimeLock	include/tpm_structures.h	/^  BOOL physicalPresenceLifetimeLock;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+physicalPresenceLock	include/tpm_structures.h	/^  BOOL physicalPresenceLock;$/;"	m	struct:tdTPM_STCLEAR_FLAGS
+postInitialise	include/tpm_structures.h	/^  BOOL postInitialise;$/;"	m	struct:tdTPM_STANY_FLAGS
+prev	include/usb.h	/^  struct usb_bus *next, *prev;$/;"	m	struct:usb_bus	typeref:struct:usb_bus::
+prev	include/usb.h	/^  struct usb_device *next, *prev;$/;"	m	struct:usb_device	typeref:struct:usb_device::
+printf_TPM_AUTH_REQ	utils.c	/^void printf_TPM_AUTH_REQ(BYTE **ptr, UINT32 *length) {$/;"	f
+printf_TPM_AUTH_RES	utils.c	/^void printf_TPM_AUTH_RES(BYTE **ptr, UINT32 *length) {$/;"	f
+printf_TPM_CERIFTY_INFO	utils.c	/^void printf_TPM_CERIFTY_INFO(TPM_CERTIFY_INFO *certInfo) {$/;"	f
+printf_TPM_KEY	utils.c	/^void printf_TPM_KEY(TPM_KEY *wrappedKey) {$/;"	f
+printf_TPM_KEY_DATA	utils.c	/^void printf_TPM_KEY_DATA(TPM_KEY_DATA *key) {$/;"	f
+printf_TPM_PCR_COMPOSITE	utils.c	/^void printf_TPM_PCR_COMPOSITE(TPM_PCR_COMPOSITE *pcrComposite) {$/;"	f
+printf_TPM_PCR_SELECTION	utils.c	/^void printf_TPM_PCR_SELECTION(TPM_PCR_SELECTION *pcrSelection) {$/;"	f
+printf_TPM_REQUEST	utils.c	/^void printf_TPM_REQUEST(BYTE *buf) {$/;"	f
+printf_TPM_RESPONSE	utils.c	/^void printf_TPM_RESPONSE(BYTE *buf, TPM_COMMAND_CODE ordinal) {$/;"	f
+printf_TPM_SESSION_DATA	utils.c	/^void printf_TPM_SESSION_DATA(TPM_SESSION_DATA *session) {$/;"	f
+printf_buf	utils.c	/^void printf_buf(char *head, void *buff, int size) {$/;"	f
+printf_sessions	utils.c	/^void printf_sessions(TPM_SESSION_DATA *sessions) {$/;"	f
+privKey	include/tpm_structures.h	/^  TPM_STORE_PRIVKEY privKey;$/;"	m	struct:tdTPM_STORE_ASYMKEY
+pub	include/tpm_structures.h	/^  TPM_DELEGATE_PUBLIC pub;$/;"	m	struct:tdTPM_DELEGATE_KEY_BLOB
+pub	include/tpm_structures.h	/^  TPM_DELEGATE_PUBLIC pub;$/;"	m	struct:tdTPM_DELEGATE_OWNER_BLOB
+pub	include/tpm_structures.h	/^  TPM_DELEGATE_PUBLIC pub;$/;"	m	struct:tdTPM_DELEGATE_TABLE_ROW
+pubDataDigest	include/tpm_structures.h	/^  TPM_DIGEST pubDataDigest;$/;"	m	struct:tdTPM_MIGRATE_ASYMKEY
+pubDataDigest	include/tpm_structures.h	/^  TPM_DIGEST pubDataDigest;$/;"	m	struct:tdTPM_STORE_ASYMKEY
+pubInfo	include/tpm_structures.h	/^  TPM_NV_DATA_PUBLIC pubInfo;$/;"	m	struct:tdTPM_NV_DATA_SENSITIVE
+pubKey	include/tpm_structures.h	/^  TPM_STORE_PUBKEY pubKey;$/;"	m	struct:tdTPM_KEY
+pubKey	include/tpm_structures.h	/^  TPM_STORE_PUBKEY pubKey;$/;"	m	struct:tdTPM_PUBKEY
+pubKeyDigest	include/tpm_structures.h	/^  TPM_DIGEST pubKeyDigest;$/;"	m	struct:tdTPM_CMK_MIGAUTH
+pubKeyDigest	include/tpm_structures.h	/^  TPM_DIGEST pubKeyDigest;$/;"	m	struct:tdTPM_DELEGATE_KEY_BLOB
+pubKeyHash	include/tpm_structures.h	/^  TPM_DIGEST pubKeyHash;$/;"	m	struct:tdTPM_TRANSPORT_LOG_IN
+pubkeyDigest	include/tpm_structures.h	/^  TPM_DIGEST pubkeyDigest;$/;"	m	struct:tdTPM_CERTIFY_INFO
+pubkeyFileid	include/tpm_structures.h	/^  UINT16 pubkeyFileid;$/;"	m	struct:tdTPM_KEY_DATA
+publicExponent	include/Dongle_API.h	/^	unsigned char publicExponent[256];    \/\/ public exponent$/;"	m	struct:__anon2
+raw	include/tpm_structures.h	/^    BYTE* raw;$/;"	m	union:tdTPM_KEY_PARMS::__anon40
+readPubek	include/tpm_structures.h	/^  BOOL readPubek;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+readSRKPub	include/tpm_structures.h	/^  BOOL readSRKPub;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+read_rsa_pubkey	utpmd/rockey_apis.c	/^DWORD read_rsa_pubkey(DWORD fileid, RSA_PUBLIC_KEY *pubkey) {$/;"	f
+recvlen	include/Dongle_CORE.h	/^	WORD		recvlen; \/\/定义为接收到数据的长度$/;"	m	struct:__anon32
+releasePCRSelection	include/tpm_structures.h	/^  TPM_PCR_SELECTION releasePCRSelection;$/;"	m	struct:tdTPM_PCR_INFO
+replay	include/tpm_structures.h	/^  TPM_NONCE replay;$/;"	m	struct:tdTPM_SIGN_INFO
+reqSize	include/tpm_structures.h	/^  UINT16 reqSize;$/;"	m	struct:tdTPM_SELECT_SIZE
+resourceType	include/tpm_structures.h	/^  TPM_RESOURCE_TYPE resourceType;$/;"	m	struct:tdTPM_CONTEXT_BLOB
+resourceType	include/tpm_structures.h	/^  TPM_RESOURCE_TYPE resourceType;$/;"	m	struct:tdTPM_CONTEXT_SENSITIVE
+resourceType	include/tpm_structures.h	/^  TPM_RESOURCE_TYPE resourceType;$/;"	m	struct:tdTPM_DAA_BLOB
+restrictDelegate	include/tpm_structures.h	/^  TPM_CMK_DELEGATE restrictDelegate;$/;"	m	struct:tdTPM_PERMANENT_DATA
+result	include/tpm_structures.h	/^  TPM_RESULT result;$/;"	m	struct:tdTPM_RESPONSE
+revMajor	include/tpm_structures.h	/^  BYTE revMajor;$/;"	m	struct:tdTPM_STRUCT_VER
+revMajor	include/tpm_structures.h	/^  BYTE revMajor;$/;"	m	struct:tdTPM_VERSION
+revMinor	include/tpm_structures.h	/^  BYTE revMinor;$/;"	m	struct:tdTPM_STRUCT_VER
+revMinor	include/tpm_structures.h	/^  BYTE revMinor;$/;"	m	struct:tdTPM_VERSION
+rngState	include/tpm_structures.h	/^  BYTE rngState[16];$/;"	m	struct:tdTPM_PERMANENT_DATA
+rockeyHandle	utpmd/rockey_apis.c	/^DONGLE_HANDLE rockeyHandle;$/;"	v
+rol	sha1.c	23;"	d	file:
+root_dev	include/usb.h	/^  struct usb_device *root_dev;$/;"	m	struct:usb_bus	typeref:struct:usb_bus::usb_device
+rowLabel	include/tpm_structures.h	/^  TPM_DELEGATE_LABEL rowLabel;$/;"	m	struct:tdTPM_DELEGATE_PUBLIC
+rsa	include/tpm_structures.h	/^    TPM_RSA_KEY_PARMS rsa;$/;"	m	union:tdTPM_KEY_PARMS::__anon40
+run_bin_file	utpmd/rockey_apis.c	/^DWORD run_bin_file() {$/;"	f
+run_inoutbuf	tpm_functions.c	/^int run_inoutbuf() {$/;"	f
+sealInfo	include/tpm_structures.h	/^  TPM_PCR_INFO sealInfo;$/;"	m	struct:tdTPM_STORED_DATA
+sealInfoSize	include/tpm_structures.h	/^  UINT32 sealInfoSize;$/;"	m	struct:tdTPM_STORED_DATA
+secret	include/tpm_structures.h	/^  TPM_SECRET secret;$/;"	m	struct:tdTPM_AUTH
+select	include/tpm_structures.h	/^  TPM_PCR_SELECTION select;$/;"	m	struct:tdTPM_PCR_COMPOSITE
+selfTestSucceeded	include/tpm_structures.h	/^  BOOL selfTestSucceeded;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+sendlen	include/Dongle_CORE.h	/^	WORD		sendlen; \/\/定义为发送数据的总长度$/;"	m	struct:__anon32
+sensitiveArea	include/tpm_structures.h	/^  BYTE* sensitiveArea;$/;"	m	struct:tdTPM_DELEGATE_KEY_BLOB
+sensitiveArea	include/tpm_structures.h	/^  BYTE* sensitiveArea;$/;"	m	struct:tdTPM_DELEGATE_OWNER_BLOB
+sensitiveData	include/tpm_structures.h	/^  BYTE* sensitiveData;$/;"	m	struct:tdTPM_CONTEXT_BLOB
+sensitiveData	include/tpm_structures.h	/^  BYTE* sensitiveData;$/;"	m	struct:tdTPM_DAA_BLOB
+sensitiveSize	include/tpm_structures.h	/^  UINT32 sensitiveSize;$/;"	m	struct:tdTPM_CONTEXT_BLOB
+sensitiveSize	include/tpm_structures.h	/^  UINT32 sensitiveSize;$/;"	m	struct:tdTPM_DAA_BLOB
+sensitiveSize	include/tpm_structures.h	/^  UINT32 sensitiveSize;$/;"	m	struct:tdTPM_DELEGATE_KEY_BLOB
+sensitiveSize	include/tpm_structures.h	/^  UINT32 sensitiveSize;$/;"	m	struct:tdTPM_DELEGATE_OWNER_BLOB
+session	include/tpm_structures.h	/^    TPM_SESSION_DATA session;$/;"	m	union:tdTPM_CONTEXT_SENSITIVE::__anon44
+sessionDAA	include/tpm_structures.h	/^    TPM_DAA_SESSION_DATA sessionDAA;$/;"	m	union:tdTPM_CONTEXT_SENSITIVE::__anon44
+sessionKey	include/tpm_structures.h	/^  TPM_SYMMETRIC_KEY sessionKey;$/;"	m	struct:tdTPM_ASYM_CA_CONTENTS
+sessionKey	include/tpm_structures.h	/^  TPM_SYMMETRIC_KEY sessionKey;$/;"	m	struct:tdTPM_EK_BLOB_ACTIVATE
+sessions	include/tpm_structures.h	/^  TPM_SESSION_DATA sessions[TPM_MAX_SESSIONS];$/;"	m	struct:tdTPM_STANY_DATA
+sessionsDAA	include/tpm_structures.h	/^  TPM_DAA_SESSION_DATA sessionsDAA[TPM_MAX_SESSIONS_DAA];$/;"	m	struct:tdTPM_STANY_DATA
+setup_error	utpmd/command_handler.c	/^int setup_error(unsigned char *out, int *out_size, int errcode) {$/;"	f
+sharedSecret	include/tpm_structures.h	/^  TPM_SECRET sharedSecret;$/;"	m	struct:tdTPM_SESSION_DATA
+sigScheme	include/tpm_structures.h	/^  TPM_SIG_SCHEME sigScheme;$/;"	m	struct:tdTPM_KEY_DATA
+sigScheme	include/tpm_structures.h	/^  TPM_SIG_SCHEME sigScheme;$/;"	m	struct:tdTPM_KEY_PARMS
+sigScheme	include/tpm_structures.h	/^  TPM_SIG_SCHEME sigScheme;$/;"	m	struct:tdTPM_PUBKEY_DATA
+signal_handler	utpmd/utpmd.c	/^static void signal_handler(int sig) {$/;"	f	file:
+signedData	include/tpm_structures.h	/^  TPM_DIGEST signedData;$/;"	m	struct:tdTPM_CMK_SIGTICKET
+size	include/tpm_structures.h	/^  UINT16 size;$/;"	m	struct:tdTPM_SYMMETRIC_KEY
+size	include/tpm_structures.h	/^  UINT32 size;$/;"	m	struct:tdTPM_REQUEST
+size	include/tpm_structures.h	/^  UINT32 size;$/;"	m	struct:tdTPM_RESPONSE
+sizeOfSelect	include/tpm_structures.h	/^  UINT16 sizeOfSelect;$/;"	m	struct:tdTPM_PCR_SELECTION
+sizeof_RSA	include/tpm_structures.h	2130;"	d
+sizeof_RSAPub	include/tpm_structures.h	2146;"	d
+sizeof_TPM_AUDIT_EVENT_IN	include/tpm_structures.h	1274;"	d
+sizeof_TPM_AUDIT_EVENT_OUT	include/tpm_structures.h	1288;"	d
+sizeof_TPM_CAP_VERSION_INFO	include/tpm_structures.h	1852;"	d
+sizeof_TPM_CERTIFY_INFO	include/tpm_structures.h	1051;"	d
+sizeof_TPM_CHANGEAUTH_VALIDATE	include/tpm_structures.h	399;"	d
+sizeof_TPM_CMK_AUTH	include/tpm_structures.h	452;"	d
+sizeof_TPM_CONTEXT_BLOB	include/tpm_structures.h	2346;"	d
+sizeof_TPM_CONTEXT_SENSITIVE	include/tpm_structures.h	2370;"	d
+sizeof_TPM_COUNTER_VALUE	include/tpm_structures.h	415;"	d
+sizeof_TPM_COUNTER_VALUE2	include/tpm_structures.h	416;"	d
+sizeof_TPM_CURRENT_TICKS	include/tpm_structures.h	1181;"	d
+sizeof_TPM_DAA_BLOB	include/tpm_structures.h	2015;"	d
+sizeof_TPM_DAA_CONTEXT	include/tpm_structures.h	1986;"	d
+sizeof_TPM_DAA_ISSUER	include/tpm_structures.h	1955;"	d
+sizeof_TPM_DAA_JOINDATA	include/tpm_structures.h	1998;"	d
+sizeof_TPM_DAA_SENSITIVE	include/tpm_structures.h	2029;"	d
+sizeof_TPM_DAA_SESSION_DATA	include/tpm_structures.h	2262;"	d
+sizeof_TPM_DAA_TPM	include/tpm_structures.h	1971;"	d
+sizeof_TPM_DATA	include/tpm_structures.h	2316;"	d
+sizeof_TPM_DA_INFO	include/tpm_structures.h	1887;"	d
+sizeof_TPM_DA_INFO_LIMITED	include/tpm_structures.h	1904;"	d
+sizeof_TPM_DELEGATE_KEY_BLOB	include/tpm_structures.h	1752;"	d
+sizeof_TPM_DELEGATE_LABEL	include/tpm_structures.h	1657;"	d
+sizeof_TPM_DELEGATE_OWNER_BLOB	include/tpm_structures.h	1729;"	d
+sizeof_TPM_DELEGATE_PUBLIC	include/tpm_structures.h	1673;"	d
+sizeof_TPM_DELEGATE_SENSITIVE	include/tpm_structures.h	1712;"	d
+sizeof_TPM_DELEGATE_TABLE_ROW	include/tpm_structures.h	1689;"	d
+sizeof_TPM_DELEGATIONS	include/tpm_structures.h	1522;"	d
+sizeof_TPM_FAMILY_LABEL	include/tpm_structures.h	1620;"	d
+sizeof_TPM_FAMILY_TABLE_ENTRY	include/tpm_structures.h	1636;"	d
+sizeof_TPM_IDENTITY_CONTENTS	include/tpm_structures.h	1137;"	d
+sizeof_TPM_KEY	include/tpm_structures.h	924;"	d
+sizeof_TPM_KEY_DATA	include/tpm_structures.h	2131;"	d
+sizeof_TPM_KEY_PARMS	include/tpm_structures.h	881;"	d
+sizeof_TPM_MIGRATE_ASYMKEY	include/tpm_structures.h	984;"	d
+sizeof_TPM_MIGRATIONKEYAUTH	include/tpm_structures.h	997;"	d
+sizeof_TPM_MSA_COMPOSITE	include/tpm_structures.h	442;"	d
+sizeof_TPM_NV_DATA_PUBLIC	include/tpm_structures.h	1472;"	d
+sizeof_TPM_NV_DATA_SENSITIVE	include/tpm_structures.h	1490;"	d
+sizeof_TPM_PCR_ATTRIBUTES	include/tpm_structures.h	765;"	d
+sizeof_TPM_PCR_COMPOSITE	include/tpm_structures.h	702;"	d
+sizeof_TPM_PCR_INFO	include/tpm_structures.h	739;"	d
+sizeof_TPM_PCR_INFO_SHORT	include/tpm_structures.h	753;"	d
+sizeof_TPM_PCR_SELECTION	include/tpm_structures.h	690;"	d
+sizeof_TPM_PERMANENT_FLAGS	include/tpm_structures.h	2079;"	d
+sizeof_TPM_PUBKEY	include/tpm_structures.h	939;"	d
+sizeof_TPM_PUBKEY_DATA	include/tpm_structures.h	2147;"	d
+sizeof_TPM_QUOTE_INFO2	include/tpm_structures.h	1082;"	d
+sizeof_TPM_RSA_KEY_PARMS	include/tpm_structures.h	848;"	d
+sizeof_TPM_SEALED_DATA	include/tpm_structures.h	804;"	d
+sizeof_TPM_SESSION_DATA	include/tpm_structures.h	2243;"	d
+sizeof_TPM_STANY_DATA	include/tpm_structures.h	2291;"	d
+sizeof_TPM_STANY_FLAGS	include/tpm_structures.h	2109;"	d
+sizeof_TPM_STCLEAR_DATA	include/tpm_structures.h	2220;"	d
+sizeof_TPM_STCLEAR_FLAGS	include/tpm_structures.h	2095;"	d
+sizeof_TPM_STORED_DATA	include/tpm_structures.h	786;"	d
+sizeof_TPM_STORE_ASYMKEY	include/tpm_structures.h	968;"	d
+sizeof_TPM_STORE_PRIVKEY	include/tpm_structures.h	953;"	d
+sizeof_TPM_STORE_PUBKEY	include/tpm_structures.h	899;"	d
+sizeof_TPM_SYMMETRIC_KEY	include/tpm_structures.h	817;"	d
+sizeof_TPM_SYMMETRIC_KEY_PARMS	include/tpm_structures.h	862;"	d
+sizeof_TPM_TRANSPORT_AUTH	include/tpm_structures.h	1257;"	d
+sizeof_TPM_TRANSPORT_INTERNAL	include/tpm_structures.h	1218;"	d
+sizeof_TPM_TRANSPORT_LOG_IN	include/tpm_structures.h	1231;"	d
+sizeof_TPM_TRANSPORT_LOG_OUT	include/tpm_structures.h	1245;"	d
+sizeof_TPM_TRANSPORT_PUBLIC	include/tpm_structures.h	1198;"	d
+sizeof_TPM_VERSION	include/tpm_structures.h	289;"	d
+skp	include/tpm_structures.h	/^    TPM_SYMMETRIC_KEY_PARMS skp;$/;"	m	union:tdTPM_KEY_PARMS::__anon40
+sn	include/Dongle_CORE.h	/^	unsigned char      sn[8];$/;"	m	struct:ET_Device_Descript
+sock	tpm_functions.c	/^int sock;$/;"	v
+sourceKeyDigest	include/tpm_structures.h	/^  TPM_DIGEST sourceKeyDigest;$/;"	m	struct:tdTPM_CMK_AUTH
+specLevel	include/tpm_structures.h	/^  UINT16 specLevel;$/;"	m	struct:tdTPM_CAP_VERSION_INFO
+srk	include/tpm_structures.h	/^  TPM_KEY_DATA srk;$/;"	m	struct:tdTPM_PERMANENT_DATA
+stany	include/tpm_structures.h	/^  } stany;$/;"	m	struct:tdTPM_DATA	typeref:struct:tdTPM_DATA::__anon43
+state	include/tpm_structures.h	/^  TPM_DA_STATE state;$/;"	m	struct:tdTPM_DA_INFO
+state	include/tpm_structures.h	/^  TPM_DA_STATE state;$/;"	m	struct:tdTPM_DA_INFO_LIMITED
+stclear	include/tpm_structures.h	/^  } stclear;$/;"	m	struct:tdTPM_DATA	typeref:struct:tdTPM_DATA::__anon42
+stopflag	utpmd/utpmd.c	/^static int stopflag = 0;$/;"	v	file:
+storedDigest	include/tpm_structures.h	/^  TPM_DIGEST storedDigest;$/;"	m	struct:tdTPM_SEALED_DATA
+stuff_inoutbuf_createcrapkey	stuff_inoutbuf.c	/^int stuff_inoutbuf_createcrapkey($/;"	f
+stuff_inoutbuf_firsttime	stuff_inoutbuf.c	/^int stuff_inoutbuf_firsttime() {$/;"	f
+stuff_inoutbuf_flush	stuff_inoutbuf.c	/^int stuff_inoutbuf_flush($/;"	f
+stuff_inoutbuf_loadkey	stuff_inoutbuf.c	/^int stuff_inoutbuf_loadkey($/;"	f
+stuff_inoutbuf_oiap	stuff_inoutbuf.c	/^int stuff_inoutbuf_oiap() {$/;"	f
+stuff_inoutbuf_osap	stuff_inoutbuf.c	/^int stuff_inoutbuf_osap($/;"	f
+stuff_inoutbuf_ownership	stuff_inoutbuf.c	/^int stuff_inoutbuf_ownership($/;"	f
+stuff_inoutbuf_sign	stuff_inoutbuf.c	/^int stuff_inoutbuf_sign($/;"	f
+stuff_inoutbuf_startup	stuff_inoutbuf.c	/^int stuff_inoutbuf_startup() {$/;"	f
+stuff_inoutbuf_unbind	stuff_inoutbuf.c	/^int stuff_inoutbuf_unbind($/;"	f
+sw1_sw2	include/Dongle_CORE.h	/^	WORD  sw1_sw2;$/;"	m	struct:__anon36
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_AUDIT_EVENT_IN
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_AUDIT_EVENT_OUT
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_CAP_VERSION_INFO
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_CERTIFY_INFO
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_CMK_MA_APPROVAL
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_CMK_MIGAUTH
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_CMK_SIGTICKET
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_CONTEXT_BLOB
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_CONTEXT_SENSITIVE
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_COUNTER_VALUE
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_CURRENT_TICKS
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DAA_BLOB
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DAA_CONTEXT
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DAA_ISSUER
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DAA_SENSITIVE
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DAA_TPM
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DA_ACTION_TYPE
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DA_INFO
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DA_INFO_LIMITED
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DELEGATE_KEY_BLOB
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DELEGATE_OWNER_BLOB
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DELEGATE_PUBLIC
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DELEGATE_SENSITIVE
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DELEGATE_TABLE_ROW
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_DELEGATIONS
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_EK_BLOB
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_EK_BLOB_ACTIVATE
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_EK_BLOB_AUTH
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_FAMILY_TABLE_ENTRY
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_KEY
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_NV_ATTRIBUTES
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_NV_DATA_PUBLIC
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_NV_DATA_SENSITIVE
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_PCR_INFO
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_PERMANENT_DATA
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_QUOTE_INFO2
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_SIGN_INFO
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_STANY_DATA
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_STANY_FLAGS
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_STCLEAR_DATA
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_STCLEAR_FLAGS
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_STORED_DATA
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_TRANSPORT_AUTH
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_TRANSPORT_INTERNAL
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_TRANSPORT_LOG_IN
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_TRANSPORT_LOG_OUT
+tag	include/tpm_structures.h	/^  TPM_STRUCTURE_TAG tag;$/;"	m	struct:tdTPM_TRANSPORT_PUBLIC
+tag	include/tpm_structures.h	/^  TPM_TAG tag;$/;"	m	struct:tdTPM_REQUEST
+tag	include/tpm_structures.h	/^  TPM_TAG tag;$/;"	m	struct:tdTPM_RESPONSE
+tdTPM_ASYM_CA_CONTENTS	include/tpm_structures.h	/^typedef struct tdTPM_ASYM_CA_CONTENTS {$/;"	s
+tdTPM_AUDIT_EVENT_IN	include/tpm_structures.h	/^typedef struct tdTPM_AUDIT_EVENT_IN {$/;"	s
+tdTPM_AUDIT_EVENT_OUT	include/tpm_structures.h	/^typedef struct tdTPM_AUDIT_EVENT_OUT {$/;"	s
+tdTPM_AUTH	include/tpm_structures.h	/^typedef struct tdTPM_AUTH {$/;"	s
+tdTPM_BOUND_DATA	include/tpm_structures.h	/^typedef struct tdTPM_BOUND_DATA {$/;"	s
+tdTPM_CAP_VERSION_INFO	include/tpm_structures.h	/^typedef struct tdTPM_CAP_VERSION_INFO {$/;"	s
+tdTPM_CERTIFY_INFO	include/tpm_structures.h	/^typedef struct tdTPM_CERTIFY_INFO {$/;"	s
+tdTPM_CHANGEAUTH_VALIDATE	include/tpm_structures.h	/^typedef struct tdTPM_CHANGEAUTH_VALIDATE {$/;"	s
+tdTPM_CMK_AUTH	include/tpm_structures.h	/^typedef struct tdTPM_CMK_AUTH {$/;"	s
+tdTPM_CMK_MA_APPROVAL	include/tpm_structures.h	/^typedef struct tdTPM_CMK_MA_APPROVAL {$/;"	s
+tdTPM_CMK_MIGAUTH	include/tpm_structures.h	/^typedef struct tdTPM_CMK_MIGAUTH {$/;"	s
+tdTPM_CMK_SIGTICKET	include/tpm_structures.h	/^typedef struct tdTPM_CMK_SIGTICKET {$/;"	s
+tdTPM_CONTEXT_BLOB	include/tpm_structures.h	/^typedef struct tdTPM_CONTEXT_BLOB {$/;"	s
+tdTPM_CONTEXT_SENSITIVE	include/tpm_structures.h	/^typedef struct tdTPM_CONTEXT_SENSITIVE {$/;"	s
+tdTPM_COUNTER_VALUE	include/tpm_structures.h	/^typedef struct tdTPM_COUNTER_VALUE {$/;"	s
+tdTPM_CURRENT_TICKS	include/tpm_structures.h	/^typedef struct tdTPM_CURRENT_TICKS {$/;"	s
+tdTPM_DAA_BLOB	include/tpm_structures.h	/^typedef struct tdTPM_DAA_BLOB {$/;"	s
+tdTPM_DAA_CONTEXT	include/tpm_structures.h	/^typedef struct tdTPM_DAA_CONTEXT {$/;"	s
+tdTPM_DAA_ISSUER	include/tpm_structures.h	/^typedef struct tdTPM_DAA_ISSUER {$/;"	s
+tdTPM_DAA_JOINDATA	include/tpm_structures.h	/^typedef struct tdTPM_DAA_JOINDATA {$/;"	s
+tdTPM_DAA_SENSITIVE	include/tpm_structures.h	/^typedef struct tdTPM_DAA_SENSITIVE {$/;"	s
+tdTPM_DAA_SESSION_DATA	include/tpm_structures.h	/^typedef struct tdTPM_DAA_SESSION_DATA {$/;"	s
+tdTPM_DAA_TPM	include/tpm_structures.h	/^typedef struct tdTPM_DAA_TPM {$/;"	s
+tdTPM_DATA	include/tpm_structures.h	/^typedef struct tdTPM_DATA {$/;"	s
+tdTPM_DA_ACTION_TYPE	include/tpm_structures.h	/^typedef struct tdTPM_DA_ACTION_TYPE {$/;"	s
+tdTPM_DA_INFO	include/tpm_structures.h	/^typedef struct tdTPM_DA_INFO {$/;"	s
+tdTPM_DA_INFO_LIMITED	include/tpm_structures.h	/^typedef struct tdTPM_DA_INFO_LIMITED {$/;"	s
+tdTPM_DELEGATE_KEY_BLOB	include/tpm_structures.h	/^typedef struct tdTPM_DELEGATE_KEY_BLOB {$/;"	s
+tdTPM_DELEGATE_LABEL	include/tpm_structures.h	/^typedef struct tdTPM_DELEGATE_LABEL {$/;"	s
+tdTPM_DELEGATE_OWNER_BLOB	include/tpm_structures.h	/^typedef struct tdTPM_DELEGATE_OWNER_BLOB {$/;"	s
+tdTPM_DELEGATE_PUBLIC	include/tpm_structures.h	/^typedef struct tdTPM_DELEGATE_PUBLIC {$/;"	s
+tdTPM_DELEGATE_SENSITIVE	include/tpm_structures.h	/^typedef struct tdTPM_DELEGATE_SENSITIVE {$/;"	s
+tdTPM_DELEGATE_TABLE	include/tpm_structures.h	/^typedef struct tdTPM_DELEGATE_TABLE {$/;"	s
+tdTPM_DELEGATE_TABLE_ROW	include/tpm_structures.h	/^typedef struct tdTPM_DELEGATE_TABLE_ROW {$/;"	s
+tdTPM_DELEGATIONS	include/tpm_structures.h	/^typedef struct tdTPM_DELEGATIONS {$/;"	s
+tdTPM_DIGEST	include/tpm_structures.h	/^typedef struct tdTPM_DIGEST {$/;"	s
+tdTPM_EK_BLOB	include/tpm_structures.h	/^typedef struct tdTPM_EK_BLOB {$/;"	s
+tdTPM_EK_BLOB_ACTIVATE	include/tpm_structures.h	/^typedef struct tdTPM_EK_BLOB_ACTIVATE {$/;"	s
+tdTPM_EK_BLOB_AUTH	include/tpm_structures.h	/^typedef struct tdTPM_EK_BLOB_AUTH {$/;"	s
+tdTPM_FAMILY_LABEL	include/tpm_structures.h	/^typedef struct tdTPM_FAMILY_LABEL {$/;"	s
+tdTPM_FAMILY_TABLE	include/tpm_structures.h	/^typedef struct tdTPM_FAMILY_TABLE {$/;"	s
+tdTPM_FAMILY_TABLE_ENTRY	include/tpm_structures.h	/^typedef struct tdTPM_FAMILY_TABLE_ENTRY {$/;"	s
+tdTPM_IDENTITY_CONTENTS	include/tpm_structures.h	/^typedef struct tdTPM_IDENTITY_CONTENTS {$/;"	s
+tdTPM_KEY	include/tpm_structures.h	/^typedef struct tdTPM_KEY {$/;"	s
+tdTPM_KEY_DATA	include/tpm_structures.h	/^typedef struct tdTPM_KEY_DATA {$/;"	s
+tdTPM_KEY_HANDLE_LIST	include/tpm_structures.h	/^typedef struct tdTPM_KEY_HANDLE_LIST {$/;"	s
+tdTPM_KEY_PARMS	include/tpm_structures.h	/^typedef struct tdTPM_KEY_PARMS {$/;"	s
+tdTPM_MIGRATE_ASYMKEY	include/tpm_structures.h	/^typedef struct tdTPM_MIGRATE_ASYMKEY {$/;"	s
+tdTPM_MIGRATIONKEYAUTH	include/tpm_structures.h	/^typedef struct tdTPM_MIGRATIONKEYAUTH {$/;"	s
+tdTPM_MSA_COMPOSITE	include/tpm_structures.h	/^typedef struct tdTPM_MSA_COMPOSITE {$/;"	s
+tdTPM_NONCE	include/tpm_structures.h	/^typedef struct tdTPM_NONCE{$/;"	s
+tdTPM_NV_ATTRIBUTES	include/tpm_structures.h	/^typedef struct tdTPM_NV_ATTRIBUTES {$/;"	s
+tdTPM_NV_DATA_PUBLIC	include/tpm_structures.h	/^typedef struct tdTPM_NV_DATA_PUBLIC {$/;"	s
+tdTPM_NV_DATA_SENSITIVE	include/tpm_structures.h	/^typedef struct tdTPM_NV_DATA_SENSITIVE {$/;"	s
+tdTPM_PCR_ATTRIBUTES	include/tpm_structures.h	/^typedef struct tdTPM_PCR_ATTRIBUTES {$/;"	s
+tdTPM_PCR_COMPOSITE	include/tpm_structures.h	/^typedef struct tdTPM_PCR_COMPOSITE {$/;"	s
+tdTPM_PCR_INFO	include/tpm_structures.h	/^typedef struct tdTPM_PCR_INFO {$/;"	s
+tdTPM_PCR_INFO_SHORT	include/tpm_structures.h	/^typedef struct tdTPM_PCR_INFO_SHORT {$/;"	s
+tdTPM_PCR_SELECTION	include/tpm_structures.h	/^typedef struct tdTPM_PCR_SELECTION {$/;"	s
+tdTPM_PERMANENT_DATA	include/tpm_structures.h	/^typedef struct tdTPM_PERMANENT_DATA {$/;"	s
+tdTPM_PERMANENT_FLAGS	include/tpm_structures.h	/^typedef struct tdTPM_PERMANENT_FLAGS {$/;"	s
+tdTPM_PUBKEY	include/tpm_structures.h	/^typedef struct tdTPM_PUBKEY {$/;"	s
+tdTPM_PUBKEY_DATA	include/tpm_structures.h	/^typedef struct tdTPM_PUBKEY_DATA {$/;"	s
+tdTPM_QUOTE_INFO	include/tpm_structures.h	/^typedef struct tdTPM_QUOTE_INFO {$/;"	s
+tdTPM_QUOTE_INFO2	include/tpm_structures.h	/^typedef struct tdTPM_QUOTE_INFO2 {$/;"	s
+tdTPM_REQUEST	include/tpm_structures.h	/^typedef struct tdTPM_REQUEST {$/;"	s
+tdTPM_RESPONSE	include/tpm_structures.h	/^typedef struct tdTPM_RESPONSE {$/;"	s
+tdTPM_RSA_KEY_PARMS	include/tpm_structures.h	/^typedef struct tdTPM_RSA_KEY_PARMS {$/;"	s
+tdTPM_SEALED_DATA	include/tpm_structures.h	/^typedef struct tdTPM_SEALED_DATA {$/;"	s
+tdTPM_SELECT_SIZE	include/tpm_structures.h	/^typedef struct tdTPM_SELECT_SIZE {$/;"	s
+tdTPM_SESSION_DATA	include/tpm_structures.h	/^typedef struct tdTPM_SESSION_DATA {$/;"	s
+tdTPM_SIGN_INFO	include/tpm_structures.h	/^typedef struct tdTPM_SIGN_INFO {$/;"	s
+tdTPM_STANY_DATA	include/tpm_structures.h	/^typedef struct tdTPM_STANY_DATA {$/;"	s
+tdTPM_STANY_FLAGS	include/tpm_structures.h	/^typedef struct tdTPM_STANY_FLAGS {$/;"	s
+tdTPM_STCLEAR_DATA	include/tpm_structures.h	/^typedef struct tdTPM_STCLEAR_DATA {$/;"	s
+tdTPM_STCLEAR_FLAGS	include/tpm_structures.h	/^typedef struct tdTPM_STCLEAR_FLAGS {$/;"	s
+tdTPM_STORED_DATA	include/tpm_structures.h	/^typedef struct tdTPM_STORED_DATA {$/;"	s
+tdTPM_STORE_ASYMKEY	include/tpm_structures.h	/^typedef struct tdTPM_STORE_ASYMKEY {$/;"	s
+tdTPM_STORE_PRIVKEY	include/tpm_structures.h	/^typedef struct tdTPM_STORE_PRIVKEY {$/;"	s
+tdTPM_STORE_PUBKEY	include/tpm_structures.h	/^typedef struct tdTPM_STORE_PUBKEY {$/;"	s
+tdTPM_STRUCT_VER	include/tpm_structures.h	/^typedef struct tdTPM_STRUCT_VER {$/;"	s
+tdTPM_SYMMETRIC_KEY	include/tpm_structures.h	/^typedef struct tdTPM_SYMMETRIC_KEY {$/;"	s
+tdTPM_SYMMETRIC_KEY_PARMS	include/tpm_structures.h	/^typedef struct tdTPM_SYMMETRIC_KEY_PARMS {$/;"	s
+tdTPM_TRANSPORT_AUTH	include/tpm_structures.h	/^typedef struct tdTPM_TRANSPORT_AUTH {$/;"	s
+tdTPM_TRANSPORT_INTERNAL	include/tpm_structures.h	/^typedef struct tdTPM_TRANSPORT_INTERNAL {$/;"	s
+tdTPM_TRANSPORT_LOG_IN	include/tpm_structures.h	/^typedef struct tdTPM_TRANSPORT_LOG_IN {$/;"	s
+tdTPM_TRANSPORT_LOG_OUT	include/tpm_structures.h	/^typedef struct tdTPM_TRANSPORT_LOG_OUT {$/;"	s
+tdTPM_TRANSPORT_PUBLIC	include/tpm_structures.h	/^typedef struct tdTPM_TRANSPORT_PUBLIC {$/;"	s
+tdTPM_VERSION	include/tpm_structures.h	/^typedef struct tdTPM_VERSION {$/;"	s
+testResult	include/tpm_structures.h	/^  const char *testResult;$/;"	m	struct:tdTPM_PERMANENT_DATA
+thresholdCount	include/tpm_structures.h	/^  UINT16 thresholdCount;$/;"	m	struct:tdTPM_DA_INFO
+tickNonce	include/tpm_structures.h	/^  TPM_NONCE tickNonce;$/;"	m	struct:tdTPM_CURRENT_TICKS
+tickRate	include/tpm_structures.h	/^  UINT16 tickRate;$/;"	m	struct:tdTPM_CURRENT_TICKS
+tis_timeouts	include/tpm_structures.h	/^  UINT32 tis_timeouts[TPM_NUM_TIS_TIMEOUTS];$/;"	m	struct:tdTPM_PERMANENT_DATA
+tmpdevpin	include/Dongle_CORE.h	/^	unsigned char      tmpdevpin[24];$/;"	m	struct:ET_Device_Descript
+tpmDAASeed	include/tpm_structures.h	/^  TPM_DAA_TPM_SEED tpmDAASeed;$/;"	m	struct:tdTPM_PERMANENT_DATA
+tpmEstablished	include/tpm_structures.h	/^  BOOL tpmEstablished;$/;"	m	struct:tdTPM_PERMANENT_FLAGS
+tpmProof	include/tpm_structures.h	/^  TPM_NONCE tpmProof;$/;"	m	struct:tdTPM_PERMANENT_DATA
+tpmProof	include/tpm_structures.h	/^  TPM_NONCE tpmProof;$/;"	m	struct:tdTPM_SEALED_DATA
+tpmVendorID	include/tpm_structures.h	/^  BYTE tpmVendorID[4];$/;"	m	struct:tdTPM_CAP_VERSION_INFO
+tpm_encrypt_auth_secret	utils.c	/^void tpm_encrypt_auth_secret(TPM_SECRET plainAuth, TPM_SECRET secret,$/;"	f
+tpm_hmac_ctx_t	include/hmac.h	/^} tpm_hmac_ctx_t;$/;"	t	typeref:struct:__anon38
+tpm_hmac_final	hmac.c	/^void tpm_hmac_final(tpm_hmac_ctx_t *ctx, uint8_t *digest)$/;"	f
+tpm_hmac_init	hmac.c	/^void tpm_hmac_init(tpm_hmac_ctx_t *ctx, const uint8_t *key, size_t key_len)$/;"	f
+tpm_hmac_update	hmac.c	/^void tpm_hmac_update(tpm_hmac_ctx_t *ctx, const uint8_t *data, size_t length)$/;"	f
+tpm_marshal_BLOB	include/tpm_marshalling.h	/^static int tpm_marshal_BLOB(BYTE **ptr, UINT32 *ptr_length,$/;"	f
+tpm_marshal_BOOL	include/tpm_marshalling.h	/^static int tpm_marshal_BOOL(BYTE **ptr, UINT32 *length, BOOL v)$/;"	f
+tpm_marshal_BOOL_ARRAY	include/tpm_marshalling.h	162;"	d
+tpm_marshal_BYTE	include/tpm_marshalling.h	/^static int tpm_marshal_BYTE(BYTE **ptr, UINT32 *length, BYTE v)$/;"	f
+tpm_marshal_BYTE_ARRAY	include/tpm_marshalling.h	/^static int tpm_marshal_BYTE_ARRAY(BYTE **ptr, UINT32 *ptr_length,$/;"	f
+tpm_marshal_DAAHANDLE	include/tpm_marshalling.h	248;"	d
+tpm_marshal_TPM_ACTUAL_COUNT	include/tpm_marshalling.h	204;"	d
+tpm_marshal_TPM_ALGORITHM_ID	include/tpm_marshalling.h	200;"	d
+tpm_marshal_TPM_ASYM_CA_CONTENTS	tpm_marshalling.c	/^int tpm_marshal_TPM_ASYM_CA_CONTENTS(BYTE **ptr, UINT32 *length, TPM_ASYM_CA_CONTENTS *v)$/;"	f
+tpm_marshal_TPM_AUTH	tpm_marshalling.c	/^int tpm_marshal_TPM_AUTH(BYTE **ptr, UINT32 *length, TPM_AUTH *v)$/;"	f
+tpm_marshal_TPM_AUTHDATA	tpm_marshalling.c	/^int tpm_marshal_TPM_AUTHDATA(BYTE **ptr, UINT32 *length, TPM_AUTHDATA *v)$/;"	f
+tpm_marshal_TPM_AUTHHANDLE	include/tpm_marshalling.h	208;"	d
+tpm_marshal_TPM_AUTH_DATA_USAGE	include/tpm_marshalling.h	164;"	d
+tpm_marshal_TPM_CAPABILITY_AREA	include/tpm_marshalling.h	196;"	d
+tpm_marshal_TPM_CAP_VERSION_INFO	tpm_marshalling.c	/^int tpm_marshal_TPM_CAP_VERSION_INFO(BYTE **ptr, UINT32 *length, TPM_CAP_VERSION_INFO *v)$/;"	f
+tpm_marshal_TPM_CERTIFY_INFO	tpm_marshalling.c	/^int tpm_marshal_TPM_CERTIFY_INFO(BYTE **ptr, UINT32 *length, TPM_CERTIFY_INFO *v)$/;"	f
+tpm_marshal_TPM_CHANGEAUTH_VALIDATE	tpm_marshalling.c	/^int tpm_marshal_TPM_CHANGEAUTH_VALIDATE(BYTE **ptr, UINT32 *length, TPM_CHANGEAUTH_VALIDATE *v)$/;"	f
+tpm_marshal_TPM_CHOSENID_HASH	include/tpm_marshalling.h	263;"	d
+tpm_marshal_TPM_CMK_AUTH	tpm_marshalling.c	/^int tpm_marshal_TPM_CMK_AUTH(BYTE **ptr, UINT32 *length, TPM_CMK_AUTH *v)$/;"	f
+tpm_marshal_TPM_CMK_DELEGATE	include/tpm_marshalling.h	244;"	d
+tpm_marshal_TPM_COMMAND_CODE	include/tpm_marshalling.h	194;"	d
+tpm_marshal_TPM_COMPOSITE_HASH	include/tpm_marshalling.h	265;"	d
+tpm_marshal_TPM_CONTEXT_BLOB	tpm_marshalling.c	/^int tpm_marshal_TPM_CONTEXT_BLOB(BYTE **ptr, UINT32 *length, TPM_CONTEXT_BLOB *v)$/;"	f
+tpm_marshal_TPM_COUNTER_VALUE	tpm_marshalling.c	/^int tpm_marshal_TPM_COUNTER_VALUE(BYTE **ptr, UINT32 *length, TPM_COUNTER_VALUE *v)$/;"	f
+tpm_marshal_TPM_COUNT_ID	include/tpm_marshalling.h	236;"	d
+tpm_marshal_TPM_CURRENT_TICKS	tpm_marshalling.c	/^int tpm_marshal_TPM_CURRENT_TICKS(BYTE **ptr, UINT32 *length, TPM_CURRENT_TICKS *v)$/;"	f
+tpm_marshal_TPM_DAA_BLOB	tpm_marshalling.c	/^int tpm_marshal_TPM_DAA_BLOB(BYTE **ptr, UINT32 *length, TPM_DAA_BLOB *v)$/;"	f
+tpm_marshal_TPM_DAA_CONTEXT	tpm_marshalling.c	/^int tpm_marshal_TPM_DAA_CONTEXT(BYTE **ptr, UINT32 *length, TPM_DAA_CONTEXT *v)$/;"	f
+tpm_marshal_TPM_DAA_ISSUER	tpm_marshalling.c	/^int tpm_marshal_TPM_DAA_ISSUER(BYTE **ptr, UINT32 *length, TPM_DAA_ISSUER *v)$/;"	f
+tpm_marshal_TPM_DAA_JOINDATA	tpm_marshalling.c	/^int tpm_marshal_TPM_DAA_JOINDATA(BYTE **ptr, UINT32 *length, TPM_DAA_JOINDATA *v)$/;"	f
+tpm_marshal_TPM_DAA_SENSITIVE	tpm_marshalling.c	/^int tpm_marshal_TPM_DAA_SENSITIVE(BYTE **ptr, UINT32 *length, TPM_DAA_SENSITIVE *v)$/;"	f
+tpm_marshal_TPM_DAA_SESSION_DATA	tpm_marshalling.c	/^int tpm_marshal_TPM_DAA_SESSION_DATA(BYTE **ptr, UINT32 *length, TPM_DAA_SESSION_DATA *v)$/;"	f
+tpm_marshal_TPM_DAA_TPM	tpm_marshalling.c	/^int tpm_marshal_TPM_DAA_TPM(BYTE **ptr, UINT32 *length, TPM_DAA_TPM *v)$/;"	f
+tpm_marshal_TPM_DELEGATE_INDEX	include/tpm_marshalling.h	234;"	d
+tpm_marshal_TPM_DELEGATE_KEY_BLOB	tpm_marshalling.c	/^int tpm_marshal_TPM_DELEGATE_KEY_BLOB(BYTE **ptr, UINT32 *length, TPM_DELEGATE_KEY_BLOB *v)$/;"	f
+tpm_marshal_TPM_DELEGATE_LABEL	tpm_marshalling.c	/^int tpm_marshal_TPM_DELEGATE_LABEL(BYTE **ptr, UINT32 *length, TPM_DELEGATE_LABEL *v)$/;"	f
+tpm_marshal_TPM_DELEGATE_OWNER_BLOB	tpm_marshalling.c	/^int tpm_marshal_TPM_DELEGATE_OWNER_BLOB(BYTE **ptr, UINT32 *length, TPM_DELEGATE_OWNER_BLOB *v)$/;"	f
+tpm_marshal_TPM_DELEGATE_PUBLIC	tpm_marshalling.c	/^int tpm_marshal_TPM_DELEGATE_PUBLIC(BYTE **ptr, UINT32 *length, TPM_DELEGATE_PUBLIC *v)$/;"	f
+tpm_marshal_TPM_DELEGATE_PUBLIC_ARRAY	tpm_marshalling.c	/^int tpm_marshal_TPM_DELEGATE_PUBLIC_ARRAY(BYTE **ptr, UINT32 *length,$/;"	f
+tpm_marshal_TPM_DELEGATE_SENSITIVE	tpm_marshalling.c	/^int tpm_marshal_TPM_DELEGATE_SENSITIVE(BYTE **ptr, UINT32 *length, TPM_DELEGATE_SENSITIVE *v)$/;"	f
+tpm_marshal_TPM_DELEGATE_TABLE_ROW	tpm_marshalling.c	/^int tpm_marshal_TPM_DELEGATE_TABLE_ROW(BYTE **ptr, UINT32 *length, TPM_DELEGATE_TABLE_ROW *v)$/;"	f
+tpm_marshal_TPM_DELEGATIONS	tpm_marshalling.c	/^int tpm_marshal_TPM_DELEGATIONS(BYTE **ptr, UINT32 *length, TPM_DELEGATIONS *v)$/;"	f
+tpm_marshal_TPM_DIGEST	tpm_marshalling.c	/^int tpm_marshal_TPM_DIGEST(BYTE **ptr, UINT32 *length, TPM_DIGEST *v)$/;"	f
+tpm_marshal_TPM_DIRINDEX	include/tpm_marshalling.h	212;"	d
+tpm_marshal_TPM_DIRVALUE	include/tpm_marshalling.h	267;"	d
+tpm_marshal_TPM_EK_BLOB	tpm_marshalling.c	/^int tpm_marshal_TPM_EK_BLOB(BYTE **ptr, UINT32 *length, TPM_EK_BLOB *v)$/;"	f
+tpm_marshal_TPM_EK_BLOB_ACTIVATE	tpm_marshalling.c	/^int tpm_marshal_TPM_EK_BLOB_ACTIVATE(BYTE **ptr, UINT32 *length, TPM_EK_BLOB_ACTIVATE *v)$/;"	f
+tpm_marshal_TPM_EK_TYPE	include/tpm_marshalling.h	192;"	d
+tpm_marshal_TPM_ENCAUTH	include/tpm_marshalling.h	285;"	d
+tpm_marshal_TPM_ENC_SCHEME	include/tpm_marshalling.h	176;"	d
+tpm_marshal_TPM_ENTITY_TYPE	include/tpm_marshalling.h	184;"	d
+tpm_marshal_TPM_FAMILY_FLAGS	include/tpm_marshalling.h	232;"	d
+tpm_marshal_TPM_FAMILY_ID	include/tpm_marshalling.h	224;"	d
+tpm_marshal_TPM_FAMILY_LABEL	tpm_marshalling.c	/^int tpm_marshal_TPM_FAMILY_LABEL(BYTE **ptr, UINT32 *length, TPM_FAMILY_LABEL *v)$/;"	f
+tpm_marshal_TPM_FAMILY_OPERATION	include/tpm_marshalling.h	242;"	d
+tpm_marshal_TPM_FAMILY_TABLE_ENTRY	tpm_marshalling.c	/^int tpm_marshal_TPM_FAMILY_TABLE_ENTRY(BYTE **ptr, UINT32 *length, TPM_FAMILY_TABLE_ENTRY *v)$/;"	f
+tpm_marshal_TPM_FAMILY_VERIFICATION	include/tpm_marshalling.h	226;"	d
+tpm_marshal_TPM_HANDLE	include/tpm_marshalling.h	240;"	d
+tpm_marshal_TPM_HMAC	include/tpm_marshalling.h	269;"	d
+tpm_marshal_TPM_IDENTITY_CONTENTS	tpm_marshalling.c	/^int tpm_marshal_TPM_IDENTITY_CONTENTS(BYTE **ptr, UINT32 *length, TPM_IDENTITY_CONTENTS *v)$/;"	f
+tpm_marshal_TPM_KEY	tpm_marshalling.c	/^int tpm_marshal_TPM_KEY(BYTE **ptr, UINT32 *length, TPM_KEY *v)$/;"	f
+tpm_marshal_TPM_KEY_CONTROL	include/tpm_marshalling.h	220;"	d
+tpm_marshal_TPM_KEY_FLAGS	include/tpm_marshalling.h	198;"	d
+tpm_marshal_TPM_KEY_HANDLE	include/tpm_marshalling.h	214;"	d
+tpm_marshal_TPM_KEY_HANDLE_LIST	tpm_marshalling.c	/^int tpm_marshal_TPM_KEY_HANDLE_LIST(BYTE **ptr, UINT32 *length, TPM_KEY_HANDLE_LIST *v)$/;"	f
+tpm_marshal_TPM_KEY_PARMS	tpm_marshalling.c	/^int tpm_marshal_TPM_KEY_PARMS(BYTE **ptr, UINT32 *length, TPM_KEY_PARMS *v)$/;"	f
+tpm_marshal_TPM_KEY_USAGE	include/tpm_marshalling.h	186;"	d
+tpm_marshal_TPM_LOCALITY_SELECTION	include/tpm_marshalling.h	168;"	d
+tpm_marshal_TPM_MIGRATE_SCHEME	include/tpm_marshalling.h	180;"	d
+tpm_marshal_TPM_MIGRATIONKEYAUTH	tpm_marshalling.c	/^int tpm_marshal_TPM_MIGRATIONKEYAUTH(BYTE **ptr, UINT32 *length, TPM_MIGRATIONKEYAUTH *v)$/;"	f
+tpm_marshal_TPM_MODIFIER_INDICATOR	include/tpm_marshalling.h	202;"	d
+tpm_marshal_TPM_MSA_COMPOSITE	tpm_marshalling.c	/^int tpm_marshal_TPM_MSA_COMPOSITE(BYTE **ptr, UINT32 *length, TPM_MSA_COMPOSITE *v)$/;"	f
+tpm_marshal_TPM_NONCE	tpm_marshalling.c	/^int tpm_marshal_TPM_NONCE(BYTE **ptr, UINT32 *length, TPM_NONCE *v)$/;"	f
+tpm_marshal_TPM_NV_ATTRIBUTES	tpm_marshalling.c	/^int tpm_marshal_TPM_NV_ATTRIBUTES(BYTE **ptr, UINT32 *length, TPM_NV_ATTRIBUTES *v)$/;"	f
+tpm_marshal_TPM_NV_DATA_PUBLIC	tpm_marshalling.c	/^int tpm_marshal_TPM_NV_DATA_PUBLIC(BYTE **ptr, UINT32 *length, TPM_NV_DATA_PUBLIC *v)$/;"	f
+tpm_marshal_TPM_NV_DATA_SENSITIVE	tpm_marshalling.c	/^int tpm_marshal_TPM_NV_DATA_SENSITIVE(BYTE **ptr, UINT32 *length, TPM_NV_DATA_SENSITIVE *v)$/;"	f
+tpm_marshal_TPM_NV_INDEX	include/tpm_marshalling.h	222;"	d
+tpm_marshal_TPM_PAYLOAD_TYPE	include/tpm_marshalling.h	166;"	d
+tpm_marshal_TPM_PCRINDEX	include/tpm_marshalling.h	216;"	d
+tpm_marshal_TPM_PCRVALUE	include/tpm_marshalling.h	271;"	d
+tpm_marshal_TPM_PCRVALUE_ARRAY	tpm_marshalling.c	/^int tpm_marshal_TPM_PCRVALUE_ARRAY(BYTE **ptr, UINT32 *length,$/;"	f
+tpm_marshal_TPM_PCR_ATTRIBUTES	tpm_marshalling.c	/^int tpm_marshal_TPM_PCR_ATTRIBUTES(BYTE **ptr, UINT32 *length, TPM_PCR_ATTRIBUTES *v)$/;"	f
+tpm_marshal_TPM_PCR_COMPOSITE	tpm_marshalling.c	/^int tpm_marshal_TPM_PCR_COMPOSITE(BYTE **ptr, UINT32 *length, TPM_PCR_COMPOSITE *v)$/;"	f
+tpm_marshal_TPM_PCR_INFO	tpm_marshalling.c	/^int tpm_marshal_TPM_PCR_INFO(BYTE **ptr, UINT32 *length, TPM_PCR_INFO *v)$/;"	f
+tpm_marshal_TPM_PCR_INFO_SHORT	tpm_marshalling.c	/^int tpm_marshal_TPM_PCR_INFO_SHORT(BYTE **ptr, UINT32 *length, TPM_PCR_INFO_SHORT *v)$/;"	f
+tpm_marshal_TPM_PCR_SELECTION	tpm_marshalling.c	/^int tpm_marshal_TPM_PCR_SELECTION(BYTE **ptr, UINT32 *length, TPM_PCR_SELECTION *v)$/;"	f
+tpm_marshal_TPM_PERMANENT_FLAGS	tpm_marshalling.c	/^int tpm_marshal_TPM_PERMANENT_FLAGS(BYTE **ptr, UINT32 *length, TPM_PERMANENT_FLAGS *v)$/;"	f
+tpm_marshal_TPM_PHYSICAL_PRESENCE	include/tpm_marshalling.h	182;"	d
+tpm_marshal_TPM_PLATFORM_SPECIFIC	include/tpm_marshalling.h	190;"	d
+tpm_marshal_TPM_PROTOCOL_ID	include/tpm_marshalling.h	172;"	d
+tpm_marshal_TPM_PUBKEY	tpm_marshalling.c	/^int tpm_marshal_TPM_PUBKEY(BYTE **ptr, UINT32 *length, TPM_PUBKEY *v)$/;"	f
+tpm_marshal_TPM_QUOTE_INFO2	tpm_marshalling.c	/^int tpm_marshal_TPM_QUOTE_INFO2(BYTE **ptr, UINT32 *length, TPM_QUOTE_INFO2 *v)$/;"	f
+tpm_marshal_TPM_REDIR_COMMAND	include/tpm_marshalling.h	246;"	d
+tpm_marshal_TPM_RESOURCE_TYPE	include/tpm_marshalling.h	218;"	d
+tpm_marshal_TPM_RESPONSE	tpm_marshalling.c	/^int tpm_marshal_TPM_RESPONSE(BYTE **ptr, UINT32 *length, TPM_RESPONSE *v)$/;"	f
+tpm_marshal_TPM_RESULT	include/tpm_marshalling.h	210;"	d
+tpm_marshal_TPM_RSA_KEY_PARMS	tpm_marshalling.c	/^int tpm_marshal_TPM_RSA_KEY_PARMS(BYTE **ptr, UINT32 *length, TPM_RSA_KEY_PARMS *v)$/;"	f
+tpm_marshal_TPM_SEALED_DATA	tpm_marshalling.c	/^int tpm_marshal_TPM_SEALED_DATA(BYTE **ptr, UINT32 *length, TPM_SEALED_DATA *v)$/;"	f
+tpm_marshal_TPM_SECRET	include/tpm_marshalling.h	283;"	d
+tpm_marshal_TPM_SELECT_SIZE	tpm_marshalling.c	/^int tpm_marshal_TPM_SELECT_SIZE(BYTE **ptr, UINT32 *length, TPM_SELECT_SIZE *v)$/;"	f
+tpm_marshal_TPM_SESSION_DATA	tpm_marshalling.c	/^int tpm_marshal_TPM_SESSION_DATA(BYTE **ptr, UINT32 *length, TPM_SESSION_DATA *v)$/;"	f
+tpm_marshal_TPM_SIG_SCHEME	include/tpm_marshalling.h	178;"	d
+tpm_marshal_TPM_STANY_DATA	tpm_marshalling.c	/^int tpm_marshal_TPM_STANY_DATA(BYTE **ptr, UINT32 *length, TPM_STANY_DATA *v)$/;"	f
+tpm_marshal_TPM_STANY_FLAGS	tpm_marshalling.c	/^int tpm_marshal_TPM_STANY_FLAGS(BYTE **ptr, UINT32 *length, TPM_STANY_FLAGS *v)$/;"	f
+tpm_marshal_TPM_STARTUP_EFFECTS	include/tpm_marshalling.h	228;"	d
+tpm_marshal_TPM_STARTUP_TYPE	include/tpm_marshalling.h	174;"	d
+tpm_marshal_TPM_STCLEAR_DATA	tpm_marshalling.c	/^int tpm_marshal_TPM_STCLEAR_DATA(BYTE **ptr, UINT32 *length, TPM_STCLEAR_DATA *v)$/;"	f
+tpm_marshal_TPM_STCLEAR_FLAGS	tpm_marshalling.c	/^int tpm_marshal_TPM_STCLEAR_FLAGS(BYTE **ptr, UINT32 *length, TPM_STCLEAR_FLAGS *v)$/;"	f
+tpm_marshal_TPM_STORED_DATA	tpm_marshalling.c	/^int tpm_marshal_TPM_STORED_DATA(BYTE **ptr, UINT32 *length, TPM_STORED_DATA *v)$/;"	f
+tpm_marshal_TPM_STORE_ASYMKEY	tpm_marshalling.c	/^int tpm_marshal_TPM_STORE_ASYMKEY(BYTE **ptr, UINT32 *length, TPM_STORE_ASYMKEY *v)$/;"	f
+tpm_marshal_TPM_STORE_PRIVKEY	tpm_marshalling.c	/^int tpm_marshal_TPM_STORE_PRIVKEY(BYTE **ptr, UINT32 *length, TPM_STORE_PRIVKEY *v)$/;"	f
+tpm_marshal_TPM_STORE_PUBKEY	tpm_marshalling.c	/^int tpm_marshal_TPM_STORE_PUBKEY(BYTE **ptr, UINT32 *length, TPM_STORE_PUBKEY *v)$/;"	f
+tpm_marshal_TPM_STRUCTURE_TAG	include/tpm_marshalling.h	188;"	d
+tpm_marshal_TPM_STRUCT_VER	tpm_marshalling.c	/^int tpm_marshal_TPM_STRUCT_VER(BYTE **ptr, UINT32 *length, TPM_STRUCT_VER *v)$/;"	f
+tpm_marshal_TPM_SYMMETRIC_KEY	tpm_marshalling.c	/^int tpm_marshal_TPM_SYMMETRIC_KEY(BYTE **ptr, UINT32 *length, TPM_SYMMETRIC_KEY *v)$/;"	f
+tpm_marshal_TPM_SYMMETRIC_KEY_PARMS	tpm_marshalling.c	/^int tpm_marshal_TPM_SYMMETRIC_KEY_PARMS(BYTE **ptr, UINT32 *length, TPM_SYMMETRIC_KEY_PARMS *v)$/;"	f
+tpm_marshal_TPM_SYM_MODE	include/tpm_marshalling.h	230;"	d
+tpm_marshal_TPM_TAG	include/tpm_marshalling.h	170;"	d
+tpm_marshal_TPM_TRANSHANDLE	include/tpm_marshalling.h	238;"	d
+tpm_marshal_TPM_TRANSPORT_ATTRIBUTES	include/tpm_marshalling.h	206;"	d
+tpm_marshal_TPM_TRANSPORT_INTERNAL	tpm_marshalling.c	/^int tpm_marshal_TPM_TRANSPORT_INTERNAL(BYTE **ptr, UINT32 *length, TPM_TRANSPORT_INTERNAL *v)$/;"	f
+tpm_marshal_TPM_TRANSPORT_PUBLIC	tpm_marshalling.c	/^int tpm_marshal_TPM_TRANSPORT_PUBLIC(BYTE **ptr, UINT32 *length, TPM_TRANSPORT_PUBLIC *v)$/;"	f
+tpm_marshal_TPM_VERSION	tpm_marshalling.c	/^int tpm_marshal_TPM_VERSION(BYTE **ptr, UINT32 *length, TPM_VERSION *v)$/;"	f
+tpm_marshal_UINT16	include/tpm_marshalling.h	/^static int tpm_marshal_UINT16(BYTE **ptr, UINT32 *length, UINT16 v)$/;"	f
+tpm_marshal_UINT32	include/tpm_marshalling.h	/^static int tpm_marshal_UINT32(BYTE **ptr, UINT32 *length, UINT32 v)$/;"	f
+tpm_marshal_UINT32_ARRAY	tpm_marshalling.c	/^int tpm_marshal_UINT32_ARRAY(BYTE **ptr, UINT32 *length,$/;"	f
+tpm_sha1_ctx_t	include/sha1.h	/^} tpm_sha1_ctx_t;$/;"	t	typeref:struct:__anon39
+tpm_sha1_final	sha1.c	/^void tpm_sha1_final(tpm_sha1_ctx_t *ctx, uint8_t digest[SHA1_DIGEST_LENGTH])$/;"	f
+tpm_sha1_init	sha1.c	/^void tpm_sha1_init(tpm_sha1_ctx_t *ctx)$/;"	f
+tpm_sha1_transform	sha1.c	/^static void tpm_sha1_transform(uint32_t h[5], const uint8_t data[64])$/;"	f	file:
+tpm_sha1_update	sha1.c	/^void tpm_sha1_update(tpm_sha1_ctx_t *ctx, const uint8_t *data, size_t length)$/;"	f
+tpm_sha1_update_be32	sha1.c	/^void tpm_sha1_update_be32(tpm_sha1_ctx_t *ctx, uint32_t data)$/;"	f
+tpm_unmarshal_BLOB	include/tpm_marshalling.h	/^static int tpm_unmarshal_BLOB(BYTE **ptr, UINT32 *ptr_length,$/;"	f
+tpm_unmarshal_BOOL	include/tpm_marshalling.h	/^static int tpm_unmarshal_BOOL(BYTE **ptr, UINT32 *length, BOOL *v)$/;"	f
+tpm_unmarshal_BOOL_ARRAY	include/tpm_marshalling.h	163;"	d
+tpm_unmarshal_BYTE	include/tpm_marshalling.h	/^static int tpm_unmarshal_BYTE(BYTE **ptr, UINT32 *length, BYTE *v)$/;"	f
+tpm_unmarshal_BYTE_ARRAY	include/tpm_marshalling.h	/^static int tpm_unmarshal_BYTE_ARRAY(BYTE **ptr, UINT32 *ptr_length,$/;"	f
+tpm_unmarshal_DAAHANDLE	include/tpm_marshalling.h	249;"	d
+tpm_unmarshal_TPM_ACTUAL_COUNT	include/tpm_marshalling.h	205;"	d
+tpm_unmarshal_TPM_ALGORITHM_ID	include/tpm_marshalling.h	201;"	d
+tpm_unmarshal_TPM_ASYM_CA_CONTENTS	tpm_marshalling.c	/^int tpm_unmarshal_TPM_ASYM_CA_CONTENTS(BYTE **ptr, UINT32 *length, TPM_ASYM_CA_CONTENTS *v)$/;"	f
+tpm_unmarshal_TPM_AUTH	tpm_marshalling.c	/^int tpm_unmarshal_TPM_AUTH(BYTE **ptr, UINT32 *length, TPM_AUTH *v)$/;"	f
+tpm_unmarshal_TPM_AUTHDATA	tpm_marshalling.c	/^int tpm_unmarshal_TPM_AUTHDATA(BYTE **ptr, UINT32 *length, TPM_AUTHDATA *v)$/;"	f
+tpm_unmarshal_TPM_AUTHHANDLE	include/tpm_marshalling.h	209;"	d
+tpm_unmarshal_TPM_AUTH_DATA_USAGE	include/tpm_marshalling.h	165;"	d
+tpm_unmarshal_TPM_CAPABILITY_AREA	include/tpm_marshalling.h	197;"	d
+tpm_unmarshal_TPM_CAP_VERSION_INFO	tpm_marshalling.c	/^int tpm_unmarshal_TPM_CAP_VERSION_INFO(BYTE **ptr, UINT32 *length, TPM_CAP_VERSION_INFO *v)$/;"	f
+tpm_unmarshal_TPM_CERTIFY_INFO	tpm_marshalling.c	/^int tpm_unmarshal_TPM_CERTIFY_INFO(BYTE **ptr, UINT32 *length, TPM_CERTIFY_INFO *v)$/;"	f
+tpm_unmarshal_TPM_CHANGEAUTH_VALIDATE	tpm_marshalling.c	/^int tpm_unmarshal_TPM_CHANGEAUTH_VALIDATE(BYTE **ptr, UINT32 *length, TPM_CHANGEAUTH_VALIDATE *v)$/;"	f
+tpm_unmarshal_TPM_CHOSENID_HASH	include/tpm_marshalling.h	264;"	d
+tpm_unmarshal_TPM_CMK_AUTH	tpm_marshalling.c	/^int tpm_unmarshal_TPM_CMK_AUTH(BYTE **ptr, UINT32 *length, TPM_CMK_AUTH *v)$/;"	f
+tpm_unmarshal_TPM_CMK_DELEGATE	include/tpm_marshalling.h	245;"	d
+tpm_unmarshal_TPM_COMMAND_CODE	include/tpm_marshalling.h	195;"	d
+tpm_unmarshal_TPM_COMPOSITE_HASH	include/tpm_marshalling.h	266;"	d
+tpm_unmarshal_TPM_CONTEXT_BLOB	tpm_marshalling.c	/^int tpm_unmarshal_TPM_CONTEXT_BLOB(BYTE **ptr, UINT32 *length, TPM_CONTEXT_BLOB *v)$/;"	f
+tpm_unmarshal_TPM_COUNTER_VALUE	tpm_marshalling.c	/^int tpm_unmarshal_TPM_COUNTER_VALUE(BYTE **ptr, UINT32 *length, TPM_COUNTER_VALUE *v)$/;"	f
+tpm_unmarshal_TPM_COUNT_ID	include/tpm_marshalling.h	237;"	d
+tpm_unmarshal_TPM_CURRENT_TICKS	tpm_marshalling.c	/^int tpm_unmarshal_TPM_CURRENT_TICKS(BYTE **ptr, UINT32 *length, TPM_CURRENT_TICKS *v)$/;"	f
+tpm_unmarshal_TPM_DAA_BLOB	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DAA_BLOB(BYTE **ptr, UINT32 *length, TPM_DAA_BLOB *v)$/;"	f
+tpm_unmarshal_TPM_DAA_CONTEXT	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DAA_CONTEXT(BYTE **ptr, UINT32 *length, TPM_DAA_CONTEXT *v)$/;"	f
+tpm_unmarshal_TPM_DAA_ISSUER	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DAA_ISSUER(BYTE **ptr, UINT32 *length, TPM_DAA_ISSUER *v)$/;"	f
+tpm_unmarshal_TPM_DAA_JOINDATA	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DAA_JOINDATA(BYTE **ptr, UINT32 *length, TPM_DAA_JOINDATA *v)$/;"	f
+tpm_unmarshal_TPM_DAA_SENSITIVE	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DAA_SENSITIVE(BYTE **ptr, UINT32 *length, TPM_DAA_SENSITIVE *v)$/;"	f
+tpm_unmarshal_TPM_DAA_SESSION_DATA	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DAA_SESSION_DATA(BYTE **ptr, UINT32 *length, TPM_DAA_SESSION_DATA *v)$/;"	f
+tpm_unmarshal_TPM_DAA_TPM	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DAA_TPM(BYTE **ptr, UINT32 *length, TPM_DAA_TPM *v)$/;"	f
+tpm_unmarshal_TPM_DELEGATE_INDEX	include/tpm_marshalling.h	235;"	d
+tpm_unmarshal_TPM_DELEGATE_KEY_BLOB	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DELEGATE_KEY_BLOB(BYTE **ptr, UINT32 *length, TPM_DELEGATE_KEY_BLOB *v)$/;"	f
+tpm_unmarshal_TPM_DELEGATE_LABEL	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DELEGATE_LABEL(BYTE **ptr, UINT32 *length, TPM_DELEGATE_LABEL *v)$/;"	f
+tpm_unmarshal_TPM_DELEGATE_OWNER_BLOB	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DELEGATE_OWNER_BLOB(BYTE **ptr, UINT32 *length, TPM_DELEGATE_OWNER_BLOB *v)$/;"	f
+tpm_unmarshal_TPM_DELEGATE_PUBLIC	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DELEGATE_PUBLIC(BYTE **ptr, UINT32 *length, TPM_DELEGATE_PUBLIC *v)$/;"	f
+tpm_unmarshal_TPM_DELEGATE_PUBLIC_ARRAY	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DELEGATE_PUBLIC_ARRAY(BYTE **ptr, UINT32 *length,$/;"	f
+tpm_unmarshal_TPM_DELEGATE_SENSITIVE	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DELEGATE_SENSITIVE(BYTE **ptr, UINT32 *length, TPM_DELEGATE_SENSITIVE *v)$/;"	f
+tpm_unmarshal_TPM_DELEGATE_TABLE_ROW	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DELEGATE_TABLE_ROW(BYTE **ptr, UINT32 *length, TPM_DELEGATE_TABLE_ROW *v)$/;"	f
+tpm_unmarshal_TPM_DELEGATIONS	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DELEGATIONS(BYTE **ptr, UINT32 *length, TPM_DELEGATIONS *v)$/;"	f
+tpm_unmarshal_TPM_DIGEST	tpm_marshalling.c	/^int tpm_unmarshal_TPM_DIGEST(BYTE **ptr, UINT32 *length, TPM_DIGEST *v)$/;"	f
+tpm_unmarshal_TPM_DIRINDEX	include/tpm_marshalling.h	213;"	d
+tpm_unmarshal_TPM_DIRVALUE	include/tpm_marshalling.h	268;"	d
+tpm_unmarshal_TPM_EK_BLOB	tpm_marshalling.c	/^int tpm_unmarshal_TPM_EK_BLOB(BYTE **ptr, UINT32 *length, TPM_EK_BLOB *v)$/;"	f
+tpm_unmarshal_TPM_EK_BLOB_ACTIVATE	tpm_marshalling.c	/^int tpm_unmarshal_TPM_EK_BLOB_ACTIVATE(BYTE **ptr, UINT32 *length, TPM_EK_BLOB_ACTIVATE *v)$/;"	f
+tpm_unmarshal_TPM_EK_TYPE	include/tpm_marshalling.h	193;"	d
+tpm_unmarshal_TPM_ENCAUTH	include/tpm_marshalling.h	286;"	d
+tpm_unmarshal_TPM_ENC_SCHEME	include/tpm_marshalling.h	177;"	d
+tpm_unmarshal_TPM_ENTITY_TYPE	include/tpm_marshalling.h	185;"	d
+tpm_unmarshal_TPM_FAMILY_FLAGS	include/tpm_marshalling.h	233;"	d
+tpm_unmarshal_TPM_FAMILY_ID	include/tpm_marshalling.h	225;"	d
+tpm_unmarshal_TPM_FAMILY_LABEL	tpm_marshalling.c	/^int tpm_unmarshal_TPM_FAMILY_LABEL(BYTE **ptr, UINT32 *length, TPM_FAMILY_LABEL *v)$/;"	f
+tpm_unmarshal_TPM_FAMILY_OPERATION	include/tpm_marshalling.h	243;"	d
+tpm_unmarshal_TPM_FAMILY_TABLE_ENTRY	tpm_marshalling.c	/^int tpm_unmarshal_TPM_FAMILY_TABLE_ENTRY(BYTE **ptr, UINT32 *length, TPM_FAMILY_TABLE_ENTRY *v)$/;"	f
+tpm_unmarshal_TPM_FAMILY_VERIFICATION	include/tpm_marshalling.h	227;"	d
+tpm_unmarshal_TPM_HANDLE	include/tpm_marshalling.h	241;"	d
+tpm_unmarshal_TPM_HMAC	include/tpm_marshalling.h	270;"	d
+tpm_unmarshal_TPM_IDENTITY_CONTENTS	tpm_marshalling.c	/^int tpm_unmarshal_TPM_IDENTITY_CONTENTS(BYTE **ptr, UINT32 *length, TPM_IDENTITY_CONTENTS *v)$/;"	f
+tpm_unmarshal_TPM_KEY	tpm_marshalling.c	/^int tpm_unmarshal_TPM_KEY(BYTE **ptr, UINT32 *length, TPM_KEY *v)$/;"	f
+tpm_unmarshal_TPM_KEY_CONTROL	include/tpm_marshalling.h	221;"	d
+tpm_unmarshal_TPM_KEY_FLAGS	include/tpm_marshalling.h	199;"	d
+tpm_unmarshal_TPM_KEY_HANDLE	include/tpm_marshalling.h	215;"	d
+tpm_unmarshal_TPM_KEY_PARMS	tpm_marshalling.c	/^int tpm_unmarshal_TPM_KEY_PARMS(BYTE **ptr, UINT32 *length, TPM_KEY_PARMS *v)$/;"	f
+tpm_unmarshal_TPM_KEY_USAGE	include/tpm_marshalling.h	187;"	d
+tpm_unmarshal_TPM_LOCALITY_SELECTION	include/tpm_marshalling.h	169;"	d
+tpm_unmarshal_TPM_MIGRATE_SCHEME	include/tpm_marshalling.h	181;"	d
+tpm_unmarshal_TPM_MIGRATIONKEYAUTH	tpm_marshalling.c	/^int tpm_unmarshal_TPM_MIGRATIONKEYAUTH(BYTE **ptr, UINT32 *length, TPM_MIGRATIONKEYAUTH *v)$/;"	f
+tpm_unmarshal_TPM_MODIFIER_INDICATOR	include/tpm_marshalling.h	203;"	d
+tpm_unmarshal_TPM_MSA_COMPOSITE	tpm_marshalling.c	/^int tpm_unmarshal_TPM_MSA_COMPOSITE(BYTE **ptr, UINT32 *length, TPM_MSA_COMPOSITE *v)$/;"	f
+tpm_unmarshal_TPM_NONCE	tpm_marshalling.c	/^int tpm_unmarshal_TPM_NONCE(BYTE **ptr, UINT32 *length, TPM_NONCE *v)$/;"	f
+tpm_unmarshal_TPM_NV_ATTRIBUTES	tpm_marshalling.c	/^int tpm_unmarshal_TPM_NV_ATTRIBUTES(BYTE **ptr, UINT32 *length, TPM_NV_ATTRIBUTES *v)$/;"	f
+tpm_unmarshal_TPM_NV_DATA_PUBLIC	tpm_marshalling.c	/^int tpm_unmarshal_TPM_NV_DATA_PUBLIC(BYTE **ptr, UINT32 *length, TPM_NV_DATA_PUBLIC *v)$/;"	f
+tpm_unmarshal_TPM_NV_DATA_SENSITIVE	tpm_marshalling.c	/^int tpm_unmarshal_TPM_NV_DATA_SENSITIVE(BYTE **ptr, UINT32 *length, TPM_NV_DATA_SENSITIVE *v)$/;"	f
+tpm_unmarshal_TPM_NV_INDEX	include/tpm_marshalling.h	223;"	d
+tpm_unmarshal_TPM_PAYLOAD_TYPE	include/tpm_marshalling.h	167;"	d
+tpm_unmarshal_TPM_PCRINDEX	include/tpm_marshalling.h	217;"	d
+tpm_unmarshal_TPM_PCRVALUE	include/tpm_marshalling.h	272;"	d
+tpm_unmarshal_TPM_PCRVALUE_ARRAY	tpm_marshalling.c	/^int tpm_unmarshal_TPM_PCRVALUE_ARRAY(BYTE **ptr, UINT32 *length,$/;"	f
+tpm_unmarshal_TPM_PCR_ATTRIBUTES	tpm_marshalling.c	/^int tpm_unmarshal_TPM_PCR_ATTRIBUTES(BYTE **ptr, UINT32 *length, TPM_PCR_ATTRIBUTES *v)$/;"	f
+tpm_unmarshal_TPM_PCR_COMPOSITE	tpm_marshalling.c	/^int tpm_unmarshal_TPM_PCR_COMPOSITE(BYTE **ptr, UINT32 *length, TPM_PCR_COMPOSITE *v)$/;"	f
+tpm_unmarshal_TPM_PCR_INFO	tpm_marshalling.c	/^int tpm_unmarshal_TPM_PCR_INFO(BYTE **ptr, UINT32 *length, TPM_PCR_INFO *v)$/;"	f
+tpm_unmarshal_TPM_PCR_INFO_SHORT	tpm_marshalling.c	/^int tpm_unmarshal_TPM_PCR_INFO_SHORT(BYTE **ptr, UINT32 *length, TPM_PCR_INFO_SHORT *v)$/;"	f
+tpm_unmarshal_TPM_PCR_SELECTION	tpm_marshalling.c	/^int tpm_unmarshal_TPM_PCR_SELECTION(BYTE **ptr, UINT32 *length, TPM_PCR_SELECTION *v)$/;"	f
+tpm_unmarshal_TPM_PERMANENT_FLAGS	tpm_marshalling.c	/^int tpm_unmarshal_TPM_PERMANENT_FLAGS(BYTE **ptr, UINT32 *length, TPM_PERMANENT_FLAGS *v)$/;"	f
+tpm_unmarshal_TPM_PHYSICAL_PRESENCE	include/tpm_marshalling.h	183;"	d
+tpm_unmarshal_TPM_PLATFORM_SPECIFIC	include/tpm_marshalling.h	191;"	d
+tpm_unmarshal_TPM_PROTOCOL_ID	include/tpm_marshalling.h	173;"	d
+tpm_unmarshal_TPM_PUBKEY	tpm_marshalling.c	/^int tpm_unmarshal_TPM_PUBKEY(BYTE **ptr, UINT32 *length, TPM_PUBKEY *v)$/;"	f
+tpm_unmarshal_TPM_QUOTE_INFO2	tpm_marshalling.c	/^int tpm_unmarshal_TPM_QUOTE_INFO2(BYTE **ptr, UINT32 *length, TPM_QUOTE_INFO2 *v)$/;"	f
+tpm_unmarshal_TPM_REDIR_COMMAND	include/tpm_marshalling.h	247;"	d
+tpm_unmarshal_TPM_REQUEST	tpm_marshalling.c	/^int tpm_unmarshal_TPM_REQUEST(BYTE **ptr, UINT32 *length, TPM_REQUEST *v)$/;"	f
+tpm_unmarshal_TPM_RESOURCE_TYPE	include/tpm_marshalling.h	219;"	d
+tpm_unmarshal_TPM_RESULT	include/tpm_marshalling.h	211;"	d
+tpm_unmarshal_TPM_RSA_KEY_PARMS	tpm_marshalling.c	/^int tpm_unmarshal_TPM_RSA_KEY_PARMS(BYTE **ptr, UINT32 *length, TPM_RSA_KEY_PARMS *v)$/;"	f
+tpm_unmarshal_TPM_SEALED_DATA	tpm_marshalling.c	/^int tpm_unmarshal_TPM_SEALED_DATA(BYTE **ptr, UINT32 *length, TPM_SEALED_DATA *v)$/;"	f
+tpm_unmarshal_TPM_SECRET	include/tpm_marshalling.h	284;"	d
+tpm_unmarshal_TPM_SELECT_SIZE	tpm_marshalling.c	/^int tpm_unmarshal_TPM_SELECT_SIZE(BYTE **ptr, UINT32 *length, TPM_SELECT_SIZE *v)$/;"	f
+tpm_unmarshal_TPM_SESSION_DATA	tpm_marshalling.c	/^int tpm_unmarshal_TPM_SESSION_DATA(BYTE **ptr, UINT32 *length, TPM_SESSION_DATA *v)$/;"	f
+tpm_unmarshal_TPM_SIG_SCHEME	include/tpm_marshalling.h	179;"	d
+tpm_unmarshal_TPM_STANY_DATA	tpm_marshalling.c	/^int tpm_unmarshal_TPM_STANY_DATA(BYTE **ptr, UINT32 *length, TPM_STANY_DATA *v)$/;"	f
+tpm_unmarshal_TPM_STANY_FLAGS	tpm_marshalling.c	/^int tpm_unmarshal_TPM_STANY_FLAGS(BYTE **ptr, UINT32 *length, TPM_STANY_FLAGS *v)$/;"	f
+tpm_unmarshal_TPM_STARTUP_EFFECTS	include/tpm_marshalling.h	229;"	d
+tpm_unmarshal_TPM_STARTUP_TYPE	include/tpm_marshalling.h	175;"	d
+tpm_unmarshal_TPM_STCLEAR_DATA	tpm_marshalling.c	/^int tpm_unmarshal_TPM_STCLEAR_DATA(BYTE **ptr, UINT32 *length, TPM_STCLEAR_DATA *v)$/;"	f
+tpm_unmarshal_TPM_STCLEAR_FLAGS	tpm_marshalling.c	/^int tpm_unmarshal_TPM_STCLEAR_FLAGS(BYTE **ptr, UINT32 *length, TPM_STCLEAR_FLAGS *v)$/;"	f
+tpm_unmarshal_TPM_STORED_DATA	tpm_marshalling.c	/^int tpm_unmarshal_TPM_STORED_DATA(BYTE **ptr, UINT32 *length, TPM_STORED_DATA *v)$/;"	f
+tpm_unmarshal_TPM_STORE_ASYMKEY	tpm_marshalling.c	/^int tpm_unmarshal_TPM_STORE_ASYMKEY(BYTE **ptr, UINT32 *length, TPM_STORE_ASYMKEY *v)$/;"	f
+tpm_unmarshal_TPM_STORE_PRIVKEY	tpm_marshalling.c	/^int tpm_unmarshal_TPM_STORE_PRIVKEY(BYTE **ptr, UINT32 *length, TPM_STORE_PRIVKEY *v)$/;"	f
+tpm_unmarshal_TPM_STORE_PUBKEY	tpm_marshalling.c	/^int tpm_unmarshal_TPM_STORE_PUBKEY(BYTE **ptr, UINT32 *length, TPM_STORE_PUBKEY *v)$/;"	f
+tpm_unmarshal_TPM_STRUCTURE_TAG	include/tpm_marshalling.h	189;"	d
+tpm_unmarshal_TPM_STRUCT_VER	tpm_marshalling.c	/^int tpm_unmarshal_TPM_STRUCT_VER(BYTE **ptr, UINT32 *length, TPM_STRUCT_VER *v)$/;"	f
+tpm_unmarshal_TPM_SYMMETRIC_KEY	tpm_marshalling.c	/^int tpm_unmarshal_TPM_SYMMETRIC_KEY(BYTE **ptr, UINT32 *length, TPM_SYMMETRIC_KEY *v)$/;"	f
+tpm_unmarshal_TPM_SYMMETRIC_KEY_PARMS	tpm_marshalling.c	/^int tpm_unmarshal_TPM_SYMMETRIC_KEY_PARMS(BYTE **ptr, UINT32 *length, TPM_SYMMETRIC_KEY_PARMS *v)$/;"	f
+tpm_unmarshal_TPM_SYM_MODE	include/tpm_marshalling.h	231;"	d
+tpm_unmarshal_TPM_TAG	include/tpm_marshalling.h	171;"	d
+tpm_unmarshal_TPM_TRANSHANDLE	include/tpm_marshalling.h	239;"	d
+tpm_unmarshal_TPM_TRANSPORT_ATTRIBUTES	include/tpm_marshalling.h	207;"	d
+tpm_unmarshal_TPM_TRANSPORT_INTERNAL	tpm_marshalling.c	/^int tpm_unmarshal_TPM_TRANSPORT_INTERNAL(BYTE **ptr, UINT32 *length, TPM_TRANSPORT_INTERNAL *v)$/;"	f
+tpm_unmarshal_TPM_TRANSPORT_PUBLIC	tpm_marshalling.c	/^int tpm_unmarshal_TPM_TRANSPORT_PUBLIC(BYTE **ptr, UINT32 *length, TPM_TRANSPORT_PUBLIC *v)$/;"	f
+tpm_unmarshal_TPM_VERSION	tpm_marshalling.c	/^int tpm_unmarshal_TPM_VERSION(BYTE **ptr, UINT32 *length, TPM_VERSION *v)$/;"	f
+tpm_unmarshal_UINT16	include/tpm_marshalling.h	/^static int tpm_unmarshal_UINT16(BYTE **ptr, UINT32 *length, UINT16 *v)$/;"	f
+tpm_unmarshal_UINT32	include/tpm_marshalling.h	/^static int tpm_unmarshal_UINT32(BYTE **ptr, UINT32 *length, UINT32 *v)$/;"	f
+tpm_unmarshal_UINT32_ARRAY	tpm_marshalling.c	/^int tpm_unmarshal_UINT32_ARRAY(BYTE **ptr, UINT32 *length,$/;"	f
+transAttributes	include/tpm_structures.h	/^  TPM_TRANSPORT_ATTRIBUTES transAttributes;$/;"	m	struct:tdTPM_TRANSPORT_PUBLIC
+transDigest	include/tpm_structures.h	/^  TPM_DIGEST transDigest;$/;"	m	struct:tdTPM_TRANSPORT_INTERNAL
+transExclusive	include/tpm_structures.h	/^  TPM_TRANSHANDLE transExclusive;$/;"	m	struct:tdTPM_STANY_DATA
+transHandle	include/tpm_structures.h	/^  TPM_TRANSHANDLE transHandle;$/;"	m	struct:tdTPM_TRANSPORT_INTERNAL
+transInternal	include/tpm_structures.h	/^  TPM_TRANSPORT_INTERNAL transInternal;$/;"	m	struct:tdTPM_SESSION_DATA
+transNonceEven	include/tpm_structures.h	/^  TPM_NONCE transNonceEven;$/;"	m	struct:tdTPM_TRANSPORT_INTERNAL
+transPublic	include/tpm_structures.h	/^  TPM_TRANSPORT_PUBLIC transPublic;$/;"	m	struct:tdTPM_TRANSPORT_INTERNAL
+transportExclusive	include/tpm_structures.h	/^  BOOL transportExclusive;$/;"	m	struct:tdTPM_STANY_FLAGS
+type	include/tpm_structures.h	/^  BYTE type;$/;"	m	struct:tdTPM_DAA_SESSION_DATA
+type	include/tpm_structures.h	/^  BYTE type;$/;"	m	struct:tdTPM_SESSION_DATA
+uc0PacketSizeH	include/Dongle_CORE.h	/^	BYTE uc0PacketSizeH;   \/\/  数据包长度_高字节$/;"	m	struct:__anon30
+uc1PacketSizeL	include/Dongle_CORE.h	/^    BYTE uc1PacketSizeL;   \/\/  数据包长度_低字节$/;"	m	struct:__anon30
+uc2BlockOffsetH	include/Dongle_CORE.h	/^    BYTE uc2BlockOffsetH;  \/\/  数据块偏移_高字节$/;"	m	struct:__anon30
+uc3BlockOffsetL	include/Dongle_CORE.h	/^    BYTE uc3BlockOffsetL;  \/\/  数据块偏移_低字节$/;"	m	struct:__anon30
+uc4BlockSizeH	include/Dongle_CORE.h	/^    BYTE uc4BlockSizeH;    \/\/  数据块长度_高字节$/;"	m	struct:__anon30
+uc5BlockSizeL	include/Dongle_CORE.h	/^    BYTE uc5BlockSizeL;    \/\/  数据块长度_低字节$/;"	m	struct:__anon30
+uc6Buffer	include/Dongle_CORE.h	/^    BYTE uc6Buffer[HID_INT_BUFF_SIZE];\/\/  存放数据块$/;"	m	struct:__anon30
+usageAuth	include/tpm_structures.h	/^  TPM_SECRET usageAuth;$/;"	m	struct:tdTPM_COUNTER_VALUE
+usageAuth	include/tpm_structures.h	/^  TPM_SECRET usageAuth;$/;"	m	struct:tdTPM_KEY_DATA
+usageAuth	include/tpm_structures.h	/^  TPM_SECRET usageAuth;$/;"	m	struct:tdTPM_MIGRATE_ASYMKEY
+usageAuth	include/tpm_structures.h	/^  TPM_SECRET usageAuth;$/;"	m	struct:tdTPM_STORE_ASYMKEY
+usb_bus	include/usb.h	/^struct usb_bus {$/;"	s
+usb_config_descriptor	include/usb.h	/^struct usb_config_descriptor {$/;"	s
+usb_ctrl_setup	include/usb.h	/^struct usb_ctrl_setup {$/;"	s
+usb_descriptor_header	include/usb.h	/^struct usb_descriptor_header {$/;"	s
+usb_dev_handle	include/usb.h	/^typedef struct usb_dev_handle usb_dev_handle;$/;"	t	typeref:struct:usb_dev_handle
+usb_device	include/usb.h	/^struct usb_device {$/;"	s
+usb_device_descriptor	include/usb.h	/^struct usb_device_descriptor {$/;"	s
+usb_endpoint_descriptor	include/usb.h	/^struct usb_endpoint_descriptor {$/;"	s
+usb_hid_descriptor	include/usb.h	/^struct usb_hid_descriptor {$/;"	s
+usb_interface	include/usb.h	/^struct usb_interface {$/;"	s
+usb_interface_descriptor	include/usb.h	/^struct usb_interface_descriptor {$/;"	s
+usb_string_descriptor	include/usb.h	/^struct usb_string_descriptor {$/;"	s
+utpmd_socket_addr	tpm_functions.c	/^const char *utpmd_socket_addr = "\/var\/run\/utpmd.socket";$/;"	v
+valid	include/tpm_structures.h	/^  BOOL valid;$/;"	m	struct:tdTPM_COUNTER_VALUE
+valid	include/tpm_structures.h	/^  BOOL valid;$/;"	m	struct:tdTPM_DELEGATE_TABLE_ROW
+valid	include/tpm_structures.h	/^  BOOL valid;$/;"	m	struct:tdTPM_FAMILY_TABLE_ENTRY
+valid	include/tpm_structures.h	/^  BOOL valid;$/;"	m	struct:tdTPM_NV_DATA_SENSITIVE
+valid	include/tpm_structures.h	/^  BOOL valid;$/;"	m	struct:tdTPM_PUBKEY_DATA
+valueSize	include/tpm_structures.h	/^  UINT32 valueSize;$/;"	m	struct:tdTPM_PCR_COMPOSITE
+vendorData	include/tpm_structures.h	/^  BYTE* vendorData;$/;"	m	struct:tdTPM_DA_INFO
+vendorData	include/tpm_structures.h	/^  BYTE* vendorData;$/;"	m	struct:tdTPM_DA_INFO_LIMITED
+vendorDataSize	include/tpm_structures.h	/^  UINT32 vendorDataSize;$/;"	m	struct:tdTPM_DA_INFO
+vendorDataSize	include/tpm_structures.h	/^  UINT32 vendorDataSize;$/;"	m	struct:tdTPM_DA_INFO_LIMITED
+vendorSpecific	include/tpm_structures.h	/^  BYTE* vendorSpecific;$/;"	m	struct:tdTPM_CAP_VERSION_INFO
+vendorSpecificSize	include/tpm_structures.h	/^  UINT16 vendorSpecificSize;$/;"	m	struct:tdTPM_CAP_VERSION_INFO
+ver	include/Dongle_CORE.h	/^	unsigned short	  ver;$/;"	m	struct:ET_Device_Descript
+ver	include/tpm_structures.h	/^  TPM_STRUCT_VER ver;$/;"	m	struct:tdTPM_BOUND_DATA
+ver	include/tpm_structures.h	/^  TPM_STRUCT_VER ver;$/;"	m	struct:tdTPM_IDENTITY_CONTENTS
+verKeyDigest	include/tpm_structures.h	/^  TPM_DIGEST verKeyDigest;$/;"	m	struct:tdTPM_CMK_SIGTICKET
+verificationCount	include/tpm_structures.h	/^  TPM_FAMILY_VERIFICATION verificationCount;$/;"	m	struct:tdTPM_DELEGATE_PUBLIC
+verificationCount	include/tpm_structures.h	/^  TPM_FAMILY_VERIFICATION verificationCount;$/;"	m	struct:tdTPM_FAMILY_TABLE_ENTRY
+version	include/tpm_structures.h	/^  TPM_STRUCT_VER version;$/;"	m	struct:tdTPM_QUOTE_INFO
+version	include/tpm_structures.h	/^  TPM_VERSION version;$/;"	m	struct:tdTPM_CAP_VERSION_INFO
+version	include/tpm_structures.h	/^  TPM_VERSION version;$/;"	m	struct:tdTPM_PERMANENT_DATA
+wData	include/usb.h	/^	u_int16_t wData[1];$/;"	m	struct:usb_string_descriptor
+wIndex	include/usb.h	/^	u_int16_t wIndex;$/;"	m	struct:usb_ctrl_setup
+wLength	include/usb.h	/^	u_int16_t wLength;$/;"	m	struct:usb_ctrl_setup
+wMaxPacketSize	include/usb.h	/^	u_int16_t wMaxPacketSize;$/;"	m	struct:usb_endpoint_descriptor
+wTotalLength	include/usb.h	/^	u_int16_t wTotalLength;$/;"	m	struct:usb_config_descriptor
+wValue	include/usb.h	/^	u_int16_t wValue;$/;"	m	struct:usb_ctrl_setup

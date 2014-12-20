@@ -1,0 +1,126 @@
+#!/bin/bash
+#
+#Rockey-ARM install script
+#
+SOVER=so.0.3
+script_path=`dirname "$0"`
+echo
+echo Installing Rockey-ARM SDK...
+echo
+
+#Check whether the current user is root
+if test $(id -ur) != 0; then
+	echo
+	echo "You should logon as root user!"
+	echo
+	exit 1
+fi
+get_confirm()
+{
+	echo "[yes or no]"
+	while true
+	do
+		read X
+		case "$X" in
+			y | yes | Y | Yes | YES ) return 1;;
+			n | no | N | No | NO ) 
+				echo "Cancelled"
+				return 0;;
+			*) echo "Please enter yes or no";;
+		esac
+	done
+}
+
+if [ -f /usr/local/include/Dongle_API.h ] || [ -f /usr/local/include/Dongle_CORE.h ] || [ -f /usr/local/lib/libRockeyARM.$SOVER ] || [ -f /usr/local/lib/libRockeyARM.a ]; then
+	if get_confirm ; then
+	   exit 1
+	fi
+																													    
+fi
+
+#check whether proc and usbfs file system is exist!
+echo	Check whether proc and usbfs file system is exist!
+if [ ! -f /proc/bus/usb/devices ]; then
+	if [ ! -d /dev/bus/usb ]; then
+		echo 
+		echo "Warning: It need proc and usbdevfs file system support!"
+		echo
+		exit 1
+	fi
+fi
+echo	System enable proc and usbdevfs filesystem!
+
+#Create the /usr/local/lib dir and copy libs to this dir
+mkdir -p /usr/local/lib
+mkdir -p /usr/local/include
+
+#Check the Linux system for 32-bit or 64-bit
+LINUXSYS=`file /bin/ls | cut -c14-15`
+if [ $LINUXSYS = "32" ];then
+ARCH=i386
+fi
+if [ $LINUXSYS = "64" ];then
+ARCH=amd64
+fi
+
+cp -f $script_path/include/*.h /usr/local/include
+cp -f $script_path/api/api$LINUXSYS/libRockeyARM.$SOVER		/usr/local/lib/
+cp -f $script_path/api/api$LINUXSYS/libRockeyARM.a		/usr/local/lib/
+ln -sf /urs/local/lib/libRockeyARM.$SOVER			/usr/local/lib/libRockeyARM.so
+#install java
+#echo fuck this shit
+#cp -f $script_path/api/api$LINUXSYS/javaapi/libJRockeyARM.so				$JAVA_HOME/jre/lib/$ARCH/	
+#cp -f $script_path/api/api$LINUXSYS/javaapi/*.jar			$JAVA_HOME/lib/	
+#cp -f $script_path/api/api$LINUXSYS/javaapi/*.jar			$JAVA_HOME/jre/lib/ext
+
+#check whether enable SELinux
+TEMP_VAR=`whereis chcon | awk '{print $2}'`
+TEMP_VAR2=`whereis selinux | awk '{print $2}'`
+if [ $TEMP_VAR ] && [ $TEMP_VAR2 ]; then
+	$TEMP_VAR -t texrel_shlib_t /usr/local/lib/*RockeyARM.* &>/dev/null
+ 	$TEMP_VAR -t texrel_shlib_t $JAVA_HOME/jre/lib/$ARCH/libJRockeyARM.so &>/dev/nul
+	$TEMP_VAR -t texrel_shlib_t $JAVA_HOME/lib/*.jar &>/dev/null
+
+fi
+
+if [ -f /etc/hotplug/usb.usermap ];then
+	grep -l "ft.map" /etc/hotplug/usb.usermap>/dev/null
+	if [ $? = 1 ];then
+		echo "ft.map 0x0000 0x096e 0x0000 0x0000 0x0000 0x00 0x00 0x00 0x00 0x00 0x00 0x00000000">>/etc/hotplug/usb.usermap
+	fi
+fi
+
+if [ -f /etc/rc.local ];then
+	sed 's/exit 0//g' /etc/rc.local > /etc/rc.local1
+	rm -f /etc/rc.local
+	mv /etc/rc.local1 /etc/rc.local
+
+	grep -l "/dev/bus/usb" /etc/rc.local>/dev/null ||echo "ln -s /sys/kernel/debug/usb/devices /dev/bus/usb/devices">>/etc/rc.local 
+
+	echo "exit 0 ">>/etc/rc.local 
+fi
+
+if [ -d /etc/hotplug/usb/ ];then
+	cp -f $script_path/ft.map /etc/hotplug/usb/
+fi
+
+if [ -d /etc/udev/rules.d/ ]; then
+	cp $script_path/ft.rules /etc/udev/rules.d/
+fi
+
+grep -q "/usr/local/lib" /etc/ld.so.conf 2>/dev/null
+if [ $? != 0 ]; then
+	cp /etc/ld.so.conf /etc/ld.so.conf.bak 2>/dev/null
+	echo "/usr/local/lib" >> /etc/ld.so.conf
+fi
+
+echo
+cd $JAVA_HOME/jre/lib/$ARCH/ 2>/dev/null || echo "You don't install jdk1.6.0 or JAVA_HOME is Wrong.Please read README.";echo
+
+/sbin/ldconfig 2>/dev/null
+/etc/rc.local 2>/dev/null
+udevadm control --reload-rules 2>/dev/null
+
+echo Install finished!
+
+

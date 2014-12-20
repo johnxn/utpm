@@ -1,0 +1,2 @@
+BUS=="usb", SYSFS{idVendor}=="096e", MODE=="0777"
+SUBSYSTEMS=="usb",ATTRS{idVendor}=="096e",MODE=="0666"
