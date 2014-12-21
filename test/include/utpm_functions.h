@@ -1,8 +1,11 @@
+#ifndef _UTPM_FUNCTIONS_H
+#define _UTPM_FUNCTIONS_H
+
 #include "utpm_structures.h"
 
-#define INOUTBUF_LEN 1020
-#define ENCRYPTED_BLOB_SIZE 256
-#define INPUT_BLOB_SIZE 241
+#define   INOUTBUF_LEN          1020
+#define   ENCRYPTED_BLOB_SIZE   256
+#define   INPUT_BLOB_SIZE       241
 
 #define WELL_KNOWN_SECRET "\x01\x02\x03\x04\x05\x06"
 
@@ -111,3 +114,5 @@ UTPM_RESULT utpm_pcr_read(
     UTPM_PCRINDEX pcrNum,
     UTPM_DIGEST *outDigest
 );
+
+#endif /* _UTPM_FUNCTIONS_H */
