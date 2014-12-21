@@ -117,4 +117,5 @@ UTPM_RESULT utpm_pcr_read(
     UTPM_DIGEST *outDigest
 );
 
+
 #endif /* _UTPM_FUNCTIONS_H */
