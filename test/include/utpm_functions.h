@@ -1,4 +1,4 @@
-#include "tpm_structures.h"
+#include "utpm_structures.h"
 
 #define INOUTBUF_LEN 1020
 #define ENCRYPTED_BLOB_SIZE 256
@@ -6,51 +6,51 @@
 
 #define WELL_KNOWN_SECRET "\x01\x02\x03\x04\x05\x06"
 
-TPM_RESULT utpm_create_context();
+UTPM_RESULT utpm_create_context();
 
-TPM_RESULT utpm_get_random(
+UTPM_RESULT utpm_get_random(
     BYTE *out,
     UINT32 size
 );
 
-TPM_RESULT utpm_open_oiap_session(
-    TPM_AUTHHANDLE *authHandle,
-    TPM_NONCE *nonceEven
+UTPM_RESULT utpm_open_oiap_session(
+    UTPM_AUTHHANDLE *authHandle,
+    UTPM_NONCE *nonceEven
 );
 
-TPM_RESULT utpm_open_osap_session(
+UTPM_RESULT utpm_open_osap_session(
     /* in */
-    TPM_ENTITY_TYPE entityType,
+    UTPM_ENTITY_TYPE entityType,
     UINT32 entityValue,
-    TPM_NONCE *nonceOddOSAP,
+    UTPM_NONCE *nonceOddOSAP,
     /* out */
-    TPM_AUTHHANDLE *authHandle,
-    TPM_NONCE *nonceEven,
-    TPM_NONCE *nonceEvenOSAP
+    UTPM_AUTHHANDLE *authHandle,
+    UTPM_NONCE *nonceEven,
+    UTPM_NONCE *nonceEvenOSAP
 );
 
-TPM_RESULT utpm_create_wrap_key(
+UTPM_RESULT utpm_create_wrap_key(
     /* in */
-    TPM_KEY_HANDLE parentHandle,
-    TPM_SECRET parentAuth,
-    TPM_KEY_USAGE keyUsage,
-    TPM_SECRET usageAuth,
+    UTPM_KEY_HANDLE parentHandle,
+    UTPM_SECRET parentAuth,
+    UTPM_KEY_USAGE keyUsage,
+    UTPM_SECRET usageAuth,
     /* out */
-    TPM_KEY *wrappedKey
+    UTPM_KEY *wrappedKey
 );
 
-TPM_RESULT utpm_load_key(
+UTPM_RESULT utpm_load_key(
     /* in */
-    TPM_KEY_HANDLE parentHandle,
-    TPM_SECRET parentAuth,
-    TPM_KEY *inKey,
+    UTPM_KEY_HANDLE parentHandle,
+    UTPM_SECRET parentAuth,
+    UTPM_KEY *inKey,
     /* out */
-    TPM_KEY_HANDLE *inkeyHandle
+    UTPM_KEY_HANDLE *inkeyHandle
 );
 
-TPM_RESULT utpm_bind_data(
+UTPM_RESULT utpm_bind_data(
     /* in */
-    TPM_STORE_PUBKEY *pubKey,
+    UTPM_STORE_PUBKEY *pubKey,
     UINT32 dataSize,
     BYTE *data,
     /* out */
@@ -58,10 +58,10 @@ TPM_RESULT utpm_bind_data(
     BYTE *encData
 );
 
-TPM_RESULT utpm_unbind_data(
+UTPM_RESULT utpm_unbind_data(
     /* in */
-    TPM_KEY_HANDLE keyHandle,
-    TPM_SECRET keyAuth,
+    UTPM_KEY_HANDLE keyHandle,
+    UTPM_SECRET keyAuth,
     UINT32 encDataSize,
     BYTE *encData,
     /* out */
@@ -69,10 +69,10 @@ TPM_RESULT utpm_unbind_data(
     BYTE *data
 );
  
-TPM_RESULT utpm_sign_data(
+UTPM_RESULT utpm_sign_data(
     /* in */
-    TPM_KEY_HANDLE keyHandle,
-    TPM_SECRET keyAuth,
+    UTPM_KEY_HANDLE keyHandle,
+    UTPM_SECRET keyAuth,
     UINT32 areaToSignSize,
     BYTE *areaToSign,
     /* out */
@@ -80,34 +80,34 @@ TPM_RESULT utpm_sign_data(
     BYTE *sig
 );
  
-TPM_RESULT utpm_verify_data(
+UTPM_RESULT utpm_verify_data(
     /* in */
-    TPM_STORE_PUBKEY *pubKey,
+    UTPM_STORE_PUBKEY *pubKey,
     UINT32 sigSize,
     BYTE *sig,
     UINT32 dataSize,
     BYTE *data
 );
 
-TPM_RESULT utpm_make_hash(
+UTPM_RESULT utpm_make_hash(
     UINT32 dataSize,
     BYTE *data,
-    TPM_DIGEST *digest
+    UTPM_DIGEST *digest
 );
 
-TPM_RESULT utpm_flush_specific(
-    TPM_HANDLE handle,
-    TPM_RESOURCE_TYPE resourceType
+UTPM_RESULT utpm_flush_specific(
+    UTPM_HANDLE handle,
+    UTPM_RESOURCE_TYPE resourceType
 );
 
-TPM_RESULT utpm_flush_all();
+UTPM_RESULT utpm_flush_all();
 
-TPM_RESULT utpm_pcr_extend(
-    TPM_PCRINDEX pcrNum,
-    TPM_DIGEST *inDigest
+UTPM_RESULT utpm_pcr_extend(
+    UTPM_PCRINDEX pcrNum,
+    UTPM_DIGEST *inDigest
 );
 
-TPM_RESULT utpm_pcr_read(
-    TPM_PCRINDEX pcrNum,
-    TPM_DIGEST *outDigest
+UTPM_RESULT utpm_pcr_read(
+    UTPM_PCRINDEX pcrNum,
+    UTPM_DIGEST *outDigest
 );
