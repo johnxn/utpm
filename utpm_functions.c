@@ -71,6 +71,13 @@ TPM_RESULT utpm_create_context() {
     return TPM_SUCCESS;
 }
 
+TPM_RESULT utpm_close_context() {
+    if (disconnect_utpmd() < 0) {
+        return TPM_FAIL;
+    }
+    return TPM_SUCCESS;
+}
+
 TPM_RESULT utpm_get_random(
     BYTE *out,
     UINT32 size

@@ -11,6 +11,8 @@
 
 UTPM_RESULT utpm_create_context();
 
+UTPM_RESULT utpm_close_context();
+
 UTPM_RESULT utpm_get_random(
     BYTE *out,
     UINT32 size
