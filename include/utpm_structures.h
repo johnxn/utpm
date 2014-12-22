@@ -28,15 +28,15 @@ typedef   TPM_KEY_USAGE       UTPM_KEY_USAGE;
 #define   UTPM_KEY_BIND       TPM_KEY_BIND
 #define   UTPM_KEY_IDENTITY   TPM_KEY_IDENTITY
 
+#define sizeof_UTPM_KEY(s) sizeof_TPM_KEY(s)
+#define free_UTPM_KEY(s) free_TPM_KEY(s)
+
+#define utpm_unmarshal_TPM_KEY tpm_unmarshal_UTPM_KEY
+#define utpm_marshal_TPM_KEY tpm_marshal_UTPM_KEY
+
+/* UTPM return code */
 #define UTPM_NON_FATAL                   0x00000800
 #define UTPM_BASE                        0x00000000
-
-#define sizeof_UTPM_KEY sizeof_TPM_KEY
-#define free_UTPM_KEY free_TPM_KEY
-
-#define utpm_unmarshal_TPM_KEY tpm_unmarshal_TPM_KEY
-#define utpm_marshal_TPM_KEY tpm_marshal_TPM_KEY
-
 #define UTPM_SUCCESS                     (UTPM_BASE + 0)
 #define UTPM_AUTHFAIL                    (UTPM_BASE + 1)
 #define UTPM_BADINDEX                    (UTPM_BASE + 2)

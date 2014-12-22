@@ -2,7 +2,7 @@
     cd install && sudo ./inst
 
 2. Compile and run utpmd
-    (1). cd utpmd && make clean && sudo make
+    (1). cd utpmd && make clean && make
     (2). insert rockey
     (3). sudo ./utpmd
     (4). vi /var/log/syslog to check if utpmd runs successfully. 
