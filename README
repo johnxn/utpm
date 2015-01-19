@@ -22,3 +22,5 @@
     ./test
     
 
+BUG:
+1. utpm_create_context() will not close before call utpm_close_context(). In the same process, the first context will block the connection to ukey for about 20 secs.
