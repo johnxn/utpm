@@ -1332,6 +1332,7 @@ int tpm_unmarshal_TPM_DELEGATE_KEY_BLOB(BYTE **ptr, UINT32 *length, TPM_DELEGATE
   return 0;
 }
 
+#if 0
 int tpm_marshal_TPM_PERMANENT_FLAGS(BYTE **ptr, UINT32 *length, TPM_PERMANENT_FLAGS *v)
 {
   if (tpm_marshal_TPM_STRUCTURE_TAG(ptr, length, v->tag)
@@ -1384,6 +1385,7 @@ int tpm_unmarshal_TPM_PERMANENT_FLAGS(BYTE **ptr, UINT32 *length, TPM_PERMANENT_
   return 0;
 }
 
+#endif
 int tpm_marshal_TPM_STCLEAR_FLAGS(BYTE **ptr, UINT32 *length, TPM_STCLEAR_FLAGS *v)
 {
   if (tpm_marshal_TPM_STRUCTURE_TAG(ptr, length, v->tag)

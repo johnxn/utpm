@@ -2048,6 +2048,7 @@ typedef UINT32 TPM_REDIR_COMMAND;
  * These flags maintain state information for the TPM. The values are not
  * affected by any TPM_Startup command.
  */
+#if 0
 #define TPM_TAG_PERMANENT_FLAGS 0x001F
 typedef struct tdTPM_PERMANENT_FLAGS {
   TPM_STRUCTURE_TAG tag;
@@ -2077,6 +2078,7 @@ typedef struct tdTPM_PERMANENT_FLAGS {
   BOOL dataSaved;
 } TPM_PERMANENT_FLAGS;
 #define sizeof_TPM_PERMANENT_FLAGS(s) (2 + 20)
+#endif
 
 /*
  * TPM_STCLEAR_FLAGS ([TPM_Part2], Section 7.2)
@@ -2295,6 +2297,7 @@ typedef struct tdTPM_STANY_DATA {
   + (sizeof_TPM_DAA_SESSION_DATA(s.sessionsDAA[0]) * TPM_MAX_SESSIONS_DAA) \
   + 4 + 4)
 
+#if 0
 /*
  * TPM_DATA
  * Internal data of the TPM
@@ -2320,6 +2323,7 @@ typedef struct tdTPM_DATA {
   + sizeof_TPM_STCLEAR_DATA(s.stclear.data) \
   + sizeof_TPM_STANY_DATA(s.stany.data))
 //#define free_TPM_DATA(s) { free_TPM_PERMANENT_DATA(&s.permanent.data); }
+#endif
 
 /*
  * Context Structures
