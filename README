@@ -25,3 +25,4 @@
 BUG TO FIX:
 1. free_UTPM_KEY()
 2. utpm_verify_data(), when the hash value is wrong, something werid happens.
+3. multiple connetion, socket select() not right.

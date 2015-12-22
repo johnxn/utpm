@@ -1,3 +1,5 @@
+#ifndef __REQUEST_LENGTH_H
+#define __REQUEST_LENGTH_H
 #define LENGTH_OSAP  (2 + /*tag*/ \
                     4 + /*size */ \
                     4 + /*ordinal*/ \
@@ -96,3 +98,5 @@
                            20 + /*nonceOdd*/ \
                            1 + /*continueAuthSession*/ \
                            20) /*ownerAuth*/
+
+#endif

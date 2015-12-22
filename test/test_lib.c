@@ -7,7 +7,9 @@ int main() {
         printf("create tpm context failed.\n");
         exit(1);
     }
-    //flush_all();
+
+#if 0
+    utpm_flush_all();
     /* Test 1: generate a binding key, load this key, and use this key to bind and unbind */
     UTPM_KEY wrappedKey;
     UTPM_KEY_HANDLE parentHandle = UTPM_KH_SRK;
@@ -45,7 +47,6 @@ int main() {
     }
     printf_buf("Decrypted data is", decData, decDataSize);
     
-#if 0
     /* Test 2: create a signing key, load the key, and use this key to sign and verify a 20-byte data. */
     UTPM_KEY wrappedKey;
     UTPM_KEY_HANDLE parentHandle = UTPM_KH_SRK;
@@ -81,21 +82,23 @@ int main() {
     }
     printf("Verify data succeed.\n");
     
+#endif
     /* Test 3: pcr extend pcr read */
-    UTPM_PCRINDEX pcrNum = 0;
-    UTPM_DIGEST inDigest = {0x01, 0x03, 0x04};
+    UTPM_PCRINDEX pcrNum = 0x07;
+    UTPM_DIGEST inDigest = {0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff};
     if (utpm_pcr_extend(pcrNum, &inDigest) != UTPM_SUCCESS) {
         printf("extend PCR 0 failed.\n");
         exit(EXIT_FAILURE);
     }
-    printf("extend PCR 0 succeed.\n");
+    printf("extend PCR 0x%x succeed.\n", pcrNum);
     UTPM_DIGEST outDigest;
     if (utpm_pcr_read(pcrNum, &outDigest) != UTPM_SUCCESS) {
-        printf("read PCR 0 failed.\n");
+        printf("read PCR 0x%x failed.\n", pcrNum);
         exit(EXIT_FAILURE);
     }
-    printf_buf("PCR 0 is", &outDigest, sizeof(UTPM_DIGEST));
+    printf_buf("PCR  is", &outDigest, sizeof(UTPM_DIGEST));
 
+#if 0
     /* Test 4: hash */
     BYTE data[] = "23333333333333333333333";
     UTPM_DIGEST digest;
@@ -104,7 +107,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
     printf_buf("digest is ", &digest, sizeof(UTPM_DIGEST));
-
 #endif
+
 }
 

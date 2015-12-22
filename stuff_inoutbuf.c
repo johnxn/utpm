@@ -837,6 +837,7 @@ int stuff_inoutbuf_extend(TPM_PCRINDEX pcrNum, TPM_DIGEST *inDigest) {
     */
     tpm_marshal_TPM_PCRINDEX(&ptr, &length, pcrNum);
     tpm_marshal_TPM_DIGEST(&ptr, &length, inDigest);
+    printf_buf("pcr_extend()", InOutBuf, sizeof(InOutBuf));
     return 0;
 }
 int get_pcr_extend_info(TPM_RESULT *res) {
@@ -878,6 +879,7 @@ int stuff_inoutbuf_read(
     tpm_marshal_TPM_COMMAND_CODE(&ptr, &length, ordinal);
 
     tpm_marshal_TPM_PCRINDEX(&ptr, &length, pcrIndex);
+    printf_buf("pcr_read()", InOutBuf, sizeof(InOutBuf));
     return 0;
 }
 
