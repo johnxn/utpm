@@ -1,35 +1,60 @@
 #include "utpm_functions.h"
 #include "utils.h"
 
+
+const char *CD_ROOTKEY_PATH = "/etc/tcel_leon/credit_holder/credit_holder.key";
+const char *AM_SIGNKEY_PATH = "/etc/tcel_leon/attribute_master/attribute_master.key";
 int main() {
 
     if (utpm_create_context() != UTPM_SUCCESS) {
         printf("create tpm context failed.\n");
         exit(1);
     }
-
-#if 0
-    utpm_flush_all();
+    //flush_all();
     /* Test 1: generate a binding key, load this key, and use this key to bind and unbind */
-    UTPM_KEY wrappedKey;
+    UTPM_KEY cd_rootkey, am_signkey;
     UTPM_KEY_HANDLE parentHandle = UTPM_KH_SRK;
     UTPM_SECRET parentAuth= {0x01, 0x02, 0x03, 0x04, 0x05, 0x06};
     UTPM_KEY_USAGE keyUsage = UTPM_KEY_BIND;
-    UTPM_SECRET keyAuth = {0x0a, 0x0b};
-    if (utpm_create_wrap_key(parentHandle, parentAuth, keyUsage, keyAuth, &wrappedKey) != UTPM_SUCCESS) {
-        printf("Create wrapped key failed.\n");
+    UTPM_SECRET cd_rootkey_auth = {0x0a, 0x0b};
+		printf("creating cd_rootkey... \n");
+    if (utpm_create_wrap_key(parentHandle, parentAuth, keyUsage, cd_rootkey_auth, &cd_rootkey) != UTPM_SUCCESS) {
+        printf("Create cd_rootkey failed.\n");
         exit(EXIT_FAILURE);
     }
-		FILE *fp = fopen("./credit_holder.key", "w");
-		BYTE *buffer = malloc(2048);
-		BYTE *tail = buffer;
+		FILE *fp = fopen(CD_ROOTKEY_PATH, "w");
+		if (fp == NULL) {
+			printf("credit_holder.key cannot be created.\n");
+		}
+		BYTE *buffer1 = malloc(2048);
+		BYTE *buffer2 = malloc(2048);
+		BYTE *tail1 = buffer1;
+		BYTE *tail2 = buffer2;
 		size_t buffer_len = 2048;
-		tpm_marshal_TPM_KEY(&tail, &buffer_len, &wrappedKey);
-		printf("buffer: %s", buffer);
-		fwrite(buffer, 2048, 1, fp);
+	
+		tpm_marshal_TPM_KEY(&tail1, &buffer_len, &cd_rootkey);
+		//printf("buffer: %s", buffer);
+		fwrite(buffer1, 2048, 1, fp);
+		printf("completed.\n");
 		
-    printf_TPM_KEY(&wrappedKey);
+    //printf_TPM_KEY(&cd_rootkey);
 
+		UTPM_KEY_USAGE signkeyUsage = UTPM_KEY_SIGNING;
+    UTPM_SECRET am_signkey_auth = {0x01, 0x02};
+		printf("creating am_signkey...\n");
+    if (utpm_create_wrap_key(parentHandle, parentAuth, signkeyUsage, am_signkey_auth, &am_signkey) != UTPM_SUCCESS) {
+        printf("Create am_signkey failed.\n");
+        exit(EXIT_FAILURE);
+    }
+    fp = fopen(AM_SIGNKEY_PATH, "w");
+		buffer_len = 2048;
+		tpm_marshal_TPM_KEY(&tail2, &buffer_len, &am_signkey);
+		//printf("buffer: %s", buffer);
+		fwrite(buffer2, 2048, 1, fp);
+		
+		printf("completed.\n");
+		//printf_TPM_KEY(&am_signkey);
+		/*  
     UTPM_KEY_HANDLE keyHandle;
     if (utpm_load_key(parentHandle, parentAuth, &wrappedKey, &keyHandle) != UTPM_SUCCESS) {
        printf("Load key failed.\n");
@@ -54,7 +79,9 @@ int main() {
         exit(EXIT_FAILURE);
     }
     printf_buf("Decrypted data is", decData, decDataSize);
+		*/
     
+#if 0
     /* Test 2: create a signing key, load the key, and use this key to sign and verify a 20-byte data. */
     UTPM_KEY wrappedKey;
     UTPM_KEY_HANDLE parentHandle = UTPM_KH_SRK;
@@ -90,23 +117,21 @@ int main() {
     }
     printf("Verify data succeed.\n");
     
-#endif
     /* Test 3: pcr extend pcr read */
-    UTPM_PCRINDEX pcrNum = 0x07;
-    UTPM_DIGEST inDigest = {0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff,0xff};
+    UTPM_PCRINDEX pcrNum = 0;
+    UTPM_DIGEST inDigest = {0x01, 0x03, 0x04};
     if (utpm_pcr_extend(pcrNum, &inDigest) != UTPM_SUCCESS) {
         printf("extend PCR 0 failed.\n");
         exit(EXIT_FAILURE);
     }
-    printf("extend PCR 0x%x succeed.\n", pcrNum);
+    printf("extend PCR 0 succeed.\n");
     UTPM_DIGEST outDigest;
     if (utpm_pcr_read(pcrNum, &outDigest) != UTPM_SUCCESS) {
-        printf("read PCR 0x%x failed.\n", pcrNum);
+        printf("read PCR 0 failed.\n");
         exit(EXIT_FAILURE);
     }
-    printf_buf("PCR  is", &outDigest, sizeof(UTPM_DIGEST));
+    printf_buf("PCR 0 is", &outDigest, sizeof(UTPM_DIGEST));
 
-#if 0
     /* Test 4: hash */
     BYTE data[] = "23333333333333333333333";
     UTPM_DIGEST digest;
@@ -115,7 +140,7 @@ int main() {
         exit(EXIT_FAILURE);
     }
     printf_buf("digest is ", &digest, sizeof(UTPM_DIGEST));
-#endif
 
+#endif
 }
 
